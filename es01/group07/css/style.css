@@ -1,0 +1,1444 @@
+/*colori testi*/
+#colorater {
+    color: #e59dbd;
+}
+
+
+/*nav bar background and font*/
+#mainNav {
+    font-family: 'Cutive Mono', monospace;
+    margin-bottom: 0;
+    background-color: #020202;
+      /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+}
+  #mainNav .navbar-toggler {
+    padding: 11px;
+    color: red;
+    border: 1px solid white;
+}
+#mainNav .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size:20;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+  #mainNav a {
+    color: white;
+      font-weight: 700;
+      margin-left:0px;
+      margin-right:0px;
+}
+#mainNav .navbar-nav .nav-item {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+    #mainNav .navbar-nav .nav-item:hover {
+      color: fade(white, 80%);
+      outline: none;
+      background-color: transparent;
+}
+    #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+      outline: none;
+      background-color: transparent; }
+
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 20px;
+      width: 100%;
+      padding-bottom: 20px;
+      -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      letter-spacing: 1px;
+      border-bottom: none;
+      /*background: transparent;*/ }
+      #mainNav.navbar-shrink {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+        background: black;
+      }
+      #mainNav .nav-link.active {
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.3); }
+        #mainNav .nav-link.active:hover {
+          color: white; }
+}
+
+@media (max-width: 1024px) {
+  #mainNav a{
+    font-size: 13px;
+  }
+}
+
+/*bodyyyyyyy + general*/
+body {
+  font-family: 'Cutive Mono', monospace;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  color: #000;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+svg {
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+
+.row-bottom-margin {
+  margin-bottom: 0px; !important
+}
+
+.a-fonti {
+  color: white;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+
+/*titles stile*/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+
+h2 {font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+letter-spacing: 1px;
+font-size: 18px;
+
+}
+
+/*for the header*/
+/*Scrittona Coreana*/
+.scrittona{
+  fill:#ece7da;
+  z-index: 1;}
+
+.title{
+    background-color: #000;
+}
+#titolo{
+
+  margin-top: 90px;
+  margin-left:100px;
+
+
+}
+.title-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 80px;
+    width: 100%;
+    height: 10%;
+  padding-top: 200px;
+  padding-bottom:40px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    vertical-align: middle;
+}
+.animazione{
+text-align: center;
+}
+
+/*Cartina Intro*/
+
+.cartina-1, .cartina-9 {
+        fill: #000;
+      }
+
+      .cartina-1, .cartina-3, .cartina-5 {
+        fill-rule: evenodd;
+      }
+
+      .cartina-2, .cartina-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cartina-4 {
+        fill: black;
+      }
+
+      .cartina-6 {
+        font-size: 20px;
+        fill: white;
+      }
+
+      .cartina-10, .cartina-13, .cartina-8 {
+        fill: #231916;
+      }
+
+      .cartina-10, .cartina-6 {
+        font-family: Cutive Mono;
+      }
+
+      .cartina-11, .cartina-7 {
+        color: #fff;
+      }
+
+      .cartina-7 {
+        opacity: 0.5;
+        background-color: black;
+      }
+
+      .cartina-10 {
+        font-size: 35px;
+        fill: white;
+      }
+
+      .cartina-5{
+        fill: white;
+          opacity:1;
+        animation: pulse1 3s infinite cubic-bezier(.73, .04, .4, .98);
+
+      }
+
+
+@-webkit-keyframes pulse1 {
+  0%   { opacity: 1; }
+  100% { opacity: .8; }
+}
+
+
+      .cartina-12, .cartina-13 {
+        white-space: pre;
+        fill: white;
+      }
+
+/*btn*/
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 38px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  background: transparent; }
+  .btn-circle:focus, .btn-circle:hover {
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1); }
+
+.btn {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0; }
+
+.btn-default {
+  color: #42DCA3;
+  border: 1px solid #42DCA3;
+  background-color: transparent; }
+  .btn-default:focus, .btn-default:hover {
+    color: black;
+    border: 1px solid #42DCA3;
+    outline: none;
+    background-color: #42DCA3; }
+
+/*for animation*/
+
+.hidden {
+  display: none;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.type-input {
+  font-family: 'Cutive Mono', monospace;
+  position:relative;
+  z-index: 9999;
+  border: none;
+  background: transparent;
+  font-size: 50px;
+  color: #444;
+    font-weight: 700px;
+  width: 100%;
+  margin-left: 100px;
+}
+
+
+.rw-sentence span{
+	color: #444;
+	font-weight: 700px;
+    font-size: 50px;
+}
+
+.rw-words{
+	display: inline;
+  font-family: 'Cutive Mono', monospace;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.type{
+	position: absolute;
+  text-align: center;
+	opacity: 0;
+	overflow: hidden;
+	-webkit-animation: words 24s steps(48) infinite 0s;
+    /*color: #df2325;*/
+    padding: 10px;
+}
+.type:nth-child(2) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.type:nth-child(3) {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+}
+.type:nth-child(4) {
+  -webkit-animation-delay: 12s;
+	animation-delay: 12s;
+}
+.type:nth-child(5) {
+  -webkit-animation-delay: 16s;
+	animation-delay: 16s;
+}
+.type:nth-child(6) {
+  -webkit-animation-delay: 20s;
+	animation-delay: 20s;
+}
+
+@-webkit-keyframes words {
+  0% { opacity: 0; width: 0; }
+  2% { opacity: 1;}
+  14% { opacity: 1; width: 48ch;}
+  15% { opacity: 0; }
+}
+
+span > span {
+	animation: cursor 0.8s infinite;
+}
+
+@keyframes cursor {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+/*.animhead .anim-body {
+    vertical-align: left;
+margin-left: -200px;
+}*/
+    .animhead .anim-body .anim-heading {
+        font-weight:700;
+        font-family: 'Montserrat', sans-serif;
+        vertical-align: middle;
+        text-align: center;
+        margin-top:3%;
+        margin-bottom: 20%;
+}
+
+.animhead {
+    background-color: #000;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 0px;
+
+}
+
+
+/*Pagina Due con sfondo nero*/
+
+#pagina-due{
+  background-color: black;
+}
+
+.pagina-due-margini{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+
+/*for introduction text*/
+
+#intro {
+    background-color: black;
+}
+
+.paragrafo-testo{
+    /*text-align: justify;*/
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    height: 10%;
+    color: #020202;
+    text-align: justify;
+    word-spacing: -4px;
+}
+
+.titolo-paragrafo{
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.padding-paragrafi{
+  padding-top: 10%;
+}
+
+/*for WBD, first one*/
+.wbd-unhcr-fonti{
+  padding-bottom: 3%;
+  padding-top: 3%;
+  font-family: 'Montserrat';
+  font-size: 12px;
+}
+
+.a-fonti-wbd-unhcr{
+  color: black;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 10px;
+  margin-left: 5px;
+
+}
+
+.bump-wbd{
+margin-bottom: -250px;
+}
+
+
+#sfondo{
+  bottom:240px;
+}
+
+
+#wbd {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #e59dbd;
+    color: black;
+}
+
+.bil-fadeinr, .linee-bil, .bil-fadein-nodatr {
+        fill: none;
+      }
+
+      .bil-fadeinr {
+        stroke: #f4c651;
+      }
+
+      .bil-fadeinr, .bil-fadein-nodatr {
+        stroke-miterlimit: 10;
+      }
+
+      .bil-fadeint, .bil-fadein-nodatt {
+        font-size: 20px;
+      }
+
+      .bil-fadeint {
+        fill: #f4c651;
+        font-family: 'Cutive Mono';
+      }
+
+      .years-bil, .bil-fadein-nodatt {
+        font-family: 'Cutive Mono';
+
+      }
+
+      .bil-fadein-nodatr {
+        stroke: #000;
+      }
+
+
+      .notata-bil-6 {
+        fill: url(#Sfumatura_senza_nome_46);
+      }
+
+      .notata-bil-7 {
+        fill: url(#Sfumatura_senza_nome_46-2);
+      }
+
+      .notata-bil-8 {
+        fill: url(#Sfumatura_senza_nome_46-3);
+      }
+
+      .notata-bil-9 {
+        fill: url(#Sfumatura_senza_nome_46-4);
+      }
+
+      .notata-bil-10 {
+        fill: url(#Sfumatura_senza_nome_46-5);
+      }
+
+      .notata-bil-11 {
+        fill: url(#Sfumatura_senza_nome_46-6);
+      }
+
+      .notata-bil-12 {
+        fill: url(#Sfumatura_senza_nome_46-7);
+      }
+
+      .notata-bil-13 {
+        fill: url(#Sfumatura_senza_nome_46-8);
+      }
+
+      .notata-bil-14 {
+        fill: url(#Sfumatura_senza_nome_52);
+      }
+
+      .notata-bil-15 {
+        fill: url(#Sfumatura_senza_nome_52-2);
+      }
+
+      .notata-bil-16 {
+        fill: url(#Sfumatura_senza_nome_52-3);
+      }
+
+      .notata-bil-17 {
+        fill: url(#Sfumatura_senza_nome_52-4);
+      }
+
+      .notata-bil-18 {
+        fill: url(#Sfumatura_senza_nome_52-5);
+      }
+
+      .notata-bil-19 {
+        fill: url(#Sfumatura_senza_nome_52-6);
+      }
+
+      .notata-bil-20 {
+        fill: url(#Sfumatura_senza_nome_52-7);
+      }
+
+      .notata-bil-21 {
+        fill: url(#Sfumatura_senza_nome_52-8);
+      }
+
+      .years-bil {
+        isolation: isolate;
+        font-size: 12.548px;
+        fill: #fff;
+      }
+
+      .countries-bil {
+        fill: #ededed;
+        fill-opacity: 0.9;
+      }
+
+      .linee-bil {
+        stroke: #e59dbd;
+      }
+
+
+.bil-fadeinr {
+    opacity: 0;
+}
+
+.bil-fadeint {
+    opacity: 0;
+}
+
+.bil-fadein-nodatt {
+    opacity: 0;
+}
+
+.bil-fadein-nodatr {
+    opacity: 0;
+}
+
+
+/*for charts*/
+
+
+#chart-title1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+/*for UNHCR, second one*/
+
+#unhcr {
+    background-color: #fff2cc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    width: 100%;
+    height: 10%;
+    background: -webkit-linear-gradient(rgb(255, 206, 153), rgb(255, 217, 204)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(255, 206, 153), rgb(255, 217, 204)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(255, 206, 153), rgb(255, 217, 204)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(255, 206, 153), rgb(255, 217, 204)); /* Standard syntax */
+}
+
+.charttwo {
+    background-color: #ffffff;
+    color: #020202;
+}
+
+.paragrafo-unhcr {
+  /*padding-left: 9.5%;
+  padding-right: 10%;*/
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  height: 10%;
+  color: #020202;
+}
+.grafico-unhcr {
+  margin-left: 4%;
+  margin-top: -5%;
+}
+
+.titolo-paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#titolo-unhcr{
+  color: #020202;
+}
+
+/* UNHCR*/
+
+#legenda-unhcr{
+position: relative;
+width:100%;
+height:auto;
+}
+.rett-1 {
+        fill: #c7c7c7;
+        opacity: 1;
+      }
+
+      .anni-unhcrY, .anni-unhcr, .nomi-unhcr {
+        font-size: 5.5px;
+        font-family: 'Cutive Mono', monospace;
+          fill: #020202;
+      }
+
+      .anni-unhcr {
+        fill: #020202;
+      }
+
+      .rett-3 {
+        fill: #fdf4dc;
+      }
+
+      .rett-4 {
+        fill: #fef9ee;
+      }
+
+      .rett-5 {
+        fill: #f9e2a8;
+      }
+
+      .rett-6 {
+        fill: #fceecb;
+      }
+
+      .rett-7 {
+        fill: #f4c651;
+      }
+
+      .rett-8 {
+        fill: #1a1c1e;
+      }
+
+      .rett-9 {
+        fill: #f5cc62;
+      }
+
+      .rett-10 {
+        fill: #f6d174;
+      }
+
+      .rett-11 {
+        fill: #fff;
+      }
+
+      .rett-12 {
+        fill: #f5c95a;
+      }
+
+      .rett-13 {
+        fill: #f7d785;
+      }
+
+      .nomi-unhcrRus {
+        white-space: pre;
+      }
+
+
+
+/*Intro MOU/NKDB*/
+
+#intro-mou-nkdb {
+  background-color: black;
+  background: -webkit-linear-gradient(rgb(26, 26, 26), black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(26, 26, 26), black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(26, 26, 26), black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(26, 26, 26), black); /* Standard syntax */
+}
+
+#titolo-intro-nkdb{
+  padding-top: 30%;
+  padding-left:11%;
+  padding-right: 11%;
+  padding-bottom: 10%;
+}
+
+/*for MOU, tird one*/
+
+#places-title {
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 4%;
+}
+
+/*for MOU, tird one*/
+.line1{
+width: 10vw;
+height: auto;
+ border: 1px solid white;
+ -webkit-transform:
+ translateX(46vw)
+ translateY(20px);
+ left:600px;
+ margin-bottom: 5%;
+
+}
+
+#mou {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+     background-color: black;
+    width: 100%;
+    height: 10%;
+    color: white;
+}
+
+#mou-total {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-top: 100px;
+     background-color: black;
+    width: 100%;
+    height: 10%;
+    color: white;
+}
+
+#mou-specific {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+     background-color: black;
+    width: 100%;
+    height: 10%;
+    color: white;
+}
+
+
+
+/*Prima sezione MOU - male female*/
+
+.mou-paragrafo-colore{
+  color: white; !important
+}
+
+.defector-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: white;
+  color: black; !important
+}
+
+.grafico-mou-uno{
+  padding-top: 10%;
+  margin-bottom: 50px;
+}
+
+/*male female mou*/
+#padding-sinistro-defector{
+  padding-left:42%;
+}
+
+
+.fadein-mou-n, .anni-moutot {
+        isolation: isolate;
+      }
+
+      .fadein-mou-n {
+        font-size: 25px;
+      }
+
+      .fadein-mou-n, .fadein-mou-t {
+        fill: #fff;
+      }
+
+      .fadein-mou-n, .fadein-mou-t, .anni-moutot {
+        font-family: Montserrat;
+      }
+
+      .flusso-moutot {
+        fill: #ededed;
+        fill-opacity: 0.9;
+      }
+
+      .fadein-mou-t {
+        font-size: 11px;
+      }
+
+      .linee-moutot {
+        fill: none;
+        stroke: #000;
+        stroke-width: 0.25px;
+      }
+
+      .anni-moutot {
+        font-size: 8.204px;
+        fill: #fff;
+      }
+
+#Male-flusso:hover {
+    fill: #d6f7e3;
+}
+
+#Female-flusso:hover {
+    fill: #f7d4d5;
+}
+/* hover change colors */
+
+.color-changef {
+    fill: #e59dbd;
+    }
+.color-changem {
+    fill: #aee9e8;
+    }
+.color-changen {
+    fill: #000000;
+    }
+
+/*map mou/mappa NK e SK*/
+
+
+#mappa-paragrafo{
+  color: white; !important
+}
+
+.mappakorea{
+  width: 3000;
+  margin: 0px;
+  margin-bottom: -100px;
+}
+
+#southkorea-map {
+    margin-left: 15px;
+}
+
+#sfondomare-bianco {
+    fill: white;
+}
+
+
+.classeuno, .classeundici, .classedodici, .classedue, .classecinque, .classesei, .classesette, .classeotto {
+        fill: #fff;
+      }
+
+      .classedue {
+        opacity: 0.1;
+      }
+
+      .classetredici, .classetre, .classequattro {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .classetre {
+        stroke-width: 0.25px;
+      }
+
+      .classecinque {
+        font-size: 8.176px;
+      }
+
+     .classedodici, .classecinque, .classesei, .classesette, .classeotto, .classenove {
+        font-family: 'Cutive Mono', monospace;
+      }
+
+      .classesei {
+        font-size: 5.84px;
+      }
+
+      .classesette {
+        font-size: 19px;
+      }
+
+      .classeotto, .classenove {
+        font-size: 14px;
+      }
+
+      .classedieci {
+        font-size: 12px;
+      }
+
+      .classeundici{
+          fill:#f4c651;
+        font-size: 36px;
+          font-family: 'Monserrat', sans-serif;
+          opacity: 0;
+      }
+
+      .classedodici {
+        font-size: 10px;
+      }
+
+      .classetredici {
+        fill: none;
+      }
+
+.fade-it-in {
+  opacity: 1.0;
+}
+
+    #NK-tit {
+        font-family: 'Monserrat', sans-serif;
+        fill: #e59dbd;
+}
+
+    #SK-tit {
+        font-family: 'Monserrat', sans-serif;
+        fill: #aee9e8;
+}
+/* hover mou two/ bump chart maschi e femmine */
+.classeotto:hover {
+    fill: #f4c651;
+    cursor: pointer;
+    }
+
+#rett-northchung:hover {
+    fill: #f4c651;
+    cursor: pointer;
+    }
+#rett-Seoul:hover {
+    fill: #f4c651;
+    cursor: pointer;
+    }
+#rett-southchung:hover {
+    fill: #f4c651;
+    cursor: pointer;
+    }#rett-gangwon:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-gyeonggi:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-northgyeongsang:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-southgyeongsang:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-northjeolla:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-southjeolla:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-jeju:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-busan:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-incheon:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-daegu:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-gwangju:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-dajeon:hover {
+    fill: #f4c651;
+        cursor: pointer;
+    }#rett-ulsan:hover {
+    fill: #f4c651;
+        cursor: pointer;
+}
+
+
+.color-change {
+    fill: #f4c651;
+}
+
+/* mou specific/barre colorate */
+
+.cls-1, .cls-13, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-4 {
+        opacity: 0;
+      }
+
+      .cls-2, .cls-48 {
+        fill: none;
+      }
+
+      .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+#selector-2:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#selector-1:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#selector-3:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#selector-1{
+    opacity: 0.5;
+}
+
+#selector-2{
+    opacity: 0.5;
+}
+
+#selector-3{
+    opacity: 0.5;
+}
+
+      .cls-13, .cls-3 {
+        font-size: 12px;
+        font-family: Cutive Mono;
+      }
+
+      .cls-18, .cls-5 {
+        fill: #f4c651;
+      }
+
+      .cls-19, .cls-6 {
+        fill: #efc36b;
+      }
+
+      .cls-17, .cls-7 {
+        fill: #edc782;
+      }
+
+      .cls-14, .cls-8 {
+        fill: #eacb98;
+      }
+
+      .cls-20, .cls-9 {
+        fill: #e8d1af;
+      }
+
+      .cls-10, .cls-15 {
+        fill: #e5d7c3;
+      }
+
+      .cls-11, .cls-21 {
+        fill: #e2ded9;
+      }
+
+      .cls-12, .cls-16 {
+        fill: #efece8;
+      }
+
+      .cls-22, .cls-32 {
+        fill: #b2dde1;
+      }
+
+      .cls-23, .cls-33 {
+        fill: #bbdede;
+      }
+
+      .cls-24, .cls-34 {
+        fill: #c7dddc;
+      }
+
+      .cls-25, .cls-31 {
+        fill: #d1dbda;
+      }
+
+      .cls-26, .cls-29 {
+        fill: #d7d8d8;
+      }
+
+      .cls-27, .cls-35 {
+        fill: #edefef;
+      }
+
+      .cls-28, .cls-30 {
+        fill: #f4f4f4;
+      }
+
+      .cls-36, .cls-47 {
+        fill: #e5dae0;
+      }
+
+      .cls-37, .cls-46a {
+        fill: #e4c3d3;
+      }
+
+      .cls-38, .cls-43 {
+        fill: #e5acc7;
+      }
+
+      .cls-39, .cls-42 {
+        fill: #e69dbd;
+      }
+
+      .cls-40, .cls-44 {
+        fill: #e5b8cd;
+      }
+
+      .cls-41, .cls-46 {
+        fill: #e6cfd9;
+      }
+
+/*for NKDB, fourth one*/
+
+#illecit-title{
+  font-size: 30px;
+  font-family: 'Montserrat';
+  color: white;
+  padding-top: 30px;
+}
+
+
+#nkdb {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    width: 100%;
+    height: 10%;
+}
+
+.chartfour {
+    background-color: #020202;
+    color: #ffffff;
+}
+
+
+.Tipiviol, .num-2 {
+        isolation: isolate;
+      }
+
+      .num-2 {
+        font-size: 36px;
+      }
+
+      .Tipiviol, .num-2, .defin-3, .hov-6 {
+        fill: #fff;
+      }
+
+      .num-2, .hov-6, .defin-7 {
+        font-family: Montserrat;
+        font-weight: 700;
+      }
+
+      .defin-3 {
+        font-size: 9.24px;
+      }
+
+      .Tipiviol, .defin-3 {
+        font-family: Cutive Mono;
+      }
+
+      .hov-4 {
+        fill: #8fbaa5;
+      }
+
+      .hov-5 {
+        fill: #537c6f;
+      }
+
+      .hov-6 {
+        font-size: 18.479px;
+      }
+
+#terzohh{
+    font-family: Montserrat;
+    fill:white;
+}
+
+      .defin-7 {
+        font-size: 8.47px;
+      }
+
+      .Tipiviol-12, .cls-8 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .Primohover-8 {
+        fill: none;
+        stroke: #d9d9d9;
+        stroke-width: 0.5px;
+      }
+
+
+      .Secondohover-9 {
+        fill: #5f8d7c;
+      }
+
+      .hov-10 {
+        fill: #f5f5f5;
+      }
+
+      .Tipiviol {
+        font-size: 10px;
+      }
+
+      .Tipiviol-12 {
+        stroke: #fff;
+        stroke-width: 0.25px;
+      }
+
+      .linee-chin {
+        fill: #d9d9d9;
+      }
+
+/*hover ch*/
+
+#Primohover, #Secondohover, #Terzohover, #Quartohover {
+    opacity: .2;
+}
+
+#Primohover:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+#Secondohover:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+#Terzohover:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+#Quartohover:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+#Livello_1{
+  padding-bottom: 2%;
+}
+
+.mou-nkdb-fonti {
+  padding-bottom: 3%;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 12px;
+}
+
+/*Conclusioni*/
+
+#conclusioni{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/*Footer*/
+#back-top{
+  padding: 1%;
+  text-align: center;
+}
+.footer{
+  background-color: #8fbaa5;
+}
+
+.dd {
+  height: 90px;
+  width: auto;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.testo-footer {
+  color: white;
+  line-height: 1px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0px;
+}
+
+.spacer {
+  height: 60px;
+}
+
+.text-box {
+  color: white;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+
+
+.smaller {
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+#padding-sinistro-specific{
+margin-left: 37%;
+padding-top: 0px;
+
+}
+
+
+/*Media Breakpoints*/
+/*Small Devices*/
+@media (max-width: 567px){
+
+.grafico-unhcr{
+  margin-top: 8%;
+}
+
+.smaller{
+  font-size: 15px;
+}
+
+/*Footer*/
+.dd{
+  height: 55px;
+  width:auto;
+  margin-left: 4%;
+  margin-right: -5%;
+}
+
+.text-box{
+  margin-left: 1%;
+}
+
+.testo-footer{
+  letter-spacing: 0px;
+  font-size: 9px;
+}
+}
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 1024px) {
+
+.anim-heading{
+  padding: 5%;
+  font-size:12px;
+}
+#titolo{
+ margin-left: 15%;
+ margin-right: 10%;
+}
+#sfondo{
+  padding-top: 100px;
+  }
+#barre-unhcr{
+  padding: 0px;
+  width: auto;
+  height: auto;
+}
+
+.paragrafo-unhcr{
+  padding-right: 1px;
+}
+
+.grafico-unhcr{
+  padding-right: 0px;
+  margin-left: 5%;
+}
+
+#titolo-unhcr{
+  padding-bottom: 5%;
+}
+
+#specific-mou-chart{
+  width: 800px;
+  height: auto;
+}
+
+#padding-sinistro-specific {
+  margin: 0px;
+}
+
+#padding-sinistro-defector{
+  padding-left:18%;
+}
+
+.smaller{
+  padding-bottom: 5%;
+}
+
+#titolo-intro-nkdb{
+  padding-right: 20%;
+  margin-left:35px;
+}
+
+.paragrafo-unhcr{
+  padding-left:0px;
+  padding-right: 4%;
+}
+}
