@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+.header{
+	background:#161e1b;
+}
+
+
+#CO2per:hover .C2 {
+	opacity: .05;
+}
+
+
+#CO2per:hover .C2 text {
+	opacity: 1;
+}
+
+
+
+#CO2per .type:hover .C2 {
+	opacity: 1;
+}
+
+#CO2per .type .C2:hover {
+	opacity: 1;
+}
+body
+  {
+  color:#FFFFFF;
+  }
+

@@ -1,0 +1,501 @@
+nav {
+	background-color: black;
+}
+
+.titolo {
+	padding-top: 0px;
+	margin-left: 108px;
+}
+
+.titolo1 {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Anton';
+	letter-spacing: 2px;
+	font-size: 100px;
+	font-weight: lighter;
+}
+
+.titolooo {
+	color: #CD1719;
+	text-transform: uppercase;
+	font-family: 'Anton';
+	font-size: 50px;
+	padding-top: 40px;
+}
+
+.sottotitolooo {
+	color: black;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	margin-bottom: 60px;
+}
+
+.sottotitolo1 {
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	color: white;
+	font-size: 55px;
+	letter-spacing: 5px;
+	line-height: 0.1;
+}
+
+.sottotitolo2 {
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	color: #CD1719;
+	font-size: 20px;
+	padding-top: 18px;
+	
+}
+
+.titolo2 {
+	color: #CD1719;
+    font-family: 'Anton';
+    font-size: 50px;
+    font-weight: normal;
+	padding-top: 40px;
+	text-transform: uppercase;
+}
+
+.sottotitolo {
+	color: white;
+    font-size: 2em;
+	font-family: 'Oswald';
+	margin-left: 140px;
+}
+
+#cit {
+	color: #CD1719;
+    font-size: 15px;
+	font-family: 'Oswald';
+	margin-left: 140px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+	
+	
+.titolo3 {
+	color: black;
+    font-family: 'Anton';
+    font-weight: normal;
+	padding-top: 40px;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: right;
+}
+
+.sottotitolo3 {
+	color: #CD1719;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	text-align: right;
+	margin-bottom: 100px;
+}
+
+h1 span {
+	color: #CD1719;
+}
+
+.titolo4 {
+	color: black;
+    font-family: 'Anton';
+    font-size: 50px;
+	padding-top: 40px;
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+
+.sottotitolo4 {
+	color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+	margin-left: 30px;
+	font-family: 'Oswald';
+	margin-bottom: 110px;
+}
+
+.titolo5 {
+	color: black;
+    font-family: 'Anton';
+    font-size: 50px;
+	padding-top: 40px;
+	text-transform: uppercase;
+}
+
+.sottotitolo5 {
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	margin-bottom: 60px;
+}
+
+#edu {
+	font-family: "Oswald";
+	font-size: 22px;
+	color: black;
+	margin-bottom: 90px;
+}
+
+#text {
+	color: white;
+}
+
+.titolo6 {
+	color: black;
+    font-family: 'Anton';
+    font-size: 50px;
+	padding-top: 40px;
+	text-transform: uppercase;
+}
+
+.sottotitolo6 {
+	color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+	font-family: 'Oswald';
+	margin-bottom: 70px;
+}
+
+.titolo7 {
+	color: black;
+    font-family: 'Anton';
+    font-size: 50px;
+	padding-top: 40px;
+	text-align: right;
+	text-transform: uppercase;
+	margin-bottom: 120px;
+}
+
+.sottotitolo7 {
+	color: #CD1719;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	text-align: right;
+	margin-bottom: 120px;
+}
+
+.titolo8 {
+	color: #CD1719;
+    font-family: 'Anton';
+    font-size: 50px;
+	padding-top: 40px;
+	text-transform: uppercase;
+}
+
+.sottotitolo8 {
+	color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+	font-family: 'Oswald';
+}
+
+.stem {
+	color: black;
+	margin-top: 20px;
+	padding-left: 30px;
+}
+
+.saga {
+	color: white;
+	padding-top: 60px;
+}
+	
+
+#upper {
+	text-transform: uppercase;
+}
+
+
+body {
+margin: 0;
+width: 100%;
+}
+
+#cover {
+	width: 100%;
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	background-size: 560px 600px;
+}
+
+a {
+	text-transform: uppercase;
+	font-size: 1em;
+	color: white;
+}
+
+a:hover {
+	color: #CD1719;
+}
+
+#grafico {
+	width: 100%;
+	min-height: 100%;
+	background-color: #E0E0E0; 
+}
+
+#intro.container-fluid {
+	width: 100%;
+	height: 550px;
+	background-color: black;
+	padding-top: 150px;
+}
+
+.introduzione {
+	padding-top: 100px;
+	color: white;
+}
+
+
+#features.container-fluid {
+	width: 100%;
+	background-color: #E0E0E0;
+	padding-top: 40px;
+}
+
+#pricing.container-fluid {
+	width: 100%;
+	background-color: whitesmoking;
+	margin-top: 60px;
+	padding-top: 40px;
+}
+
+#about.container-fluid {
+	width: 100%;
+	height: 380px;
+	background-color: #CD1719;
+	padding-top: 40px;
+}
+
+#education.container-fluid {
+	width: 100%;
+	background-color: whitesmoking;
+	padding-top: 80px;
+}
+
+
+#fields.container-fluid {
+	width: 100%;
+	background-color: #CD1719;
+	padding-top: 40px;
+}
+
+#fields1.container-fluid {
+	width: 100%;
+	min-height: 100%;
+	background-color: whitesmoking;
+	padding-top: 40px;
+}
+
+#stem.container-fluid {
+	width: 100%;
+    height: 400px;
+	background-color: #CD1719;
+	padding-top: 40px;
+}
+
+#stemm {
+	color: black;
+    font-family: 'Anton';
+    font-size: 50px;
+	padding-top: 40px;
+	text-transform: uppercase;
+}
+
+#employed.container-fluid {
+	width: 100%;
+	min-height: 100%;
+	background-color: white;
+	padding-top: 40px;
+}
+
+#steps.container-fluid {
+	width: 100%;
+	height: 480px;
+	background-color: black;
+	padding-top: 40px;
+}
+
+footer {
+	background-color: whitesmoking;
+}
+
+footer.names {
+    padding-left: 40px;
+}
+
+footer .loghi {
+    text-align: center;
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+
+h4 {
+	margin-top: 35px;
+	margin-bottom: 10px;
+	font-family: 'Anton';
+	text-transform: uppercase;
+}
+
+footer p {
+	font-family: 'Oswald'
+}
+
+.btn-group .btn {
+	margin-top: 40px;
+	margin-left: 700px;
+	color: #CD1719;
+	font-family: 'Anton';
+	text-transform: uppercase;
+	display: inline-block;
+	cursor: pointer;
+}
+
+<!--GRAFICO EDUCATION-->
+
+
+
+
+<!--GRAFICO PART E FULL TIME-->
+.container.cont {
+    padding-top: 100px;
+}
+
+
+.austriamale {
+	display: none;
+	font-family: 'Oswald';
+	background-color: #E0E0E0;
+	border-style: groove;
+	border-color: gray;
+	border-width: 0.5px;
+	z-index: 1;
+	width: 120px;
+	position: absolute;
+	margin-left: 70%;
+    margin-top: 350px;
+}
+
+#fulltime {
+	display: none;
+}
+
+<!--GRAFICO PAID E UNPAID-->
+#paid {
+	padding-top: 30px;
+}
+
+.opacita {
+	opacity: .15;
+}
+
+.testi {
+	font-family: 'Oswald';
+	position: absolute;
+	display: none;
+	margin-left: 5%;
+    margin-top: 450px;
+}
+
+.testi1 {
+	font-family: 'Oswald';
+	position: absolute;
+	display: none;
+	margin-left: 90%;
+    margin-top: 450px;
+}
+
+<!--GRAFICO EMPLOYED/GRADUATED-->
+#text1 {
+	font-family: 'Oswald';
+	position: absolute;
+	display: none;
+	margin-left: 14%;
+    margin-top: 528px;
+}
+
+.graduated {
+	display: none;
+	font-family: 'Oswald';
+	position: absolute;
+	margin-left: 4%;
+    margin-top: 380px;
+}
+
+.employed {
+	display: none;
+	font-family: 'Oswald';
+	position: absolute;
+	margin-left: 4%;
+    margin-top: 380px;
+}
+
+#legenda {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	margin-left: 2%;
+	margin-top: 230px;
+}
+
+#legenda1 {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	margin-left: 81%;
+	margin-top: 250px;
+}
+
+#legenda2 {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 280px;
+}
+
+#legenda3 {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	margin-left: 78%;
+	margin-top: 520px;
+}
+
+.columns {
+	column-count: 2;
+	column-gap: 1.5em;
+	font-family: 'Oswald';
+	font-size: 20px;
+	color: black;
+}
+
+#cit1 {
+	color: #CD1719;
+    font-size: 12px;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+#graf {
+	width: 700px;
+	height: 700px;
+	margin-left: 300px;
+
+	margin-bottom: 60px;
+}
+
+#payy {
+	font-family: 'Oswald';
+	font-size: 18px;
+	color: black;
+	margin-bottom: 15px;
+}

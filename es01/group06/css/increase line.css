@@ -1,0 +1,84 @@
+#Oil:hover .st8 {
+	opacity: 1;
+        fill: #71c6aa;
+}
+
+#Oil:hover .st9 {
+	opacity: 1;
+        fill: #71c6aa;
+        stroke:#71c6aa
+}
+
+
+#Coal:hover .st8 {
+	opacity: 1;
+        fill: #71c6aa;
+}
+
+#Coal:hover .st9 {
+	opacity: 1;
+        fill: #71c6aa;
+        stroke:#71c6aa
+}
+
+#Gas:hover .st8 {
+	opacity: 1;
+        fill: #71c6aa;
+}
+
+#Gas:hover .st9 {
+	opacity: 1;
+        fill: #71c6aa;
+        stroke:#71c6aa
+}
+#Nuclear:hover .st8 {
+	opacity: 1;
+        fill: #71c6aa;
+}
+
+#Nuclear:hover .st9 {
+	opacity: 1;
+        fill: #71c6aa;
+        stroke:#71c6aa
+}
+#Hydro:hover .st8 {
+	opacity: 1;
+        fill: #71c6aa;
+}
+
+#Hydro:hover .st9 {
+	opacity: 1;
+        fill: #71c6aa;
+        stroke:#71c6aa
+}
+#Solar:hover .st8 {
+	opacity: 1;
+        fill: #71c6aa;
+}
+
+#Solar:hover .st9 {
+	opacity: 1;
+        fill: #71c6aa;
+        stroke:#71c6aa
+}
+#Geo:hover .st8 {
+	opacity: 1;
+        fill: #71c6aa;
+}
+
+#Geo:hover .st0 {
+	opacity: 1;
+        fill: #71c6aa;
+        stroke:#71c6aa
+}
+
+#Wind:hover .st8 {
+	opacity: 1;
+        fill: #71c6aa;
+}
+
+#Wind:hover .st0 {
+	opacity: 1;
+        fill: #71c6aa;
+        stroke:#71c6aa
+}
