@@ -1,0 +1,260 @@
+.map-svg {
+	width: 60%;
+	margin-left: 20%;
+}
+
+svg#Legend text {
+	cursor: pointer;
+}
+
+/*Question 1*/
+
+.titoloo {
+	font-family: Karla;
+	margin-left: 80px;
+	display: inline-block;
+	position: absolute;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.titoloo1 {
+	font-family: Karla;
+	margin-left: 85%;
+	display: inline-block;
+	position: absolute;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+
+.treemap {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.opacita {
+	opacity: .15;
+}
+
+.category {
+	font-family: Karla;
+	position: absolute;
+	display: inline-block;
+	margin-left: 27%;
+}
+
+#newsmediai {
+	column-count: 3;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#personali {
+	display: none;
+}
+
+#humori {
+	display: none;
+}
+
+#mixedi {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#audioi {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#technologyi {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#educationi {
+	column-count: 3;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#governmenti {
+	column-count: 3;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#referencei {
+	column-count: 3;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#businessi {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#politicali {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#charitablei {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#financiali {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#entertainmenti {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+#healthi {
+	column-count: 2;
+	column-gap: 80px;
+	margin-top: 30px;
+	display: none;
+}
+
+
+#Legend {
+	width: 16%;
+	margin-left: 6%;
+	margin-top: 40px;
+}
+
+
+/*Question 2*/
+
+.scr {
+	overflow-y: auto;
+	height: 100vh;
+}
+
+.sidebar-list h6 {
+	color: #DB0D15;
+	letter-spacing: 1px;
+}
+
+#primo {
+	padding-left: 43px;
+	color: #DB0D15;
+}
+
+#keywords {
+	margin-top: 80px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.display {
+	display: none;
+}
+
+
+/*Question 3*/
+
+#alluvialeq {
+	margin-top: 80px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#alluvialineq {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.titolo {
+	font-family: Karla;
+	font-size: 30px;
+	margin-top: 80px;
+	margin-left: 9%;
+}
+
+.titolo1 {
+	font-family: Karla;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-left: 8%;
+}
+
+#summary {
+	margin-left: 10%;
+	width: 70%;
+	height: 70%;
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
+
+.istruzioni {
+	font-family: Karla;
+	margin-top: 80px;
+	margin-left: 9%;
+}
+
+#protocollo {
+	width: 60%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#alluvial {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+#cluster {
+	margin-left: 25%;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 90px;
+	width: 60%;
+}
+
+#tables {
+	margin-left: 25%;
+	margin-right: 50px;
+	margin-top: 60px;
+	margin-bottom: 90px;
+	width: 60%;
+}
+
+#titlee {
+	margin-top: 80px;
+	margin-left: 50px;
+	font-family: Karla;
+	font-size: 15px;
+}
