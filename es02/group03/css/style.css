@@ -1,0 +1,1916 @@
+/* Font Style #010d61 */
+
+.title_super {
+    font-family: sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: #011ac2;
+}
+
+.subtitle_super {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    color: #011ac2;
+    display: block;
+}
+
+/*! ------------------------------------------ Bootstrap - Accordion ------------------------------------------ */
+
+.card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: white;
+}
+
+.card {
+    border: white;
+}
+
+.mine-a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+    color: #011ac2;
+}
+
+.mine-a2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+    color: #011ac2;
+    padding-top: 100px;
+    padding-right: 30px;
+}
+
+.mine-a3 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+    color: #011ac2;
+    margin-bottom: 30px;
+}
+
+
+/*! ------------------------------------------ 0.0.0 - ROADMAP ------------------------------------------ */
+/*! Svg - Style */
+ .roadmap-1, .roadmap-3, .roadmap-5, .roadmap-8 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .roadmap-1, .roadmap-5 {
+        stroke: #ff5f19;
+        stroke-width: 0.7px;
+      }
+
+      .roadmap-2, .roadmap-7 {
+        font-size: 8.86px;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .roadmap-3, .roadmap-8 {
+        stroke: #011ac2;
+      }
+
+      .roadmap-11, .roadmap-4, .roadmap-9 {
+        font-size: 10px;
+      }
+
+      .roadmap-4, .roadmap-9 {
+        font-family: Inconsolata-Bold, Inconsolata;
+        font-weight: 700;
+      }
+
+      .roadmap-5 {
+        stroke-dasharray: 2 1;
+      }
+
+      .roadmap-6 {
+        font-size: 9px;
+        fill: #231f20;
+      }
+
+      .roadmap-11, .roadmap-6 {
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .roadmap-7, .roadmap-8, .roadmap-9 {
+        opacity: 0.5;
+          cursor: pointer;
+      }
+
+      .roadmap-10 {
+        fill: #b2b2b2;
+        opacity: 0.25;
+      }
+
+      .roadmap-11 {
+        fill: #58595b;
+      }
+
+/*! ------------------------------------------ 0.0 - ALEXA RANKING ------------------------------------------ */
+/*! Svg - Position */
+.alexa-position {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+/*! Svg - Style */
+.alexa-1,
+.alexa-2,
+.alexa-3,
+.alexa-4,
+.alexa-5,
+.alexa-6 {
+    fill: none;
+    stroke-miterlimit: 10;
+}
+
+.alexa-1 {
+    stroke: #f24452;
+}
+
+.alexa-2 {
+    stroke: #ffe919;
+}
+
+.alexa-3 {
+    stroke: #000;
+}
+
+.alexa-4 {
+    stroke: #011ac2;
+}
+
+.alexa-5 {
+    stroke: #00a480;
+}
+
+.alexa-6 {
+    stroke: #ff5f19;
+}
+
+.alexa-14,
+.alexa-15,
+.alexa-16,
+.alexa-7,
+.alexa-8 {
+    font-size: 12px;
+}
+
+.alexa-14,
+.alexa-7 {
+    font-family: Inconsolata-Regular, Inconsolata;
+}
+
+.alexa-8 {
+    font-family: Rajdhani-Bold, Rajdhani;
+}
+
+.alexa-9 {
+    fill: #f24452;
+}
+
+.alexa-11,
+.alexa-12,
+.alexa-13,
+.alexa-16,
+.alexa-9 {
+    font-weight: 700;
+}
+
+.alexa-10,
+.alexa-15 {
+    font-family: Rajdhani-Regular, Rajdhani;
+}
+
+.alexa-11 {
+    fill: #011ac2;
+}
+
+.alexa-12 {
+    fill: #ff5f19;
+}
+
+.alexa-13 {
+    fill: #ffe919;
+}
+
+.alexa-14 {
+    opacity: 0.5;
+}
+
+.alexa-16 {
+    font-family: Rajdhani-SemiBold, Rajdhani;
+}
+
+
+/*! ------------------------------------------ 1.1 SVG WIKIPEDIA EDITS ------------------------------------------ */
+/*! Svg - Position */
+
+.edits-position {
+    padding-top: 30px;
+}
+
+/*! Svg - Style */
+.edits-1,
+.edits-11,
+.edits-4,
+.edits-48,
+.edits-5,
+.edits-6,
+.edits-7,
+.edits-8,
+.edits-9 {
+    fill: none;
+    stroke-miterlimit: 10;
+}
+
+.edits-1,
+.edits-4,
+.edits-5,
+.edits-6,
+.edits-7,
+.edits-8,
+.edits-9 {
+    stroke: #b3b2b3;
+}
+
+.edits-1,
+.edits-8 {
+    stroke-dasharray: 3 2;
+}
+
+.edits-1,
+.edits-10,
+.edits-12 {
+    opacity: 0.5;
+}
+
+.edits-14,
+.edits-15,
+.edits-2,
+.edits-44,
+.edits-49 {
+    font-size: 13px;
+}
+
+.edits-2,
+.edits-43,
+.edits-46 {
+    font-family: Rajdhani-Regular, Rajdhani;
+}
+
+.edits-10,
+.edits-3 {
+    fill: gray;
+}
+
+.edits-5 {
+    stroke-dasharray: 2.99 1.99;
+}
+
+.edits-6 {
+    stroke-dasharray: 2.99 1.99;
+}
+
+.edits-7 {
+    stroke-dasharray: 2.99 1.99;
+}
+
+.edits-9 {
+    stroke-dasharray: 3 2;
+}
+
+.edits-11 {
+    stroke: #011ac2;
+    stroke-width: 0.5px;
+}
+
+.edits-13,
+.edits-47 {
+    fill: #ff5f19;
+}
+
+.edits-14,
+.edits-15,
+.edits-47 {
+    font-family: Inconsolata-Regular, Inconsolata;
+}
+
+.edits-15 {
+    fill: #b3b2b3;
+}
+
+.edits-16 {
+    fill: url(#Sfumatura_senza_nome_31);
+}
+
+.edits-17 {
+    fill: url(#Sfumatura_senza_nome_31-2);
+}
+
+.edits-18 {
+    fill: url(#Sfumatura_senza_nome_31-3);
+}
+
+.edits-19 {
+    fill: url(#Sfumatura_senza_nome_31-4);
+}
+
+.edits-20 {
+    fill: url(#Sfumatura_senza_nome_31-5);
+}
+
+.edits-21 {
+    fill: url(#Sfumatura_senza_nome_31-6);
+}
+
+.edits-22 {
+    fill: url(#Sfumatura_senza_nome_31-7);
+}
+
+.edits-23 {
+    fill: url(#Sfumatura_senza_nome_31-8);
+}
+
+.edits-24 {
+    fill: url(#Sfumatura_senza_nome_31-9);
+}
+
+.edits-25 {
+    fill: url(#Sfumatura_senza_nome_31-10);
+}
+
+.edits-26 {
+    fill: url(#Sfumatura_senza_nome_31-11);
+}
+
+.edits-27 {
+    fill: url(#Sfumatura_senza_nome_31-12);
+}
+
+.edits-28 {
+    fill: url(#Sfumatura_senza_nome_31-13);
+}
+
+.edits-29 {
+    fill: url(#Sfumatura_senza_nome_31-14);
+}
+
+.edits-30 {
+    fill: url(#Sfumatura_senza_nome_31-15);
+}
+
+.edits-31 {
+    fill: url(#Sfumatura_senza_nome_31-16);
+}
+
+.edits-32 {
+    fill: url(#Sfumatura_senza_nome_31-17);
+}
+
+.edits-33 {
+    fill: url(#Sfumatura_senza_nome_31-18);
+}
+
+.edits-34 {
+    fill: url(#Sfumatura_senza_nome_31-19);
+}
+
+.edits-35 {
+    fill: url(#Sfumatura_senza_nome_31-20);
+}
+
+.edits-36 {
+    fill: url(#Sfumatura_senza_nome_31-21);
+}
+
+.edits-37 {
+    fill: url(#Sfumatura_senza_nome_31-22);
+}
+
+.edits-38 {
+    fill: url(#Sfumatura_senza_nome_31-23);
+}
+
+.edits-39 {
+    fill: url(#Sfumatura_senza_nome_31-24);
+}
+
+.edits-40 {
+    fill: url(#Sfumatura_senza_nome_31-25);
+}
+
+.edits-41 {
+    fill: #011ac2;
+}
+
+.edits-42 {
+    fill: url(#Sfumatura_senza_nome_31-26);
+}
+
+.edits-43 {
+    font-size: 14px;
+}
+
+.edits-44 {
+    font-family: Rajdhani-SemiBold, Rajdhani;
+}
+
+.edits-45 {
+    font-weight: 700;
+}
+
+.edits-47 {
+    font-size: 16px;
+}
+
+.edits-48 {
+    stroke: #ff5f19;
+}
+
+.edits-49 {
+    font-family: Rajdhani-Bold, Rajdhani;
+}
+
+
+/*! ------------------------------------------ # - EVENTS ------------------------------------------ */
+/*! Svg - Position */
+
+/*! Svg - Style */
+.events-1 {
+    font-size: 10px;
+    font-family: Rajdhani-Regular, Rajdhani;
+}
+
+.events-10,
+.events-11,
+.events-12,
+.events-13,
+.events-2,
+.events-4,
+.events-5,
+.events-6,
+.events-7,
+.events-9 {
+    fill: none;
+}
+
+.events-2,
+.events-4,
+.events-5,
+.events-6 {
+    stroke: #b2b2b2;
+    stroke-width: 0.7px;
+}
+
+.events-13,
+.events-2,
+.events-4,
+.events-5,
+.events-6,
+.events-7 {
+    stroke-miterlimit: 10;
+}
+
+.events-2 {
+    stroke-dasharray: 5 3;
+}
+
+.events-2,
+.events-3 {
+    opacity: 0.15;
+}
+
+.events-5 {
+    stroke-dasharray: 4.98 2.99;
+}
+
+.events-6 {
+    stroke-dasharray: 4.98 2.99;
+}
+
+.events-7 {
+    stroke: #dcdcdc;
+    stroke-width: 0.75px;
+}
+
+.events-8 {
+    fill: #7c7c7c;
+}
+
+.events-10,
+.events-9 {
+    stroke: #9fa0a2;
+}
+
+.events-12,
+.events-9 {
+    stroke-linecap: square;
+}
+
+.events-10,
+.events-11,
+.events-12,
+.events-9 {
+    stroke-linejoin: round;
+}
+
+.events-10,
+.events-11,
+.events-13 {
+    stroke-linecap: round;
+}
+
+.events-11,
+.events-12 {
+    stroke: #011ac2;
+}
+
+.events-11,
+.events-12,
+.events-13 {
+    stroke-width: 2px;
+}
+
+.events-13 {
+    stroke: #ff5f19;
+}
+
+/*! SVG interaction */
+
+#countries:hover .country {
+    opacity: .15;
+}
+
+#countries:hover .country text {
+    opacity: 1;
+}
+
+#countries .country path {
+    mix-blend-mode: multiply;
+    opacity: .9;
+}
+
+#countries .country {
+    opacity: .5;
+}
+
+#countries .country:hover {
+    opacity: 1;
+}
+
+
+/*! ------------------------------------------ 3.1 NEWSPROVIDER GLOBAL ------------------------------------------ */
+/*! Svg - Position */
+.newsprovider-position {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*! Svg - Style */
+ .newsprovider-1 {
+        fill: none;
+        stroke: #011ac2;
+        stroke-miterlimit: 10;
+      }
+
+      .newsprovider-2 {
+        font-size: 22px;
+        fill: #58595b;
+      }
+
+      .news-11, .newsprovider-15, .newsprovider-16, .newsprovider-2, .newsprovider-3, .newsprovider-4, .newsprovider-5, .newsprovider-6, .newsprovider-7, .newsprovider-8, .newsprovider-9 {
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .newsprovider-3 {
+        font-size: 15px;
+      }
+
+      .newsprovider-3, .newsprovider-6, .newsprovider-7, .newsprovider-8, .newsprovider-9 {
+        fill: #ff5f19;
+      }
+
+      .newsprovider-4 {
+        font-size: 11px;
+      }
+
+      .newsprovider-10, .newsprovider-11, .newsprovider-12, .newsprovider-14, .newsprovider-15, .newsprovider-16, .newsprovider-4 {
+        fill: #606060;
+      }
+
+      .newsprovider-10, .newsprovider-16, .newsprovider-5, .newsprovider-8 {
+        font-size: 14px;
+      }
+
+      .newsprovider-5 {
+        fill: #231f20;
+      }
+
+      .newsprovider-6 {
+        font-size: 19.39px;
+      }
+
+      .newsprovider-7 {
+        font-size: 13.84px;
+      }
+
+      .newsprovider-9 {
+        font-size: 8px;
+      }
+
+      .newsprovider-10, .newsprovider-12, .newsprovider-14 {
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .newsprovider-11 {
+        font-size: 36px;
+      }
+
+      .newsprovider-12 {
+        font-size: 10px;
+      }
+
+      .newsprovider-13 {
+        font-size: 9px;
+      }
+
+      .newsprovider-14 {
+        font-size: 7px;
+      }
+
+      .newsprovider-15 {
+        font-size: 30px;
+      }
+
+/*! ------------------------------------------ 3.2 - MAP ------------------------------------------ */
+
+/*! Svg - Position */
+
+.map-position {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/*! Svg - Style */
+
+.map-1,
+.map-2,
+.map-3,
+.map-8 {
+    fill: none;
+}
+
+.map-2 {
+    stroke: #ff5f19;
+    stroke-width: 0.75px;
+}
+
+.map-2,
+.map-3,
+.map-4,
+.map-5,
+.map-7,
+.map-8,
+.map-9 {
+    stroke-miterlimit: 10;
+}
+
+.map-3 {
+    stroke: #a7a9ac;
+}
+
+.map-4,
+.map-5,
+.map-7,
+.map-8,
+.map-9 {
+    stroke: #011ac2;
+}
+
+.map-4 {
+    fill: url(#Nuovo_pattern);
+}
+
+.map-5 {
+    fill: url(#Nuovo_pattern_2);
+}
+
+.map-6 {
+    font-size: 14px;
+    font-family: Inconsolata-Regular, Inconsolata;
+}
+
+.map-7 {
+    fill: url(#Nuovo_pattern_2-3);
+}
+
+.map-9 {
+    fill: url(#Nuovo_pattern-3);
+}
+
+/*! ------------------------------------------ 4.0 - LOCALIZATION ------------------------------------------ */
+
+.localization-position {
+    padding-top: 30px;
+}
+
+.localization-1,
+.localization-2,
+.localization-3,
+.localization-4,
+.localization-46 {
+    fill: none;
+}
+
+.localization-2 {
+    stroke: #ff5f19;
+    stroke-width: 0.75px;
+}
+
+.localization-11,
+.localization-12,
+.localization-13,
+.localization-14,
+.localization-15,
+.localization-16,
+.localization-17,
+.localization-18,
+.localization-2,
+.localization-20,
+.localization-21,
+.localization-22,
+.localization-23,
+.localization-24,
+.localization-25,
+.localization-26,
+.localization-27,
+.localization-28,
+.localization-29,
+.localization-3,
+.localization-30,
+.localization-31,
+.localization-32,
+.localization-33,
+.localization-34,
+.localization-35,
+.localization-36,
+.localization-37,
+.localization-38,
+.localization-39,
+.localization-4,
+.localization-40,
+.localization-41,
+.localization-42,
+.localization-43,
+.localization-44,
+.localization-45,
+.localization-46,
+.localization-49,
+.localization-5,
+.localization-6,
+.localization-8,
+.localization-9 {
+    stroke-miterlimit: 10;
+}
+
+.localization-11,
+.localization-12,
+.localization-13,
+.localization-14,
+.localization-15,
+.localization-16,
+.localization-17,
+.localization-18,
+.localization-20,
+.localization-21,
+.localization-22,
+.localization-23,
+.localization-24,
+.localization-25,
+.localization-26,
+.localization-27,
+.localization-28,
+.localization-29,
+.localization-3,
+.localization-30,
+.localization-31,
+.localization-32,
+.localization-33,
+.localization-34,
+.localization-35,
+.localization-36,
+.localization-37,
+.localization-38,
+.localization-39,
+.localization-40,
+.localization-41,
+.localization-42,
+.localization-43,
+.localization-44,
+.localization-45,
+.localization-49,
+.localization-5,
+.localization-6,
+.localization-8,
+.localization-9 {
+    stroke: #011ac2;
+}
+
+.localization-4 {
+    stroke: #ffda00;
+}
+
+.localization-5 {
+    fill: url(#Nuovo_pattern_4);
+}
+
+.localization-6 {
+    fill: #fff;
+}
+
+.localization-47,
+.localization-7 {
+    font-size: 12px;
+}
+
+.localization-10,
+.localization-19,
+.localization-47,
+.localization-7 {
+    font-family: Inconsolata-Regular, Inconsolata;
+}
+
+.localization-8 {
+    fill: url(#Nuovo_pattern);
+}
+
+.localization-9 {
+    fill: url(#Nuovo_pattern_5);
+}
+
+.localization-10 {
+    font-size: 16px;
+}
+
+.localization-11 {
+    fill: url(#Nuovo_pattern_4-3);
+}
+
+.localization-12 {
+    fill: url(#Nuovo_pattern-3);
+}
+
+.localization-13 {
+    fill: url(#Nuovo_pattern_4-5);
+}
+
+.localization-14 {
+    fill: url(#Nuovo_pattern-5);
+}
+
+.localization-15 {
+    fill: url(#Nuovo_pattern_4-7);
+}
+
+.localization-16 {
+    fill: url(#Nuovo_pattern-7);
+}
+
+.localization-17 {
+    fill: url(#Nuovo_pattern_4-9);
+}
+
+.localization-18 {
+    fill: url(#Nuovo_pattern-9);
+}
+
+.localization-19 {
+    font-size: 16.03px;
+}
+
+.localization-20 {
+    fill: url(#Nuovo_pattern_4-11);
+}
+
+.localization-21 {
+    fill: url(#Nuovo_pattern-11);
+}
+
+.localization-22 {
+    fill: url(#Nuovo_pattern_4-13);
+}
+
+.localization-23 {
+    fill: url(#Nuovo_pattern-13);
+}
+
+.localization-24 {
+    fill: url(#Nuovo_pattern_4-15);
+}
+
+.localization-25 {
+    fill: url(#Nuovo_pattern-15);
+}
+
+.localization-26 {
+    fill: url(#Nuovo_pattern_4-17);
+}
+
+.localization-27 {
+    fill: url(#Nuovo_pattern_4-19);
+}
+
+.localization-28 {
+    fill: url(#Nuovo_pattern_4-21);
+}
+
+.localization-29 {
+    fill: url(#Nuovo_pattern_4-23);
+}
+
+.localization-30 {
+    fill: url(#Nuovo_pattern_4-25);
+}
+
+.localization-31 {
+    fill: url(#Nuovo_pattern-17);
+}
+
+.localization-32 {
+    fill: url(#Nuovo_pattern_4-27);
+}
+
+.localization-33 {
+    fill: url(#Nuovo_pattern-19);
+}
+
+.localization-34 {
+    fill: url(#Nuovo_pattern-21);
+}
+
+.localization-35 {
+    fill: url(#Nuovo_pattern_4-29);
+}
+
+.localization-36 {
+    fill: url(#Nuovo_pattern-23);
+}
+
+.localization-37 {
+    fill: url(#Nuovo_pattern_4-31);
+}
+
+.localization-38 {
+    fill: url(#Nuovo_pattern-25);
+}
+
+.localization-39 {
+    fill: url(#Nuovo_pattern-27);
+}
+
+.localization-40 {
+    fill: url(#Nuovo_pattern_4-33);
+}
+
+.localization-41 {
+    fill: url(#Nuovo_pattern_4-35);
+}
+
+.localization-42 {
+    fill: url(#Nuovo_pattern-29);
+}
+
+.localization-43 {
+    fill: url(#Nuovo_pattern_5-3);
+}
+
+.localization-44 {
+    fill: url(#Nuovo_pattern-31);
+}
+
+.localization-45 {
+    fill: #ffda00;
+}
+
+.localization-46 {
+    stroke: #b3b2b3;
+    stroke-dasharray: 3 2;
+    opacity: 0.5;
+}
+
+.localization-47 {
+    fill: #b3b2b3;
+}
+
+.localization-48 {
+    fill: #f26522;
+}
+
+.localization-49 {
+    fill: #011ac2;
+}
+
+
+/*! ------------------------------------------ 5.0 - GEPHI KEY ------------------------------------------ */
+/*! Svg - Style */
+
+    .gephi-key-1 {
+        fill: #586fdd;
+      }
+
+      .gephi-key-2 {
+        font-size: 12px;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .gephi-key-3 {
+        fill: #011ac2;
+      }
+
+      .gephi-key-4 {
+        fill: #ff5f19;
+      }
+
+      .gephi-key-5 {
+        fill: #ffe919;
+      }
+
+      .gephi-key-6 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+
+
+
+/*! ------------------------------------------ 5.1 - USA NEWSPAPER ------------------------------------------ */
+/*! Svg - Position */
+.usapaper-position{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+/*! Svg - Style */
+
+.usapaper-1, .usapaper-16, .usapaper-18 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .usapaper-1 {
+        stroke: #b2b2b2;
+        stroke-width: 0.7px;
+        stroke-dasharray: 5 3;
+        opacity: 0.15;
+      }
+
+      .usapaper-2 {
+        font-size: 10px;
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .usapaper-3 {
+        fill: #fff;
+      }
+
+      .usapaper-4, .usapaper-5, .usapaper-6, .usapaper-7, .usapaper-8 {
+        fill: #ff5f19;
+      }
+
+      .usapaper-14, .usapaper-5 {
+        opacity: 0.85;
+      }
+
+      .usapaper-13, .usapaper-6 {
+        opacity: 0.7;
+      }
+
+      .usapaper-12, .usapaper-7 {
+        opacity: 0.55;
+      }
+
+      .usapaper-10, .usapaper-8 {
+        opacity: 0.3;
+      }
+
+      .usapaper-9 {
+        fill: #ffdfd1;
+      }
+
+      .usapaper-10, .usapaper-12, .usapaper-13, .usapaper-14, .usapaper-15 {
+        fill: #011ac2;
+      }
+
+      .usapaper-11 {
+        fill: #ccd1f3;
+      }
+
+      .usapaper-16 {
+        stroke: url(#linear-gradient);
+      }
+
+      .usapaper-17 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .usapaper-18 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      .usapaper-19 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .usapaper-20, .usapaper-21 {
+        font-size: 12px;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .usapaper-21 {
+        fill: #b2b3b3;
+      }
+
+/*! ------------------------------------------ 6.A. - COMPANIES ------------------------------------------ */
+
+/*! Svg - Position */
+.companies-position {
+    padding-top: 30px;
+}
+
+/*! Svg - Style */
+
+.companies-1,
+.companies-3 {
+    fill: none;
+    stroke: #b3b2b3;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 3 2;
+}
+
+.companies-17,
+.companies-18,
+.companies-2,
+.companies-4 {
+    font-size: 12px;
+}
+
+.companies-2,
+.companies-4 {
+    font-family: Rajdhani-Regular, Rajdhani;
+}
+
+.companies-19,
+.companies-3,
+.companies-4 {
+    opacity: 0.5;
+}
+
+.companies-14,
+.companies-19,
+.companies-4 {
+    fill: gray;
+}
+
+.companies-5 {
+    fill: #ffdfd1;
+}
+
+.companies-10,
+.companies-5 {
+    opacity: 0.18;
+}
+
+.companies-6 {
+    fill: #ff7f47;
+}
+
+.companies-7 {
+    fill: #ff9f75;
+}
+
+.companies-8 {
+    fill: #ffbfa3;
+}
+
+.companies-9 {
+    fill: #ff5f19;
+}
+
+.companies-10,
+.companies-11 {
+    fill: #dee2f8;
+}
+
+.companies-12 {
+    fill: #9ba9eb;
+}
+
+.companies-13 {
+    fill: #586fdd;
+}
+
+.companies-15 {
+    fill: #011ac2;
+}
+
+.companies-16 {
+    font-size: 8.47px;
+}
+
+.companies-16,
+.companies-17,
+.companies-18 {
+    font-family: Inconsolata-Regular, Inconsolata;
+}
+
+.companies-18 {
+    fill: #b3b2b3;
+}
+
+
+/*! ------------------------------------------ 6.1 - SENTIMENT ------------------------------------------ */
+
+    .sentiment-1, .sentiment-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 0.7px;
+        stroke-dasharray: 5 3;
+        opacity: 0.15;
+      }
+
+      .sentiment-1 {
+        stroke: #9ba9eb;
+      }
+
+      .sentiment-2 {
+        stroke: #b2b2b2;
+      }
+
+      .sentiment-3 {
+        font-size: 7.21px;
+      }
+
+      .sentiment-3, .sentiment-4 {
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .sentiment-4 {
+        font-size: 12px;
+      }
+
+      .sentiment-5 {
+        fill: #ff9f75;
+      }
+
+      .sentiment-6 {
+        fill: #9ba9eb;
+      }
+
+      .sentiment-7 {
+        font-size: 10.72px;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+  
+
+/*! ------------------------------------------ 6.2 - FLUSSI ------------------------------------------ */
+
+.flussi-1 {
+        font-size: 17.4px;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .flussi-2 {
+        fill: #9ba9eb;
+      }
+
+      .flussi-3 {
+        fill: #ff9f75;
+      }
+
+
+/*! ------------------------------------------ 7.B - SVG Meaning ------------------------------------------ */
+
+/*! Svg - Position */
+.meaning-position {
+    padding-bottom: 60px;
+}
+
+/*! Svg - Style */
+
+.meaning-1,
+.meaning-2 {
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-width: 0.7px;
+    stroke-dasharray: 5 3;
+    opacity: 0.15;
+}
+
+.meaning-1 {
+    stroke: #9ba9eb;
+}
+
+.meaning-2 {
+    stroke: #b2b2b2;
+}
+
+.meaning-3 {
+    font-size: 7.21px;
+}
+
+.meaning-3,
+.meaning-4 {
+    font-family: Rajdhani-Regular, Rajdhani;
+}
+
+.meaning-4,
+.meaning-8 {
+    font-size: 12px;
+}
+
+.meaning-5 {
+    fill: #ff9f75;
+}
+
+.meaning-6 {
+    fill: #9ba9eb;
+}
+
+.meaning-7 {
+    font-size: 9px;
+}
+
+.meaning-7,
+.meaning-8 {
+    font-family: Inconsolata-Regular, Inconsolata;
+}
+
+/*! ------------------------------------------ 7.0 - ADVOCACY ------------------------------------------ */
+
+/*! Svg - Position */
+
+.advocacy-position {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+}
+
+/*! Svg - Style */
+.advocacy-1, .advocacy-11, .advocacy-16, .advocacy-2, .advocacy-3, .advocacy-4 {
+        fill: none;
+      }
+
+      .advocacy-2 {
+        stroke: gray;
+      }
+
+      .advocacy-11, .advocacy-16, .advocacy-2, .advocacy-3, .advocacy-4, .advocacy-5, .advocacy-6, .advocacy-7, .advocacy-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .advocacy-3, .advocacy-5 {
+        stroke: #011ac2;
+      }
+
+      .advocacy-4, .advocacy-6 {
+        stroke: #586fdd;
+      }
+
+      .advocacy-5 {
+        fill: url(#Pattern-blue-7px);
+      }
+
+      .advocacy-6 {
+        fill: url(#Pattern-lightblue-7px);
+      }
+
+      .advocacy-16, .advocacy-7, .advocacy-9 {
+        stroke: #000;
+      }
+
+      .advocacy-7, .advocacy-8 {
+        opacity: 0.3;
+      }
+
+      .advocacy-7, .advocacy-9 {
+        fill: url(#Pattern_grey-7px);
+      }
+
+      .advocacy-10, .advocacy-13 {
+        font-size: 19.39px;
+      }
+
+      .advocacy-10, .advocacy-15 {
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .advocacy-11 {
+        stroke: #ff5f19;
+      }
+
+      .advocacy-12 {
+        fill: #ff5f19;
+      }
+
+      .advocacy-13 {
+        font-family: Inconsolata-Bold, Inconsolata;
+      }
+
+      .advocacy-14 {
+        font-weight: 700;
+      }
+
+      .advocacy-16 {
+        stroke-width: 2px;
+      }
+
+/*! ------------------------------------------ 7.0 -  WEBSITE------------------------------------------ */
+
+/*! Svg - Position */
+
+.websites-position {
+    padding-left: 40px;
+}
+
+/*! Svg - Style */
+      .websites-1 {
+        fill: #ffe919;
+      }
+
+      .websites-2 {
+        fill: none;
+        stroke: #ff5f19;
+        stroke-miterlimit: 10;
+      }
+
+      .websites-26, .websites-3 {
+        font-size: 17px;
+      }
+
+      .websites-3, .websites-4, .websites-5, .websites-6 {
+        fill: #ff5f19;
+      }
+
+      .websites-26, .websites-3, .websites-4, .websites-5 {
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .websites-4 {
+        font-size: 19.39px;
+      }
+
+      .websites-15, .websites-16, .websites-23, .websites-24, .websites-25, .websites-5 {
+        font-size: 12.92px;
+      }
+
+      .websites-6 {
+        font-size: 17.77px;
+      }
+
+      .websites-10, .websites-11, .websites-14, .websites-15, .websites-16, .websites-20, .websites-23, .websites-24, .websites-6, .websites-9 {
+        font-family: Rajdhani-Medium, Rajdhani;
+      }
+
+      .websites-11, .websites-14, .websites-17, .websites-7 {
+        font-size: 14px;
+      }
+
+      .websites-12, .websites-17, .websites-22, .websites-25, .websites-7 {
+        font-family: Rajdhani-SemiBold, Rajdhani;
+      }
+
+      .websites-17, .websites-25, .websites-27, .websites-8 {
+        fill: #011ac2;
+      }
+
+      .websites-12, .websites-18, .websites-19, .websites-21, .websites-22, .websites-25, .websites-8 {
+        font-weight: 700;
+      }
+
+      .websites-10, .websites-11, .websites-19, .websites-23, .websites-28 {
+        fill: #586fdd;
+      }
+
+      .websites-13, .websites-14, .websites-20, .websites-21, .websites-22, .websites-24 {
+        fill: #b1b1b1;
+      }
+
+      .websites-16 {
+        fill: #ffff2e;
+      }
+
+
+
+/*! ------------------------------------------ 7.1 - WEBSITE + PERCENTAGE ------------------------------------------ */
+/*! Svg - Position */
+.percentage-position {
+    padding-top:60px;
+}
+
+
+/*! Svg - Style */
+ .percentage-1, .percentage-2, .percentage-3, .percentage-4, .percentage-9 {
+        fill: none;
+      }
+
+      .percentage-2, .percentage-8 {
+        stroke: #011ac2;
+      }
+
+      .percentage-12, .percentage-17, .percentage-2, .percentage-3, .percentage-4, .percentage-5, .percentage-7, .percentage-8, .percentage-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .percentage-3, .percentage-5 {
+        stroke: #586fdd;
+      }
+
+      .percentage-4 {
+        stroke: gray;
+      }
+
+      .percentage-5 {
+        fill: url(#Nuovo_pattern_5);
+      }
+
+      .percentage-6 {
+        opacity: 0.21;
+      }
+
+      .percentage-7, .percentage-9 {
+        stroke: #000;
+      }
+
+      .percentage-7 {
+        fill: url(#grigio);
+      }
+
+      .percentage-8 {
+        fill: url(#Nuovo_pattern_4);
+      }
+
+      .percentage-10 {
+        font-size: 18.96px;
+      }
+
+      .percentage-10, .percentage-14 {
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .percentage-11, .percentage-12, .percentage-17 {
+        fill: #586fdd;
+      }
+
+      .percentage-12 {
+        stroke: url(#Nuovo_pattern_5-3);
+      }
+
+      .percentage-13 {
+        fill: #011ac2;
+      }
+
+      .percentage-14 {
+        font-size: 18px;
+      }
+
+      .percentage-15 {
+        fill: #ccc;
+      }
+
+      .percentage-16 {
+        fill: #ffe919;
+      }
+
+      .percentage-17 {
+        stroke: url(#Nuovo_pattern_5-7);
+      }
+
+
+/*! ------------------------------------------ 7.3 - TWITTER PEAK ------------------------------------------ */
+
+
+.twpeak-1, .twpeak-10, .twpeak-11, .twpeak-19, .twpeak-2, .twpeak-3, .twpeak-5, .twpeak-7, .twpeak-8, .twpeak-9 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .twpeak-1 {
+        stroke: #586fdd;
+      }
+
+      .twpeak-2 {
+        stroke: #ff5f19;
+      }
+
+      .twpeak-3 {
+        stroke: #ffe919;
+      }
+
+      .twpeak-12, .twpeak-13, .twpeak-14, .twpeak-15, .twpeak-18, .twpeak-4 {
+        font-size: 12px;
+      }
+
+      .twpeak-17, .twpeak-4 {
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .twpeak-11, .twpeak-5, .twpeak-7, .twpeak-8 {
+        stroke: #b2b2b2;
+      }
+
+      .twpeak-10, .twpeak-11, .twpeak-5, .twpeak-7, .twpeak-8, .twpeak-9 {
+        stroke-width: 0.7px;
+      }
+
+      .twpeak-5 {
+        stroke-dasharray: 5 3;
+      }
+
+      .twpeak-5, .twpeak-6 {
+        opacity: 0.5;
+      }
+
+      .twpeak-10, .twpeak-8 {
+        stroke-dasharray: 4.98 2.99;
+      }
+
+      .twpeak-10, .twpeak-19, .twpeak-9 {
+        stroke: #011ac2;
+      }
+
+      .twpeak-11 {
+        stroke-dasharray: 4.98 2.99;
+      }
+
+      .twpeak-12, .twpeak-16 {
+        fill: #011ac2;
+        font-weight: 700;
+      }
+
+      .twpeak-12, .twpeak-15 {
+        font-family: Rajdhani-SemiBold, Rajdhani;
+      }
+
+      .twpeak-13, .twpeak-18 {
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .twpeak-14 {
+        font-family: Rajdhani-Medium, Rajdhani;
+      }
+
+      .twpeak-18 {
+        fill: #b2b2b2;
+      }
+
+
+
+
+
+
+
+
+
+
+
+/*! ------------------------------------------ 7.3 - BANNER + GIF ------------------------------------------ */
+
+/*! Gif - Position */
+
+.gif-position {
+    border: 3px solid;
+    border-color: #011ac2;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/*! Svg - Position */
+
+.banner-position {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*! Svg - Style */
+
+ .banner-1, .banner-2, .banner-3 {
+        fill: none;
+      }
+
+      .banner-2 {
+        stroke: #ff5f19;
+        stroke-width: 0.75px;
+      }
+
+      .banner-10, .banner-2, .banner-3, .banner-4, .banner-5, .banner-6, .banner-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .banner-10, .banner-3, .banner-4, .banner-5, .banner-6, .banner-9 {
+        stroke: #011ac2;
+      }
+
+      .banner-4 {
+        fill: #fff;
+        stroke-width: 2px;
+      }
+
+      .banner-5 {
+        fill: url(#Pattern_blue_10px);
+      }
+
+      .banner-6 {
+        fill: url(#Nuovo_pattern);
+      }
+
+      .banner-7 {
+        font-size: 14px;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .banner-8 {
+        font-family: Inconsolata-Bold, Inconsolata;
+        font-weight: 700;
+      }
+
+      .banner-9 {
+        fill: url(#Pattern_blue_10px-3);
+      }
+
+      .banner-10 {
+        fill: url(#Nuovo_pattern-5);
+      }
+
+/*! ------------------------------------------ 7.4 - SUPPORTER NAME ------------------------------------------ */
+
+
+
+  .mainsupporter-1, .mainsupporter-3 {
+        font-size: 19.39px;
+      }
+
+      .mainsupporter-1 {
+        font-family: Inconsolata-Bold, Inconsolata;
+        font-weight: 700;
+      }
+
+      .mainsupporter-2 {
+        fill: none;
+        stroke: #ff5f19;
+        stroke-miterlimit: 10;
+      }
+
+      .mainsupporter-3 {
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .mainsupporter-4 {
+        letter-spacing: 1.55em;
+      }
+
+
+
+ /*! ------------------------------------------ 7.4 - WEBSITE + TWITTER ------------------------------------------ */
+
+ .webtw-1, .webtw-10, .webtw-12, .webtw-13, .webtw-14, .webtw-2, .webtw-3, .webtw-4 {
+        fill: none;
+      }
+
+      .webtw-2 {
+        stroke: gray;
+      }
+
+      .webtw-10, .webtw-12, .webtw-13, .webtw-14, .webtw-17, .webtw-18, .webtw-2, .webtw-20, .webtw-21, .webtw-22, .webtw-3, .webtw-4, .webtw-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .webtw-18, .webtw-3 {
+        stroke: #011ac2;
+      }
+
+      .webtw-17, .webtw-4 {
+        stroke: #586fdd;
+      }
+
+      .webtw-21, .webtw-22, .webtw-5 {
+        fill: #011ac2;
+        stroke: #ff5f19;
+      }
+
+      .webtw-22, .webtw-5 {
+        stroke-width: 3px;
+      }
+
+      .webtw-6 {
+        font-size: 28px;
+      }
+
+      .webtw-16, .webtw-6 {
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .webtw-7, .webtw-9 {
+        font-family: Inconsolata-Bold, Inconsolata;
+        font-weight: 700;
+      }
+
+      .webtw-8, .webtw-9 {
+        font-size: 27px;
+      }
+
+      .webtw-10, .webtw-20 {
+        stroke: #000;
+      }
+
+      .webtw-10 {
+        stroke-width: 2px;
+      }
+
+      .webtw-11, .webtw-22 {
+        opacity: 0.7;
+      }
+
+      .webtw-12, .webtw-13, .webtw-14 {
+        stroke: #b2b2b2;
+        stroke-width: 0.7px;
+      }
+
+      .webtw-13 {
+        stroke-dasharray: 5.04 3.03;
+      }
+
+      .webtw-14 {
+        stroke-dasharray: 5.03 3.02;
+      }
+
+      .webtw-15 {
+        opacity: 0.5;
+      }
+
+      .webtw-16 {
+        font-size: 24px;
+      }
+
+      .webtw-17 {
+        fill: url(#AGINNI);
+      }
+
+      .webtw-18 {
+        fill: url(#A2);
+      }
+
+      .webtw-19 {
+        opacity: 0.3;
+      }
+
+      .webtw-20 {
+        fill: url(#A1);
+      }
+
+      .webtw-21 {
+        stroke-width: 4px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! ------------------------------------------ SCROLL BAR ------------------------------------------ */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 5, 10, 0.3);
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #ff5f19;
+}
+
+
+::-webkit-scrollbar-track-piece {
+    background: #011ac2;
+}
+
+
+
