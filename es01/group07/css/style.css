@@ -1,426 +1,254 @@
-/*colori testi*/
-#colorater {
-    color: #e59dbd;
+/*Body*/
+body {
+  position: relative;
+}
+div {
+  position: relative;
+}
+section {
+  width: 100%;
+}
+h5, h2 {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.paragrafo-testo {
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.titolo-testo {
+  margin-top: 7%;
+  margin-bottom: -2%;
+}
+
+.sottotitolo-testo{
+  margin-top: 5%;
+  margin-bottom: -2%;
+}
+
+a {
+  color: #996666;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.sezione-mou {
+  color: white;
+  margin-top: 3%;
+}
+
+.titolo-sezione-mou{
+  color: white;
+}
+
+.sottotitolo-sezione-mou{
+  color: white;
 }
 
 
-/*nav bar background and font*/
-#mainNav {
-    font-family: 'Cutive Mono', monospace;
-    margin-bottom: 0;
-    background-color: #020202;
+/*NavBar*/
+#mainNav{
+  background-color: #020202;
+  font-family: 'Cutive Mono', monospace;
+  margin-bottom: 0;
+}
+
+#mainNav a {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    /*background: transparent;*/ }
+    #mainNav.navbar-shrink {
+      padding-top: 10px;
+      padding-bottom: 10px;
       /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
-}
-  #mainNav .navbar-toggler {
-    padding: 11px;
-    color: red;
-    border: 1px solid white;
-}
-#mainNav .navbar-brand {
-    font-family: 'Montserrat', sans-serif;
-    font-size:20;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-  #mainNav a {
-    color: white;
-      font-weight: 700;
-      margin-left:0px;
-      margin-right:0px;
-}
-#mainNav .navbar-nav .nav-item {
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background 0.3s ease-in-out;
-}
-    #mainNav .navbar-nav .nav-item:hover {
-      color: fade(white, 80%);
+      background: black;
+    }
+    #mainNav .nav-link.active {
       outline: none;
-      background-color: transparent;
-}
-    #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
-      outline: none;
-      background-color: transparent; }
-
-  @media (min-width: 992px) {
-    #mainNav {
-      padding-top: 20px;
-      width: 100%;
-      padding-bottom: 20px;
-      -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      letter-spacing: 1px;
-      border-bottom: none;
-      /*background: transparent;*/ }
-      #mainNav.navbar-shrink {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
-        background: black;
-      }
-      #mainNav .nav-link.active {
-        outline: none;
-        background-color: rgba(255, 255, 255, 0.3); }
-        #mainNav .nav-link.active:hover {
-          color: white; }
+      background-color: rgba(255, 255, 255, 0.3); }
+      #mainNav .nav-link.active:hover {
+        color: white; }
 }
 
 @media (max-width: 1024px) {
-  #mainNav a{
-    font-size: 13px;
-  }
+#mainNav a{
+  font-size: 13px;
+}
 }
 
-/*bodyyyyyyy + general*/
-body {
-  font-family: 'Cutive Mono', monospace;
-  position: relative;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  color: #000;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+/*Header*/
+.titolo {
+background-color: #020202;
+text-align:center;
 }
 
-svg {
-  width:100%;
-  height: 100%;
-  position: relative;
+.ponl-svg {
+  padding: 15%;
+  margin-top: 5%;
+  margin-bottom: -7%;
 }
 
-.row-bottom-margin {
-  margin-bottom: 0px; !important
-}
+.box-quadrato{
+  fill:#fff;}
 
-.a-fonti {
-  color: white;
-  font-family: 'Cutive Mono', monospace;
-  font-size: 10px;
-  margin-left: 5px;
-}
-
-
-/*titles stile*/
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 50px;
-}
-
-h2 {font-family: 'Montserrat', sans-serif;
-font-weight: 600;
-letter-spacing: 1px;
-font-size: 18px;
-
-}
-
-/*for the header*/
-/*Scrittona Coreana*/
 .scrittona{
-  fill:#ece7da;
-  z-index: 1;}
+  fill:#fff;
+  font-size:72px;
+  font-family: Montserrat-Black, Montserrat;}
 
-.title{
-    background-color: #000;
-}
-#titolo{
-
-  margin-top: 90px;
-  margin-left:100px;
-
-
-}
-.title-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 80px;
-    width: 100%;
-    height: 10%;
-  padding-top: 200px;
-  padding-bottom:40px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    vertical-align: middle;
-}
-.animazione{
-text-align: center;
+#journey{
+  color: white;
+  padding-bottom: 3%;
 }
 
-/*Cartina Intro*/
+/*Intro Mappa*/
 
-.cartina-1, .cartina-9 {
-        fill: #000;
-      }
+#intro-mappa{
+  background-color: #020202;
+  /*background-color: #4d4d4d;*/
+}
+.mappa-grande{
+  padding: 0px;
+  margin-top: 5%;
+  border-top: 3px solid #2b2b2b;
+  border-bottom: 3px solid #2b2b2b;
+}
 
-      .cartina-1, .cartina-3, .cartina-5 {
-        fill-rule: evenodd;
-      }
-
-      .cartina-2, .cartina-3 {
-        fill: none;
-        stroke: #fff;
-        stroke-miterlimit: 10;
-      }
-
-      .cartina-4 {
-        fill: black;
-      }
-
-      .cartina-6 {
-        font-size: 20px;
-        fill: white;
-      }
-
-      .cartina-10, .cartina-13, .cartina-8 {
-        fill: #231916;
-      }
-
-      .cartina-10, .cartina-6 {
-        font-family: Cutive Mono;
-      }
-
-      .cartina-11, .cartina-7 {
-        color: #fff;
-      }
-
-      .cartina-7 {
-        opacity: 0.5;
-        background-color: black;
-      }
-
-      .cartina-10 {
-        font-size: 35px;
-        fill: white;
-      }
-
-      .cartina-5{
-        fill: white;
-          opacity:1;
-        animation: pulse1 3s infinite cubic-bezier(.73, .04, .4, .98);
-
-      }
-
+.fade-it-in {
+  opacity:1;
+}
 
 @-webkit-keyframes pulse1 {
   0%   { opacity: 1; }
-  100% { opacity: .8; }
+  50% { opacity: .8; }
+  0%   { opacity: 1; }
 }
 
+#quandohoveri-mappabig {
+    opacity: 0;
+}
 
-      .cartina-12, .cartina-13 {
-        white-space: pre;
-        fill: white;
+#korea-mappabig {
+    animation: pulse1 2s infinite;
+    cursor: pointer;
+}
+
+            .mappaintro-1, .mappaintro-17, .mappaintro-2, .mappaintro-5, .mappaintro-7, .mappaintro-9 {
+        fill: #fff;
       }
 
-/*btn*/
-.btn-circle {
-  font-size: 26px;
-  width: 55px;
-  height: 55px;
-  margin-top: 15px;
-  line-height: 38px;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-  color: white;
-  border: 2px solid white;
-  border-radius: 100% !important;
-  background: transparent; }
-  .btn-circle:focus, .btn-circle:hover {
-    color: white;
-    outline: none;
-    background: rgba(255, 255, 255, 0.1); }
+      .mappaintro-1 {
+        opacity: 0.1;
+      }
 
-.btn {
-  font-family: 'Cutive Mono', monospace;
-  font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
-  border-radius: 0; }
+      .mappaintro-2 {
+        opacity: 0.15;
+      }
 
-.btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
-  background-color: transparent; }
-  .btn-default:focus, .btn-default:hover {
-    color: black;
-    border: 1px solid #42DCA3;
-    outline: none;
-    background-color: #42DCA3; }
+      .mappaintro-10, .mappaintro-11, .mappaintro-12, .mappaintro-13, .mappaintro-14, .mappaintro-15, .mappaintro-16, .mappaintro-3, .mappaintro-4, .mappaintro-6 {
+        fill: none;
+        stroke-linejoin: round;
+      }
 
-/*for animation*/
+      .mappaintro-3 {
+        stroke: #bcbcbc;
+        stroke-dasharray: 1 2;
+      }
 
-.hidden {
-  display: none;
+      .mappaintro-10, .mappaintro-11, .mappaintro-12, .mappaintro-13, .mappaintro-14, .mappaintro-15, .mappaintro-16, .mappaintro-3 {
+        stroke-linecap: round;
+      }
+
+      .mappaintro-10, .mappaintro-11, .mappaintro-12, .mappaintro-13, .mappaintro-14, .mappaintro-15, .mappaintro-16, .mappaintro-3, .mappaintro-6 {
+        stroke-width: 0.5px;
+      }
+
+      .mappaintro-10, .mappaintro-11, .mappaintro-12, .mappaintro-13, .mappaintro-14, .mappaintro-15, .mappaintro-16, .mappaintro-4, .mappaintro-6 {
+        stroke: #fff;
+      }
+
+      .mappaintro-4 {
+        stroke-width: 0.7px;
+      }
+
+      .mappaintro-7 {
+        opacity: 0.5;
+        fill: #f5c95a;
+      }
+
+      .mappaintro-8 {
+        opacity: 0.7;
+      }
+
+      .mappaintro-9 {
+        font-size: 11px;
+        font-family: Cutive Mono;
+      }
+
+      .mappaintro-11 {
+        stroke-dasharray: 0.76 2.026;
+      }
+
+      .mappaintro-12 {
+        stroke-dasharray: 1.522 4.059;
+      }
+
+      .mappaintro-13 {
+        stroke-dasharray: 1.615 4.308;
+      }
+
+      .mappaintro-14 {
+        stroke-dasharray: 1.557 4.153;
+      }
+
+      .mappaintro-15 {
+        stroke-dasharray: 1.095 2.919;
+      }
+
+      .mappaintro-16 {
+        stroke-dasharray: 1.109 2.957;
+      }
+
+      .mappaintro-17 {
+        font-size: 12.815px;
+        font-family: Montserrat;
+      }
+
+
+/*WBD*/
+
+#migration-wbd{
+  background-color: whitesmoke;
 }
 
-*:focus {
-    outline: 0;
+#sfondo{
+  bottom:240px;
+  margin-top: -16%;
 }
 
-.type-input {
-  font-family: 'Cutive Mono', monospace;
-  position:relative;
-  z-index: 9999;
-  border: none;
-  background: transparent;
-  font-size: 50px;
-  color: #444;
-    font-weight: 700px;
-  width: 100%;
-  margin-left: 100px;
-}
-
-
-.rw-sentence span{
-	color: #444;
-	font-weight: 700px;
-    font-size: 50px;
-}
-
-.rw-words{
-	display: inline;
-  font-family: 'Cutive Mono', monospace;
-    font-size: 50px;
-    font-weight: 700;
-}
-
-.type{
-	position: absolute;
-  text-align: center;
-	opacity: 0;
-	overflow: hidden;
-	-webkit-animation: words 24s steps(48) infinite 0s;
-    /*color: #df2325;*/
-    padding: 10px;
-}
-.type:nth-child(2) {
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
-}
-.type:nth-child(3) {
-  -webkit-animation-delay: 8s;
-  animation-delay: 8s;
-}
-.type:nth-child(4) {
-  -webkit-animation-delay: 12s;
-	animation-delay: 12s;
-}
-.type:nth-child(5) {
-  -webkit-animation-delay: 16s;
-	animation-delay: 16s;
-}
-.type:nth-child(6) {
-  -webkit-animation-delay: 20s;
-	animation-delay: 20s;
-}
-
-@-webkit-keyframes words {
-  0% { opacity: 0; width: 0; }
-  2% { opacity: 1;}
-  14% { opacity: 1; width: 48ch;}
-  15% { opacity: 0; }
-}
-
-span > span {
-	animation: cursor 0.8s infinite;
-}
-
-@keyframes cursor {
-	0% {
-		opacity: 0;
-	}
-	20% {
-		opacity: 0;
-	}
-	30% {
-		opacity: 1;
-	}
-	90% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-/*.animhead .anim-body {
-    vertical-align: left;
-margin-left: -200px;
-}*/
-    .animhead .anim-body .anim-heading {
-        font-weight:700;
-        font-family: 'Montserrat', sans-serif;
-        vertical-align: middle;
-        text-align: center;
-        margin-top:3%;
-        margin-bottom: 20%;
-}
-
-.animhead {
-    background-color: #000;
-    color: white;
-    padding-bottom: 50px;
-    padding-top: 0px;
-
-}
-
-
-/*Pagina Due con sfondo nero*/
-
-#pagina-due{
-  background-color: black;
-}
-
-.pagina-due-margini{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-
-
-/*for introduction text*/
-
-#intro {
-    background-color: black;
-}
-
-.paragrafo-testo{
-    /*text-align: justify;*/
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 700;
-    font-size: 14px;
-    width: 100%;
-    height: 10%;
-    color: #020202;
-    text-align: justify;
-    word-spacing: -4px;
-}
-
-.titolo-paragrafo{
-  font-size: 30px;
-  padding-top: 30px;
-}
-
-.padding-paragrafi{
-  padding-top: 10%;
-}
-
-/*for WBD, first one*/
 .wbd-unhcr-fonti{
   padding-bottom: 3%;
   padding-top: 3%;
@@ -454,28 +282,26 @@ margin-bottom: -250px;
     color: black;
 }
 
-.bil-fadeinr, .linee-bil, .bil-fadein-nodatr {
+#anni-bil{
+  stroke: #020202;
+}
+
+
+
+      .bil-fadeinr {
+        fill: #f4c651;
+      }
+
+      .bil-fadein-nodatr {
         fill: none;
       }
 
-      .bil-fadeinr {
-        stroke: #f4c651;
-      }
-
-      .bil-fadeinr, .bil-fadein-nodatr {
-        stroke-miterlimit: 10;
-      }
 
       .bil-fadeint, .bil-fadein-nodatt {
         font-size: 20px;
       }
 
-      .bil-fadeint {
-        fill: #f4c651;
-        font-family: 'Cutive Mono';
-      }
-
-      .years-bil, .bil-fadein-nodatt {
+    	.years-bil {
         font-family: 'Cutive Mono';
 
       }
@@ -484,85 +310,96 @@ margin-bottom: -250px;
         stroke: #000;
       }
 
+. bil-fadeint, .bil-fadein-nodatt {
+        font-size: 30px;
+        fill: #f5f5f5;
+        font-family: Cutive Mono;
+      }
+
+
+
+      .notata-bil-3 {
+        fill: url(#Sfumatura_senza_nome_31);
+      }
+
+      .notata-bil-4 {
+        fill: url(#Sfumatura_senza_nome_31-2);
+      }
+
+      .notata-bil-5 {
+        fill: url(#Sfumatura_senza_nome_31-3);
+      }
 
       .notata-bil-6 {
-        fill: url(#Sfumatura_senza_nome_46);
+        fill: url(#Sfumatura_senza_nome_31-4);
       }
 
       .notata-bil-7 {
-        fill: url(#Sfumatura_senza_nome_46-2);
+        fill: url(#Sfumatura_senza_nome_31-5);
       }
 
       .notata-bil-8 {
-        fill: url(#Sfumatura_senza_nome_46-3);
+        fill: url(#Sfumatura_senza_nome_31-6);
       }
 
       .notata-bil-9 {
-        fill: url(#Sfumatura_senza_nome_46-4);
+        fill: url(#Sfumatura_senza_nome_31-7);
       }
 
       .notata-bil-10 {
-        fill: url(#Sfumatura_senza_nome_46-5);
+        fill: url(#Sfumatura_senza_nome_31-8);
       }
 
       .notata-bil-11 {
-        fill: url(#Sfumatura_senza_nome_46-6);
+        fill: url(#Sfumatura_senza_nome_39);
       }
 
       .notata-bil-12 {
-        fill: url(#Sfumatura_senza_nome_46-7);
+        fill: url(#Sfumatura_senza_nome_39-2);
       }
 
       .notata-bil-13 {
-        fill: url(#Sfumatura_senza_nome_46-8);
+        fill: url(#Sfumatura_senza_nome_39-3);
       }
 
       .notata-bil-14 {
-        fill: url(#Sfumatura_senza_nome_52);
+        fill: url(#Sfumatura_senza_nome_39-4);
       }
 
       .notata-bil-15 {
-        fill: url(#Sfumatura_senza_nome_52-2);
+        fill: url(#Sfumatura_senza_nome_39-5);
       }
 
       .notata-bil-16 {
-        fill: url(#Sfumatura_senza_nome_52-3);
+        fill: url(#Sfumatura_senza_nome_39-6);
       }
 
       .notata-bil-17 {
-        fill: url(#Sfumatura_senza_nome_52-4);
+        fill: url(#Sfumatura_senza_nome_39-7);
       }
 
       .notata-bil-18 {
-        fill: url(#Sfumatura_senza_nome_52-5);
-      }
-
-      .notata-bil-19 {
-        fill: url(#Sfumatura_senza_nome_52-6);
-      }
-
-      .notata-bil-20 {
-        fill: url(#Sfumatura_senza_nome_52-7);
-      }
-
-      .notata-bil-21 {
-        fill: url(#Sfumatura_senza_nome_52-8);
+        fill: url(#Sfumatura_senza_nome_39-8);
       }
 
       .years-bil {
         isolation: isolate;
         font-size: 12.548px;
-        fill: #fff;
+        font-family: Montserrat;
+        fill: #000;
       }
 
       .countries-bil {
-        fill: #ededed;
+        fill: #c7c7c7;
         fill-opacity: 0.9;
+          z-index: 3;
       }
 
-      .linee-bil {
-        stroke: #e59dbd;
-      }
+      .linee-bil{
+          stroke: whitesmoke;
+          z-index: 1;
+        }
+
 
 
 .bil-fadeinr {
@@ -582,73 +419,35 @@ margin-bottom: -250px;
 }
 
 
-/*for charts*/
-
-
-#chart-title1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    padding-bottom: 10px;
+.fonte{
+  margin-top: -10%;
+  margin-bottom: 5%;
 }
-
-/*for UNHCR, second one*/
-
+#margine-bump{
+  margin-bottom: 10%;
+}
+/*UNHCR*/
 #unhcr {
-    background-color: #fff2cc;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 700;
-    font-size: 16px;
-    width: 100%;
-    height: 10%;
-    background: -webkit-linear-gradient(rgb(255, 206, 153), rgb(255, 217, 204)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgb(255, 206, 153), rgb(255, 217, 204)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgb(255, 206, 153), rgb(255, 217, 204)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgb(255, 206, 153), rgb(255, 217, 204)); /* Standard syntax */
+  background-color: whitesmoke;
 }
 
-.charttwo {
-    background-color: #ffffff;
-    color: #020202;
+#barre-unhcr {
+  margin-right: 7%;
+  margin-left: 2%;
+  margin-bottom: 10%;
 }
-
-.paragrafo-unhcr {
-  /*padding-left: 9.5%;
-  padding-right: 10%;*/
-  font-weight: 700;
-  font-size: 14px;
-  width: 100%;
-  height: 10%;
-  color: #020202;
-}
-.grafico-unhcr {
-  margin-left: 4%;
-  margin-top: -5%;
-}
-
-.titolo-paragrafo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-#titolo-unhcr{
-  color: #020202;
-}
-
-/* UNHCR*/
 
 #legenda-unhcr{
 position: relative;
-width:100%;
-height:auto;
+width: 75%;
+height: auto;
 }
+/*grafico-unhcr*/
 .rett-1 {
         fill: #c7c7c7;
         opacity: 1;
       }
+
 
       .anni-unhcrY, .anni-unhcr, .nomi-unhcr {
         font-size: 5.5px;
@@ -708,111 +507,31 @@ height:auto;
         white-space: pre;
       }
 
-
-
-/*Intro MOU/NKDB*/
-
-#intro-mou-nkdb {
-  background-color: black;
-  background: -webkit-linear-gradient(rgb(26, 26, 26), black); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgb(26, 26, 26), black); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgb(26, 26, 26), black); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgb(26, 26, 26), black); /* Standard syntax */
+.fonte-unhcr{
+  margin-top: -5%;
 }
 
-#titolo-intro-nkdb{
-  padding-top: 30%;
-  padding-left:11%;
-  padding-right: 11%;
-  padding-bottom: 10%;
-}
+/*Intro MOU NKDB*/
 
-/*for MOU, tird one*/
-
-#places-title {
-  padding-top: 40px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  padding-bottom: 4%;
-}
-
-/*for MOU, tird one*/
-.line1{
-width: 10vw;
-height: auto;
- border: 1px solid white;
- -webkit-transform:
- translateX(46vw)
- translateY(20px);
- left:600px;
- margin-bottom: 5%;
-
-}
-
-#mou {
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 700;
-    font-size: 16px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-     background-color: black;
-    width: 100%;
-    height: 10%;
-    color: white;
-}
-
-#mou-total {
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 700;
-    font-size: 16px;
-    padding-bottom: 0px;
-    padding-top: 100px;
-     background-color: black;
-    width: 100%;
-    height: 10%;
-    color: white;
-}
-
-#mou-specific {
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 700;
-    font-size: 16px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-     background-color: black;
-    width: 100%;
-    height: 10%;
-    color: white;
+.mou-nkdb{
+  background-color: #020202;
 }
 
 
 
-/*Prima sezione MOU - male female*/
-
-.mou-paragrafo-colore{
-  color: white; !important
+#titolo-intro{
+  text-align: center;
+  margin-top: 20%;
 }
 
-.defector-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  background-color: white;
-  color: black; !important
+#intromou{
+  margin-bottom: 10%;
 }
+/*Bump Chart MOU Male/Female*/
 
-.grafico-mou-uno{
-  padding-top: 10%;
-  margin-bottom: 50px;
+#Moutotalegender{
+  margin: 5%;
 }
-
-/*male female mou*/
-#padding-sinistro-defector{
-  padding-left:42%;
-}
-
-
 .fadein-mou-n, .anni-moutot {
         isolation: isolate;
       }
@@ -838,6 +557,13 @@ height: auto;
         font-size: 11px;
       }
 
+      .colore-mou-maschi{
+        fill: #b2dce0;
+      }
+
+      .colore-mou-femmine{
+        fill: #fad881;
+      }
       .linee-moutot {
         fill: none;
         stroke: #000;
@@ -850,29 +576,34 @@ height: auto;
       }
 
 #Male-flusso:hover {
-    fill: #d6f7e3;
+    fill: #b2dce0;
 }
 
 #Female-flusso:hover {
-    fill: #f7d4d5;
+    fill: #fad881;
 }
-/* hover change colors */
 
-.color-changef {
-    fill: #e59dbd;
-    }
-.color-changem {
-    fill: #aee9e8;
-    }
-.color-changen {
-    fill: #000000;
-    }
+.fonte-nkdb {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
 
-/*map mou/mappa NK e SK*/
+/*Mappa SK NK*/
+#mappa-NK-SK{
+  background-color: #020202;
+}
 
+#regioni-perilluminar {
+    cursor: pointer;
+}
 
 #mappa-paragrafo{
   color: white; !important
+}
+
+#carta-SKNK{
+  padding: 0px auto;
+  margin-right: 5%;
 }
 
 .mappakorea{
@@ -881,84 +612,889 @@ height: auto;
   margin-bottom: -100px;
 }
 
-#southkorea-map {
-    margin-left: 15px;
-}
-
-#sfondomare-bianco {
-    fill: white;
-}
-
-
-.classeuno, .classeundici, .classedodici, .classedue, .classecinque, .classesei, .classesette, .classeotto {
+      .map-1, .map-201, .map-202, .map-203, .map-204, .map-207, .map-208 {
         fill: #fff;
       }
 
-      .classedue {
+      .map-1, .map-2, .map-3 {
+        opacity: 0.05;
+      }
+
+      .map-2, .map-4 {
+        fill: #fcfcfc;
+      }
+
+      .map-5 {
         opacity: 0.1;
+        fill: #fff;
       }
 
-      .classetredici, .classetre, .classequattro {
+      .map-10, .map-100, .map-101, .map-102, .map-103, .map-104, .map-105, .map-106, .map-107, .map-108, .map-109, .map-11, .map-110, .map-111, .map-112, .map-113, .map-114, .map-115, .map-116, .map-117, .map-118, .map-119, .map-12, .map-120, .map-121,
+      .map-122, .map-123, .map-124, .map-125, .map-126, .map-127, .map-128, .map-129, .map-13, .map-130, .map-131, .map-132, .map-133, .map-134, .map-135, .map-136, .map-137, .map-138, .map-139, .map-14, .map-140, .map-141, .map-142, .map-143, .map-144,
+      .map-145, .map-146, .map-147, .map-148, .map-149, .map-15, .map-150, .map-151, .map-152, .map-153, .map-154, .map-155, .map-156, .map-157, .map-158, .map-159, .map-16, .map-160, .map-161, .map-162, .map-163, .map-164, .map-165, .map-166, .map-167,
+      .map-168, .map-169, .map-17, .map-170, .map-171, .map-172, .map-173, .map-174, .map-175, .map-176, .map-177, .map-178, .map-179, .map-18, .map-180, .map-181, .map-182, .map-183, .map-184, .map-185, .map-186, .map-187, .map-188, .map-189, .map-19,
+      .map-190, .map-191, .map-192, .map-193, .map-194, .map-195, .map-196, .map-197, .map-198, .map-199, .map-20, .map-200, .map-21, .map-22, .map-23, .map-24, .map-25, .map-26, .map-27, .map-28, .map-29, .map-30, .map-31, .map-32, .map-33,
+      .map-34, .map-35, .map-36, .map-37, .map-38, .map-39, .map-40, .map-41, .map-42, .map-43, .map-44, .map-45, .map-46, .map-47, .map-48, .map-49, .map-50, .map-51, .map-52, .map-53, .map-54, .map-55, .map-56, .map-57, .map-58,
+      .map-59, .map-6, .map-60, .map-61, .map-62, .map-63, .map-64, .map-65, .map-66, .map-67, .map-68, .map-69, .map-7, .map-70, .map-71, .map-72, .map-73, .map-74, .map-75, .map-76, .map-77, .map-78, .map-79, .map-8, .map-80,
+      .map-81, .map-82, .map-83, .map-84, .map-85, .map-86, .map-87, .map-88, .map-89, .map-9, .map-90, .map-91, .map-92, .map-93, .map-94, .map-95, .map-96, .map-97, .map-98, .map-99 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .map-10, .map-11, .map-12, .map-200, .map-205, .map-6, .map-7, .map-8, .map-9 {
         stroke: #fff;
-        stroke-miterlimit: 10;
       }
 
-      .classetre {
-        stroke-width: 0.25px;
+      .map-10, .map-100, .map-101, .map-102, .map-103, .map-104, .map-105, .map-106, .map-107, .map-108, .map-109, .map-11, .map-110, .map-111, .map-112, .map-113, .map-114, .map-115, .map-116, .map-117, .map-118, .map-119, .map-12, .map-120, .map-121,
+      .map-122, .map-123, .map-124, .map-125, .map-126, .map-127, .map-128, .map-129, .map-13, .map-130, .map-131, .map-132, .map-133, .map-134, .map-135, .map-136, .map-137, .map-138, .map-139, .map-14, .map-140, .map-141, .map-142, .map-143, .map-144,
+       .map-145, .map-146, .map-147, .map-148, .map-149, .map-15, .map-150, .map-151, .map-152, .map-153, .map-154, .map-155, .map-156, .map-157, .map-158, .map-159, .map-16, .map-160, .map-161, .map-162, .map-163, .map-164, .map-165, .map-166, .map-167,
+       .map-168, .map-169, .map-17, .map-170, .map-171, .map-172, .map-173, .map-174, .map-175, .map-176, .map-177, .map-178, .map-179, .map-18, .map-180, .map-181, .map-182, .map-183, .map-184, .map-185, .map-186, .map-187, .map-188, .map-189, .map-19,
+       .map-190, .map-191, .map-192, .map-193, .map-194, .map-195, .map-196, .map-197, .map-198, .map-199, .map-20, .map-21, .map-22, .map-23, .map-24, .map-25, .map-26, .map-27, .map-28, .map-29, .map-30, .map-31, .map-32, .map-33, .map-34,
+       .map-35, .map-36, .map-37, .map-38, .map-39, .map-40, .map-41, .map-42, .map-43, .map-44, .map-45, .map-46, .map-47, .map-48, .map-49, .map-50, .map-51, .map-52, .map-53, .map-54, .map-55, .map-56, .map-57, .map-58, .map-59,
+       .map-6, .map-60, .map-61, .map-62, .map-63, .map-64, .map-65, .map-66, .map-67, .map-68, .map-69, .map-7, .map-70, .map-71, .map-72, .map-73, .map-74, .map-75, .map-76, .map-77, .map-78, .map-79, .map-8, .map-80, .map-81,
+       .map-82, .map-83, .map-84, .map-85, .map-86, .map-87, .map-88, .map-89, .map-9, .map-90, .map-91, .map-92, .map-93, .map-94, .map-95, .map-96, .map-97, .map-98, .map-99 {
+        stroke-linecap: round;
       }
 
-      .classecinque {
-        font-size: 8.176px;
+      .map-10, .map-11, .map-12, .map-6, .map-7, .map-8, .map-9 {
+        stroke-width: 1.5px;
       }
 
-     .classedodici, .classecinque, .classesei, .classesette, .classeotto, .classenove {
-        font-family: 'Cutive Mono', monospace;
+      .map-7 {
+        stroke-dasharray: 1.24 3.308;
       }
 
-      .classesei {
-        font-size: 5.84px;
+      .map-8 {
+        stroke-dasharray: 1.344 3.584;
       }
 
-      .classesette {
-        font-size: 19px;
+      .map-9 {
+        stroke-dasharray: 1.431 3.816;
       }
 
-      .classeotto, .classenove {
+      .map-10 {
+        stroke-dasharray: 1.537 4.1;
+      }
+
+      .map-11 {
+        stroke-dasharray: 1.737 4.633;
+      }
+
+      .map-12 {
+        stroke-dasharray: 1.758 4.689;
+      }
+
+      .map-100, .map-101, .map-102, .map-103, .map-104, .map-105, .map-106, .map-107, .map-108, .map-109, .map-110, .map-111, .map-112, .map-113, .map-114, .map-115, .map-116, .map-117, .map-118, .map-119, .map-120, .map-121, .map-122, .map-123, .map-124,
+      .map-125, .map-126, .map-127, .map-128, .map-129, .map-13, .map-130, .map-131, .map-132, .map-133, .map-134, .map-135, .map-136, .map-137, .map-138, .map-139, .map-14, .map-140, .map-141, .map-142, .map-143, .map-144, .map-145, .map-146, .map-147,
+      .map-148, .map-149, .map-15, .map-150, .map-151, .map-152, .map-153, .map-154, .map-155, .map-156, .map-157, .map-158, .map-159, .map-16, .map-160, .map-161, .map-162, .map-163, .map-164, .map-165, .map-166, .map-167, .map-168, .map-169, .map-17,
+      .map-170, .map-171, .map-172, .map-173, .map-174, .map-175, .map-176, .map-177, .map-178, .map-179, .map-18, .map-180, .map-181, .map-182, .map-183, .map-184, .map-185, .map-186, .map-187, .map-188, .map-189, .map-19, .map-190, .map-191, .map-192,
+      .map-193, .map-194, .map-195, .map-196, .map-197, .map-198, .map-199, .map-20, .map-21, .map-22, .map-23, .map-24, .map-25, .map-26, .map-27, .map-28, .map-29, .map-30, .map-31, .map-32, .map-33, .map-34, .map-35, .map-36, .map-37,
+      .map-38, .map-39, .map-40, .map-41, .map-42, .map-43, .map-44, .map-45, .map-46, .map-47, .map-48, .map-49, .map-50, .map-51, .map-52, .map-53, .map-54, .map-55, .map-56, .map-57, .map-58, .map-59, .map-60, .map-61, .map-62,
+      .map-63, .map-64, .map-65, .map-66, .map-67, .map-68, .map-69, .map-70, .map-71, .map-72, .map-73, .map-74, .map-75, .map-76, .map-77, .map-78, .map-79, .map-80, .map-81, .map-82, .map-83, .map-84, .map-85, .map-86, .map-87,
+      .map-88, .map-89, .map-90, .map-91, .map-92, .map-93, .map-94, .map-95, .map-96, .map-97, .map-98, .map-99 {
+        stroke: #bcbcbc;
+      }
+
+      .map-100, .map-101, .map-102, .map-103, .map-104, .map-105, .map-106, .map-107, .map-108, .map-109, .map-110, .map-111, .map-112, .map-113, .map-114, .map-115, .map-116, .map-117, .map-118, .map-119, .map-120, .map-121, .map-122, .map-123, .map-124,
+       .map-125, .map-126, .map-127, .map-128, .map-129, .map-13, .map-130, .map-131, .map-132, .map-133, .map-134, .map-135, .map-136, .map-137, .map-138, .map-139, .map-14, .map-140, .map-141, .map-142, .map-143, .map-144, .map-145, .map-146, .map-147,
+        .map-148, .map-149, .map-15, .map-150, .map-151, .map-152, .map-153, .map-154, .map-155, .map-156, .map-157, .map-158, .map-159, .map-16, .map-160, .map-161, .map-162, .map-163, .map-164, .map-165, .map-166, .map-167, .map-168, .map-169, .map-17,
+        .map-170, .map-171, .map-172, .map-173, .map-174, .map-175, .map-176, .map-177, .map-178, .map-179, .map-18, .map-180, .map-181, .map-182, .map-183, .map-184, .map-185, .map-186, .map-187, .map-188, .map-189, .map-19, .map-190, .map-191, .map-192,
+        .map-193, .map-194, .map-195, .map-196, .map-197, .map-198, .map-199, .map-20, .map-200, .map-205, .map-21, .map-22, .map-23, .map-24, .map-25, .map-26, .map-27, .map-28, .map-29, .map-30, .map-31, .map-32, .map-33, .map-34, .map-35,
+        .map-36, .map-37, .map-38, .map-39, .map-40, .map-41, .map-42, .map-43, .map-44, .map-45, .map-46, .map-47, .map-48, .map-49, .map-50, .map-51, .map-52, .map-53, .map-54, .map-55, .map-56, .map-57, .map-58, .map-59, .map-60,
+        .map-61, .map-62, .map-63, .map-64, .map-65, .map-66, .map-67, .map-68, .map-69, .map-70, .map-71, .map-72, .map-73, .map-74, .map-75, .map-76, .map-77, .map-78, .map-79, .map-80, .map-81, .map-82, .map-83, .map-84, .map-85,
+        .map-86, .map-87, .map-88, .map-89, .map-90, .map-91, .map-92, .map-93, .map-94, .map-95, .map-96, .map-97, .map-98, .map-99 {
+        stroke-width: 0.5px;
+      }
+
+      .map-14 {
+        stroke-dasharray: 0.5 1.001;
+      }
+
+      .map-15 {
+        stroke-dasharray: 0.628 1.256;
+      }
+
+      .map-16 {
+        stroke-dasharray: 0.569 1.138;
+      }
+
+      .map-17 {
+        stroke-dasharray: 0.512 1.025;
+      }
+
+      .map-18 {
+        stroke-dasharray: 0.783 1.565;
+      }
+
+      .map-19 {
+        stroke-dasharray: 1.024 2.048;
+      }
+
+      .map-20 {
+        stroke-dasharray: 0.844 1.688;
+      }
+
+      .map-21 {
+        stroke-dasharray: 1.182 2.364;
+      }
+
+      .map-22 {
+        stroke-dasharray: 0.97 1.941;
+      }
+
+      .map-23 {
+        stroke-dasharray: 0.508 1.015;
+      }
+
+      .map-24 {
+        stroke-dasharray: 0.927 1.853;
+      }
+
+      .map-25 {
+        stroke-dasharray: 0.974 1.948;
+      }
+
+      .map-26 {
+        stroke-dasharray: 1.033 2.067;
+      }
+
+      .map-27 {
+        stroke-dasharray: 0.935 1.87;
+      }
+
+      .map-28 {
+        stroke-dasharray: 0.918 1.836;
+      }
+
+      .map-29 {
+        stroke-dasharray: 0.868 1.735;
+      }
+
+      .map-30 {
+        stroke-dasharray: 0.978 1.956;
+      }
+
+      .map-31 {
+        stroke-dasharray: 0.892 1.783;
+      }
+
+      .map-32 {
+        stroke-dasharray: 1.167 2.334;
+      }
+
+      .map-33 {
+        stroke-dasharray: 1.166 2.332;
+      }
+
+      .map-34 {
+        stroke-dasharray: 1.115 2.229;
+      }
+
+      .map-35 {
+        stroke-dasharray: 0.721 1.441;
+      }
+
+      .map-36 {
+        stroke-dasharray: 0.955 1.91;
+      }
+
+      .map-37 {
+        stroke-dasharray: 0.715 1.431;
+      }
+
+      .map-38 {
+        stroke-dasharray: 0.885 1.771;
+      }
+
+      .map-39 {
+        stroke-dasharray: 1.041 2.083;
+      }
+
+      .map-40 {
+        stroke-dasharray: 1.162 2.325;
+      }
+
+      .map-41 {
+        stroke-dasharray: 0.661 1.322;
+      }
+
+      .map-42 {
+        stroke-dasharray: 0.937 1.874;
+      }
+
+      .map-43 {
+        stroke-dasharray: 0.937 1.874;
+      }
+
+      .map-44 {
+        stroke-dasharray: 0.928 1.856;
+      }
+
+      .map-45 {
+        stroke-dasharray: 0.659 1.317;
+      }
+
+      .map-46 {
+        stroke-dasharray: 0.682 1.363;
+      }
+
+      .map-47 {
+        stroke-dasharray: 0.931 1.861;
+      }
+
+      .map-48 {
+        stroke-dasharray: 0.817 1.634;
+      }
+
+      .map-49 {
+        stroke-dasharray: 0.827 1.654;
+      }
+
+      .map-50 {
+        stroke-dasharray: 0.97 1.94;
+      }
+
+      .map-51 {
+        stroke-dasharray: 0.672 1.344;
+      }
+
+      .map-52 {
+        stroke-dasharray: 0.982 1.965;
+      }
+
+      .map-53 {
+        stroke-dasharray: 0.949 1.898;
+      }
+
+      .map-54 {
+        stroke-dasharray: 1.033 2.066;
+      }
+
+      .map-55 {
+        stroke-dasharray: 0.84 1.681;
+      }
+
+      .map-56 {
+        stroke-dasharray: 0.746 1.492;
+      }
+
+      .map-57 {
+        stroke-dasharray: 1.018 2.035;
+      }
+
+      .map-58 {
+        stroke-dasharray: 0.742 1.484;
+      }
+
+      .map-59 {
+        stroke-dasharray: 0.742 1.484;
+      }
+
+      .map-60 {
+        stroke-dasharray: 0.936 1.872;
+      }
+
+      .map-61 {
+        stroke-dasharray: 0.773 1.546;
+      }
+
+      .map-62 {
+        stroke-dasharray: 0.955 1.91;
+      }
+
+      .map-63 {
+        stroke-dasharray: 1.043 2.087;
+      }
+
+      .map-64 {
+        stroke-dasharray: 1.064 2.128;
+      }
+
+      .map-65 {
+        stroke-dasharray: 0.853 1.706;
+      }
+
+      .map-66 {
+        stroke-dasharray: 0.993 1.986;
+      }
+
+      .map-67 {
+        stroke-dasharray: 1.06 2.119;
+      }
+
+      .map-68 {
+        stroke-dasharray: 0.78 1.56;
+      }
+
+      .map-69 {
+        stroke-dasharray: 0.514 1.027;
+      }
+
+      .map-70 {
+        stroke-dasharray: 0.579 1.158;
+      }
+
+      .map-71 {
+        stroke-dasharray: 0.821 1.641;
+      }
+
+      .map-72 {
+        stroke-dasharray: 0.958 1.916;
+      }
+
+      .map-73 {
+        stroke-dasharray: 0.831 1.661;
+      }
+
+      .map-74 {
+        stroke-dasharray: 0.538 1.075;
+      }
+
+      .map-75 {
+        stroke-dasharray: 0.949 1.897;
+      }
+
+      .map-76 {
+        stroke-dasharray: 0.573 1.145;
+      }
+
+      .map-77 {
+        stroke-dasharray: 0.589 1.179;
+      }
+
+      .map-78 {
+        stroke-dasharray: 0.554 1.107;
+      }
+
+      .map-79 {
+        stroke-dasharray: 1.114 2.228;
+      }
+
+      .map-80 {
+        stroke-dasharray: 0.696 1.391;
+      }
+
+      .map-81 {
+        stroke-dasharray: 0.704 1.407;
+      }
+
+      .map-82 {
+        stroke-dasharray: 0.717 1.434;
+      }
+
+      .map-83 {
+        stroke-dasharray: 0.828 1.657;
+      }
+
+      .map-84 {
+        stroke-dasharray: 0.983 1.966;
+      }
+
+      .map-85 {
+        stroke-dasharray: 1.085 2.17;
+      }
+
+      .map-86 {
+        stroke-dasharray: 0.634 1.268;
+      }
+
+      .map-87 {
+        stroke-dasharray: 0.534 1.069;
+      }
+
+      .map-88 {
+        stroke-dasharray: 0.863 1.726;
+      }
+
+      .map-89 {
+        stroke-dasharray: 0.982 1.964;
+      }
+
+      .map-90 {
+        stroke-dasharray: 0.679 1.359;
+      }
+
+      .map-91 {
+        stroke-dasharray: 0.885 1.77;
+      }
+
+      .map-92 {
+        stroke-dasharray: 1.043 2.086;
+      }
+
+      .map-93 {
+        stroke-dasharray: 0.972 1.944;
+      }
+
+      .map-94 {
+        stroke-dasharray: 0.574 1.148;
+      }
+
+      .map-95 {
+        stroke-dasharray: 0.834 1.668;
+      }
+
+      .map-96 {
+        stroke-dasharray: 0.607 1.213;
+      }
+
+      .map-97 {
+        stroke-dasharray: 0.565 1.129;
+      }
+
+      .map-98 {
+        stroke-dasharray: 0.995 1.99;
+      }
+
+      .map-99 {
+        stroke-dasharray: 0.917 1.834;
+      }
+
+      .map-100 {
+        stroke-dasharray: 1.16 2.32;
+      }
+
+      .map-101 {
+        stroke-dasharray: 0.886 1.773;
+      }
+
+      .map-102 {
+        stroke-dasharray: 0.962 1.925;
+      }
+
+      .map-103 {
+        stroke-dasharray: 1.099 2.197;
+      }
+
+      .map-104 {
+        stroke-dasharray: 0.524 1.048;
+      }
+
+      .map-105 {
+        stroke-dasharray: 1.148 2.296;
+      }
+
+      .map-106 {
+        stroke-dasharray: 0.56 1.121;
+      }
+
+      .map-107 {
+        stroke-dasharray: 0.938 1.875;
+      }
+
+      .map-108 {
+        stroke-dasharray: 0.832 1.664;
+      }
+
+      .map-109 {
+        stroke-dasharray: 1.21 2.421;
+      }
+
+      .map-110 {
+        stroke-dasharray: 1.011 2.021;
+      }
+
+      .map-111 {
+        stroke-dasharray: 0.73 1.461;
+      }
+
+      .map-112 {
+        stroke-dasharray: 1.224 2.447;
+      }
+
+      .map-113 {
+        stroke-dasharray: 1.038 2.076;
+      }
+
+      .map-114 {
+        stroke-dasharray: 0.837 1.674;
+      }
+
+      .map-115 {
+        stroke-dasharray: 1.089 2.179;
+      }
+
+      .map-116 {
+        stroke-dasharray: 0.631 1.263;
+      }
+
+      .map-117 {
+        stroke-dasharray: 1.005 2.009;
+      }
+
+      .map-118 {
+        stroke-dasharray: 1.033 2.066;
+      }
+
+      .map-119 {
+        stroke-dasharray: 1.09 2.179;
+      }
+
+      .map-120 {
+        stroke-dasharray: 0.552 1.105;
+      }
+
+      .map-121 {
+        stroke-dasharray: 1.032 2.065;
+      }
+
+      .map-122 {
+        stroke-dasharray: 0.686 1.372;
+      }
+
+      .map-123 {
+        stroke-dasharray: 0.62 1.24;
+      }
+
+      .map-124 {
+        stroke-dasharray: 1.098 2.196;
+      }
+
+      .map-125 {
+        stroke-dasharray: 0.921 1.842;
+      }
+
+      .map-126 {
+        stroke-dasharray: 0.977 1.954;
+      }
+
+      .map-127 {
+        stroke-dasharray: 0.86 1.72;
+      }
+
+      .map-128 {
+        stroke-dasharray: 0.908 1.815;
+      }
+
+      .map-129 {
+        stroke-dasharray: 0.557 1.113;
+      }
+
+      .map-130 {
+        stroke-dasharray: 1.186 2.373;
+      }
+
+      .map-131 {
+        stroke-dasharray: 1.028 2.056;
+      }
+
+      .map-132 {
+        stroke-dasharray: 1.061 2.121;
+      }
+
+      .map-133 {
+        stroke-dasharray: 0.949 1.897;
+      }
+
+      .map-134 {
+        stroke-dasharray: 0.931 1.861;
+      }
+
+      .map-135 {
+        stroke-dasharray: 0.585 1.169;
+      }
+
+      .map-136 {
+        stroke-dasharray: 0.56 1.121;
+      }
+
+      .map-137 {
+        stroke-dasharray: 0.872 1.744;
+      }
+
+      .map-138 {
+        stroke-dasharray: 0.65 1.3;
+      }
+
+      .map-139 {
+        stroke-dasharray: 1.177 2.354;
+      }
+
+      .map-140 {
+        stroke-dasharray: 0.918 1.836;
+      }
+
+      .map-141 {
+        stroke-dasharray: 1.236 2.472;
+      }
+
+      .map-142 {
+        stroke-dasharray: 0.95 1.901;
+      }
+
+      .map-143 {
+        stroke-dasharray: 1.027 2.054;
+      }
+
+      .map-144 {
+        stroke-dasharray: 1.005 2.011;
+      }
+
+      .map-145 {
+        stroke-dasharray: 0.945 1.89;
+      }
+
+      .map-146 {
+        stroke-dasharray: 1.038 2.077;
+      }
+
+      .map-147 {
+        stroke-dasharray: 0.99 1.98;
+      }
+
+      .map-148 {
+        stroke-dasharray: 1.014 2.027;
+      }
+
+      .map-149 {
+        stroke-dasharray: 0.853 1.705;
+      }
+
+      .map-150 {
+        stroke-dasharray: 0.979 1.958;
+      }
+
+      .map-151 {
+        stroke-dasharray: 0.997 1.994;
+      }
+
+      .map-152 {
+        stroke-dasharray: 0.985 1.971;
+      }
+
+      .map-153 {
+        stroke-dasharray: 1.021 2.042;
+      }
+
+      .map-154 {
+        stroke-dasharray: 0.995 1.99;
+      }
+
+      .map-155 {
+        stroke-dasharray: 1.041 2.082;
+      }
+
+      .map-156 {
+        stroke-dasharray: 1.227 2.455;
+      }
+
+      .map-157 {
+        stroke-dasharray: 0.913 1.826;
+      }
+
+      .map-158 {
+        stroke-dasharray: 0.975 1.95;
+      }
+
+      .map-159 {
+        stroke-dasharray: 1.005 2.01;
+      }
+
+      .map-160 {
+        stroke-dasharray: 1.028 2.056;
+      }
+
+      .map-161 {
+        stroke-dasharray: 1.004 2.009;
+      }
+
+      .map-162 {
+        stroke-dasharray: 0.987 1.974;
+      }
+
+      .map-163 {
+        stroke-dasharray: 0.982 1.965;
+      }
+
+      .map-164 {
+        stroke-dasharray: 0.529 1.059;
+      }
+
+      .map-165 {
+        stroke-dasharray: 0.539 1.078;
+      }
+
+      .map-166 {
+        stroke-dasharray: 1.011 2.021;
+      }
+
+      .map-167 {
+        stroke-dasharray: 1.011 2.023;
+      }
+
+      .map-168 {
+        stroke-dasharray: 1.028 2.055;
+      }
+
+      .map-169 {
+        stroke-dasharray: 0.903 1.806;
+      }
+
+      .map-170 {
+        stroke-dasharray: 0.884 1.768;
+      }
+
+      .map-171 {
+        stroke-dasharray: 1.138 2.275;
+      }
+
+      .map-172 {
+        stroke-dasharray: 0.636 1.271;
+      }
+
+      .map-173 {
+        stroke-dasharray: 0.951 1.902;
+      }
+
+      .map-174 {
+        stroke-dasharray: 1.128 2.256;
+      }
+
+      .map-175 {
+        stroke-dasharray: 0.94 1.881;
+      }
+
+      .map-176 {
+        stroke-dasharray: 1.024 2.048;
+      }
+
+      .map-177 {
+        stroke-dasharray: 0.971 1.941;
+      }
+
+      .map-178 {
+        stroke-dasharray: 1.024 2.047;
+      }
+
+      .map-179 {
+        stroke-dasharray: 1.005 2.011;
+      }
+
+      .map-180 {
+        stroke-dasharray: 0.917 1.834;
+      }
+
+      .map-181 {
+        stroke-dasharray: 0.804 1.608;
+      }
+
+      .map-182 {
+        stroke-dasharray: 0.945 1.889;
+      }
+
+      .map-183 {
+        stroke-dasharray: 0.938 1.876;
+      }
+
+      .map-184 {
+        stroke-dasharray: 1.016 2.032;
+      }
+
+      .map-185 {
+        stroke-dasharray: 1.001 2.003;
+      }
+
+      .map-186 {
+        stroke-dasharray: 0.838 1.676;
+      }
+
+      .map-187 {
+        stroke-dasharray: 0.523 1.045;
+      }
+
+      .map-188 {
+        stroke-dasharray: 0.948 1.896;
+      }
+
+      .map-189 {
+        stroke-dasharray: 0.622 1.245;
+      }
+
+      .map-190 {
+        stroke-dasharray: 0.589 1.178;
+      }
+
+      .map-191 {
+        stroke-dasharray: 1.039 2.079;
+      }
+
+      .map-192 {
+        stroke-dasharray: 1.186 2.372;
+      }
+
+      .map-193 {
+        stroke-dasharray: 0.668 1.336;
+      }
+
+      .map-194 {
+        stroke-dasharray: 0.802 1.603;
+      }
+
+      .map-195 {
+        stroke-dasharray: 0.841 1.683;
+      }
+
+      .map-196 {
+        stroke-dasharray: 0.784 1.568;
+      }
+
+      .map-197 {
+        stroke-dasharray: 0.686 1.371;
+      }
+
+      .map-198 {
+        stroke-dasharray: 0.978 1.956;
+      }
+
+      .map-199 {
+        stroke-dasharray: 1.032 2.064;
+      }
+
+      .map-201 {
+        font-size: 15px;
+      }
+
+      .map-201, .map-202 {
+        font-family: Montserrat;
+      }
+
+      .map-202 {
+        font-size: 15px;
+      }
+
+      .map-203 {
         font-size: 14px;
       }
 
-      .classedieci {
-        font-size: 12px;
+      .map-203, .map-204, .map-207 {
+        font-family: Cutive Mono;
       }
 
-      .classeundici{
-          fill:#f4c651;
-        font-size: 36px;
-          font-family: 'Monserrat', sans-serif;
-          opacity: 0;
+      .map-204, .map-207, .map-208 {
+        opacity: 0.5;
       }
 
-      .classedodici {
+      .map-204 {
+        font-size: 9px;
+      }
+
+      .map-205 {
+        stroke-miterlimit: 3.864;
+      }
+
+      .map-206 {
+        white-space: pre;
+      }
+
+      .map-207 {
         font-size: 10px;
+
       }
 
-      .classetredici {
-        fill: none;
+      #fonte-carta{
+        margin-top: 5%;
       }
 
-.fade-it-in {
-  opacity: 1.0;
-}
-
-    #NK-tit {
-        font-family: 'Monserrat', sans-serif;
-        fill: #e59dbd;
-}
-
-    #SK-tit {
-        font-family: 'Monserrat', sans-serif;
-        fill: #aee9e8;
-}
 /* hover mou two/ bump chart maschi e femmine */
 .classeotto:hover {
     fill: #f4c651;
@@ -1018,29 +1554,92 @@ height: auto;
 }
 
 
-.color-change {
-    fill: #f4c651;
+.color-changeOP {
+    opacity: 1;
+    stroke: #f4c651;
+    stroke-width: 2px;
+    fill: #000;
+    -webkit-transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-/* mou specific/barre colorate */
+.color-change {
+    fill: #f4c651;
+    cursor: pointer;
+    -webkit-transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
 
-.cls-1, .cls-13, .cls-3 {
-        fill: #fff;
-      }
 
-      .cls-1, .cls-4 {
-        opacity: 0;
-      }
 
-      .cls-2, .cls-48 {
+
+.linee-bil, .bil-fadein-nodatr {
         fill: none;
       }
 
-      .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41 {
-        stroke: #fff;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
+.bil-fadeinr {
+    fill: #f4c651;
+}
+
+      .bil-fadein-nodatr {
+        fill: #000;
       }
+
+
+      .bil-fadeint, .bil-fadein-nodatt {
+        font-size: 20px;
+      }
+
+      .bil-fadeint, .bil-fadein-nodatt {
+        fill: #ededed;
+        font-family: 'Cutive Mono';
+      }
+
+      .years-bil {
+        font-family: 'Cutive Mono';
+
+      }
+
+      .bil-fadein-nodatr {
+        stroke: #000;
+      }
+
+
+
+      .years-bil {
+        isolation: isolate;
+        font-size: 12.548px;
+        fill: #fff;
+      }
+
+
+
+
+.bil-fadeinr {
+    opacity: 0;
+}
+
+.bil-fadeint {
+    opacity: 0;
+}
+
+.bil-fadein-nodatt {
+    opacity: 0;
+}
+
+.bil-fadein-nodatr {
+    opacity: 0;
+}
+
+
+/*MOU Specific*/
+.specific-segnaposto{
+  width: 1110px;
+  height: 300px;
+  background-color: grey;
+}
+
+/*MOU Specific Grafico*/
 
 #selector-2:hover {
     cursor: pointer;
@@ -1069,112 +1668,141 @@ height: auto;
     opacity: 0.5;
 }
 
-      .cls-13, .cls-3 {
-        font-size: 12px;
-        font-family: Cutive Mono;
+#chart-1{
+    opacity: 0;
+}
+#chart-2{
+    opacity: 0;
+}
+
+
+
+      .mouspecific-14, .mouspecific-2, .mouspecific-4 {
+        fill: #fff;
       }
 
-      .cls-18, .cls-5 {
-        fill: #f4c651;
+      .mouspecific-2, .mouspecific-5 {
+        opacity: 0;
       }
 
-      .cls-19, .cls-6 {
+      .mouspecific-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .mouspecific-15, .mouspecific-16, .mouspecific-17, .mouspecific-18, .mouspecific-19, .mouspecific-20, .mouspecific-21, .mouspecific-22, .mouspecific-3, .mouspecific-30, .mouspecific-31, .mouspecific-32, .mouspecific-33, .mouspecific-34, .mouspecific-35, .mouspecific-36, .mouspecific-37, .mouspecific-38, .mouspecific-39, .mouspecific-40, .mouspecific-41, .mouspecific-42 {
+        stroke-miterlimit: 10;
+      }
+
+      .mouspecific-3, .mouspecific-4 {
+        opacity: 0.8;
+      }
+
+      .mouspecific-14, .mouspecific-4 {
+        font-size: 14px;
+      }
+
+      .mouspecific-4 {
+        font-family: Montserrat;
+      }
+
+      .mouspecific-19, .mouspecific-6 {
+        fill: #f4c551;
+      }
+
+      .mouspecific-20, .mouspecific-7 {
         fill: #efc36b;
       }
 
-      .cls-17, .cls-7 {
-        fill: #edc782;
+      .mouspecific-18, .mouspecific-8 {
+        fill: #ecc681;
       }
 
-      .cls-14, .cls-8 {
-        fill: #eacb98;
+      .mouspecific-15, .mouspecific-9 {
+        fill: #e9ca97;
       }
 
-      .cls-20, .cls-9 {
-        fill: #e8d1af;
+      .mouspecific-10, .mouspecific-21 {
+        fill: #e8d0af;
       }
 
-      .cls-10, .cls-15 {
+      .mouspecific-11, .mouspecific-16 {
         fill: #e5d7c3;
       }
 
-      .cls-11, .cls-21 {
+      .mouspecific-12, .mouspecific-22 {
         fill: #e2ded9;
       }
 
-      .cls-12, .cls-16 {
+      .mouspecific-13, .mouspecific-17 {
         fill: #efece8;
       }
 
-      .cls-22, .cls-32 {
-        fill: #b2dde1;
+      .mouspecific-14 {
+        font-family: Cutive Mono;
       }
 
-      .cls-23, .cls-33 {
-        fill: #bbdede;
+      .mouspecific-15, .mouspecific-16, .mouspecific-17, .mouspecific-18, .mouspecific-19, .mouspecific-20, .mouspecific-21, .mouspecific-22, .mouspecific-30, .mouspecific-31, .mouspecific-32, .mouspecific-33, .mouspecific-34, .mouspecific-35, .mouspecific-36, .mouspecific-37, .mouspecific-38, .mouspecific-39, .mouspecific-40, .mouspecific-41, .mouspecific-42 {
+        stroke: #000;
+        stroke-width: 3px;
       }
 
-      .cls-24, .cls-34 {
+      .mouspecific-23, .mouspecific-33 {
+        fill: #b2dce0;
+      }
+
+      .mouspecific-24, .mouspecific-34 {
+        fill: #b9dddd;
+      }
+
+      .mouspecific-25, .mouspecific-35 {
         fill: #c7dddc;
       }
 
-      .cls-25, .cls-31 {
+      .mouspecific-26, .mouspecific-32 {
         fill: #d1dbda;
       }
 
-      .cls-26, .cls-29 {
-        fill: #d7d8d8;
+      .mouspecific-27, .mouspecific-30 {
+        fill: #d6d8d8;
       }
 
-      .cls-27, .cls-35 {
-        fill: #edefef;
+      .mouspecific-28, .mouspecific-36 {
+        fill: #ecefee;
       }
 
-      .cls-28, .cls-30 {
-        fill: #f4f4f4;
+      .mouspecific-29, .mouspecific-31 {
+        fill: #f3f3f3;
       }
 
-      .cls-36, .cls-47 {
-        fill: #e5dae0;
+      .mouspecific-37, .mouspecific-48 {
+        fill: #e4d9df;
       }
 
-      .cls-37, .cls-46a {
-        fill: #e4c3d3;
+      .mouspecific-38, .mouspecific-46 {
+        fill: #e4c2d2;
       }
 
-      .cls-38, .cls-43 {
-        fill: #e5acc7;
+      .mouspecific-39, .mouspecific-44 {
+        fill: #e4abc6;
       }
 
-      .cls-39, .cls-42 {
-        fill: #e69dbd;
+      .mouspecific-40, .mouspecific-43 {
+        fill: #e59cbd;
       }
 
-      .cls-40, .cls-44 {
-        fill: #e5b8cd;
+      .mouspecific-41, .mouspecific-45 {
+        fill: #e4b7cd;
       }
 
-      .cls-41, .cls-46 {
-        fill: #e6cfd9;
+      .mouspecific-42, .mouspecific-47 {
+        fill: #e5cfd9;
       }
 
-/*for NKDB, fourth one*/
 
-#illecit-title{
-  font-size: 30px;
-  font-family: 'Montserrat';
-  color: white;
-  padding-top: 30px;
-}
+/*China Policy*/
 
-
-#nkdb {
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 700;
-    font-size: 16px;
-    width: 100%;
-    height: 10%;
-}
 
 .chartfour {
     background-color: #020202;
@@ -1291,154 +1919,143 @@ height: auto;
   padding-bottom: 2%;
 }
 
-.mou-nkdb-fonti {
-  padding-bottom: 3%;
-  color: white;
-  font-family: 'Montserrat';
-  font-size: 12px;
-}
-
-/*Conclusioni*/
-
-#conclusioni{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
 /*Footer*/
-#back-top{
-  padding: 1%;
-  text-align: center;
-}
 .footer{
-  background-color: #8fbaa5;
+  background-color: whitesmoke;
+  padding: 5%;
 }
 
 .dd {
   height: 90px;
   width: auto;
-  margin-top: 10%;
-  margin-left: 20%;
+  margin-left: 10%;
+}
+.margini-footer {
+  padding: 1%;
+  padding-left: 3%;
+  margin-left: -5%;
+
+}
+.margine-extra{
+  margin-left: 4%;
 }
 
+.margine-extraextra{
+  margin-left: -10%;
+}
 .testo-footer {
-  color: white;
+  color: #020202;
   line-height: 1px;
   font-size: 12px;
   letter-spacing: 1px;
   padding: 0px;
 }
 
-.spacer {
-  height: 60px;
-}
-
-.text-box {
-  color: white;
-  margin-left: 5%;
-  margin-bottom: 3%;
-}
-
-
-
-.smaller {
-    font-size: 18px;
-    font-family: 'Montserrat';
-}
-
-#padding-sinistro-specific{
-margin-left: 37%;
-padding-top: 0px;
-
-}
-
-
 /*Media Breakpoints*/
-/*Small Devices*/
-@media (max-width: 567px){
 
-.grafico-unhcr{
-  margin-top: 8%;
+@media (max-width: 768px) {
+
+/*General*/
+ .paragrafo-testo{
+   letter-spacing: 0.5px;
+ }
+
+ .fonte-unhcr{
+   margin-top: -5%;
+   margin-bottom: 5%;
+ }
+
+/*Header*/
+
+.ponl-svg {
+  padding: 1%;
+  margin-bottom: 5%;
+  margin-top: 20%;
+}
+/*Grafici*/
+ #barre-unhcr{
+   margin-top: 5%;
+   margin-left:17%;
+   width: 230%;
+   height: auto;
+ }
+
+ .sezione-mou{
+   margin-top: 7%;
+ }
+
+ /*Footer*/
+
+ .margini-riga{
+   margin-left:5%;
+ }
+
+ .margini-testo-footer{
+   margin-top: 10%;
+ }
+ .margine-extra{
+   margin-left: 10%;
+   padding-left: 10%;
+ }
+ .margine-extraextra{
+   padding-right: 36%;
+ }
 }
 
-.smaller{
-  font-size: 15px;
+
+@media (max-width: 375px){
+/*Body and general*/
+#journey {
+  font-size: 12px;
+}
+
+.paragrafo-testo{
+ font-size: 11px;
+}
+h2 {
+  font-size: 24px;
+}
+
+/*mappaintro*/
+
+.mappaintro-9{
+  font-size: 13px;
+}
+
+/*Heading*/
+.ponl-svg{
+  margin-top: 25%;
+}
+
+#barre-unhcr{
+  margin-top: 5%;
+  margin-left:5px;
+  width: 90%;
+  height: auto;
 }
 
 /*Footer*/
-.dd{
-  height: 55px;
-  width:auto;
-  margin-left: 4%;
-  margin-right: -5%;
+
+.margini-riga{
+  margin-left:5%;
 }
 
-.text-box{
-  margin-left: 1%;
+.margini-testo-footer{
+  margin-top: 5%;
+  text-align: center;
+  margin-right: 10%;
 }
-
-.testo-footer{
-  letter-spacing: 0px;
-  font-size: 9px;
+.margine-extra{
+  margin-left: 0px;
+  padding-left: 30%;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
-}
-/* Large devices (desktops, 992px and up)*/
-@media (max-width: 1024px) {
-
-.anim-heading{
-  padding: 5%;
-  font-size:12px;
-}
-#titolo{
- margin-left: 15%;
- margin-right: 10%;
-}
-#sfondo{
-  padding-top: 100px;
-  }
-#barre-unhcr{
-  padding: 0px;
-  width: auto;
-  height: auto;
-}
-
-.paragrafo-unhcr{
-  padding-right: 1px;
-}
-
-.grafico-unhcr{
+.margine-extraextra{
   padding-right: 0px;
-  margin-left: 5%;
+  padding-left: 30%;
+  margin-bottom: 40px;
 }
 
-#titolo-unhcr{
-  padding-bottom: 5%;
-}
 
-#specific-mou-chart{
-  width: 800px;
-  height: auto;
-}
-
-#padding-sinistro-specific {
-  margin: 0px;
-}
-
-#padding-sinistro-defector{
-  padding-left:18%;
-}
-
-.smaller{
-  padding-bottom: 5%;
-}
-
-#titolo-intro-nkdb{
-  padding-right: 20%;
-  margin-left:35px;
-}
-
-.paragrafo-unhcr{
-  padding-left:0px;
-  padding-right: 4%;
-}
 }
