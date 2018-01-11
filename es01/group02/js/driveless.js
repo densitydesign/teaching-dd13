@@ -61,9 +61,11 @@
 
     })
 
+
+
     $("#Computer").mouseover(function() {
 
-        $("#Computer_blue").show();
+        $("#SEL_Computer").show();
         $("#Sensors").hide();
         $("#Interior").hide();
         $("#Back-up_system").hide();
@@ -72,7 +74,7 @@
     })
     $("#Computer").mouseout(function() {
 
-        $("#Computer_blue").hide();
+        $("#SEL_Computer").hide();
         $("#Sensors").show();
         $("#Interior").show();
         $("#Back-up_system").show();
@@ -82,7 +84,7 @@
 
     $("#Sensors").mouseover(function() {
 
-        $("#Sensors_blue").show();
+        $("#SEL_Sensors").show();
         $("#Computer").hide();
         $("#Interior").hide();
         $("#Back-up_system").hide();
@@ -92,7 +94,7 @@
 
     $("#Sensors").mouseout(function() {
 
-        $("#Sensors_blue").hide();
+        $("#SEL_Sensors").hide();
         $("#Computer").show();
         $("#Interior").show();
         $("#Back-up_system").show();
@@ -102,7 +104,7 @@
 
     $("#Interior").mouseover(function() {
 
-        $("#Interior_blue").show();
+        $("#SEL_Interior").show();
         $("#Computer").hide();
         $("#Sensors").hide();
         $("#Back-up_system").hide();
@@ -112,7 +114,7 @@
 
     $("#Interior").mouseout(function() {
 
-        $("#Interior_blue").hide();
+        $("#SEL_Interior").hide();
         $("#Computer").show();
         $("#Sensors").show();
         $("#Back-up_system").show();
@@ -122,7 +124,7 @@
 
     $("#Back-up_system").mouseover(function() {
 
-        $("#Back-up_system_blue").show();
+        $("#SEL_Back-up_system").show();
         $("#Computer").hide();
         $("#Sensors").hide();
         $("#Interior").hide();
@@ -132,7 +134,7 @@
 
     $("#Back-up_system").mouseout(function() {
 
-        $("#Back-up_system_blue").hide();
+        $("#SEL_Back-up_system").hide();
         $("#Computer").show();
         $("#Sensors").show();
         $("#Interior").show();
@@ -142,7 +144,7 @@
 
     $("#Radar").mouseover(function() {
 
-        $("#Radar_blue").show();
+        $("#SEL_Radar").show();
         $("#Computer").hide();
         $("#Sensors").hide();
         $("#Interior").hide();
@@ -152,7 +154,7 @@
 
     $("#Radar").mouseout(function() {
 
-        $("#Radar_blue").hide();
+        $("#SEL_Radar").hide();
         $("#Computer").show();
         $("#Sensors").show();
         $("#Interior").show();
@@ -162,7 +164,7 @@
 
     $("#Electric_batteries").mouseover(function() {
 
-        $("#Electric_batteries_blue").show();
+        $("#SEL_Electric_batteries").show();
         $("#Computer").hide();
         $("#Sensors").hide();
         $("#Interior").hide();
@@ -172,7 +174,7 @@
 
     $("#Electric_batteries").mouseout(function() {
 
-        $("#Electric_batteries_blue").hide();
+        $("#SEL_Electric_batteries").hide();
         $("#Computer").show();
         $("#Sensors").show();
         $("#Interior").show();
@@ -182,7 +184,7 @@
 
     $("#Electric_batteries").click(function() {
 
-        $("#Electric_batteries_blue").show();
+        $("#SEL_Electric_batteries").show();
         $("#Computer").hide();
         $("#Sensors").hide();
         $("#Interior").hide();
@@ -192,194 +194,23 @@
 
 
 
-    //
-    // $("#TOYOTA").mouseover(function() {
-    //
-    //     $("#toyo").show();
-    //     $("#BMW").hide();
-    //     $("#VOLKSWAGEN").hide();
-    //     $("#FORD").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    // $("#TOYOTA").mouseout(function() {
-    //
-    //     $("#toyo").hide();
-    //     $("#BMW").show();
-    //     $("#VOLKSWAGEN").show();
-    //     $("#FORD").show();
-    //     $("#MERCEDES").show();
-    //     $("#VOLVO").show();
-    //     $("#GENERAL_MOTORS").show();
-    // })
-    //
-    // $("#ltoyo").click(function() {
-    //     $("#toyo").show();
-    //     $("#BMW").hide();
-    //     $("#VOLKSWAGEN").hide();
-    //     $("#FORD").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    //
-    //
-    // $("#BMW").mouseover(function() {
-    //
-    //     $("#bmw").show();
-    //     $("#TOYOTA").hide();
-    //     $("#VOLKSWAGEN").hide();
-    //     $("#FORD").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    // $("#BMW").mouseout(function() {
-    //
-    //     $("#bmw").hide();
-    //     $("#TOYOTA").show();
-    //     $("#VOLKSWAGEN").show();
-    //     $("#FORD").show();
-    //     $("#MERCEDES").show();
-    //     $("#VOLVO").show();
-    //     $("#GENERAL_MOTORS").show();
-    // })
-    //
-    // $("#lbmw").click(function() {
-    //     $("#bmw").show();
-    //     $("#TOYOTA").hide();
-    //     $("#VOLKSWAGEN").hide();
-    //     $("#FORD").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    //
-    // $("#VOLKSWAGEN").mouseover(function() {
-    //
-    //     $("#volks").show();
-    //     $("#TOYOTA").hide();
-    //     $("#BMW").hide();
-    //     $("#FORD").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    // $("#VOLKSWAGEN").mouseout(function() {
-    //
-    //     $("#volks").hide();
-    //     $("#TOYOTA").show();
-    //     $("#BMW").show();
-    //     $("#FORD").show();
-    //     $("#MERCEDES").show();
-    //     $("#VOLVO").show();
-    //     $("#GENERAL_MOTORS").show();
-    // })
-    //
-    // $("#lvolk").click(function() {
-    //     $("#volks").show();
-    //     $("#TOYOTA").hide();
-    //     $("#BMW").hide();
-    //     $("#FORD").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    // $("#FORD").mouseover(function() {
-    //
-    //     $("#ford").show();
-    //     $("#TOYOTA").hide();
-    //     $("#BMW").hide();
-    //     $("#VOLKSWAGEN").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    // $("#FORD").mouseout(function() {
-    //
-    //     $("#ford").hide();
-    //     $("#TOYOTA").show();
-    //     $("#BMW").show();
-    //     $("#VOLKSWAGEN").show();
-    //     $("#MERCEDES").show();
-    //     $("#VOLVO").show();
-    //     $("#GENERAL_MOTORS").show();
-    // })
-    //
-    // $("#lford").click(function() {
-    //     $("#ford").show();
-    //     $("#TOYOTA").hide();
-    //     $("#BMW").hide();
-    //     $("#VOLKSWAGEN").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    // $("#MERCEDES").mouseover(function() {
-    //
-    //     $("#mercedes").show();
-    //     $("#TOYOTA").hide();
-    //     $("#BMW").hide();
-    //     $("#VOLKSWAGEN").hide();
-    //     $("#FORD").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-    //
-    // $("#MERCEDES").mouseout(function() {
-    //
-    //     $("#mercedes").hide();
-    //     $("#TOYOTA").show();
-    //     $("#BMW").show();
-    //     $("#VOLKSWAGEN").show();
-    //     $("#FORD").show();
-    //     $("#VOLVO").show();
-    //     $("#GENERAL_MOTORS").show();
-    // })
-    //
-    // $("#lmercedes").click(function() {
-    //     $("#mercedes").show();
-    //     $("#TOYOTA").hide();
-    //     $("#BMW").hide();
-    //     $("#VOLKSWAGEN").hide();
-    //     $("#MERCEDES").hide();
-    //     $("#VOLVO").hide();
-    //     $("#GENERAL_MOTORS").hide();
-    // })
-
-    $(".clss-24").hide();
-    $("#COLOR_CODES").find("text").on("click", function() {
-        console.log($(this).attr("id"));
+    //$(".clss-24").hide();
+    $("#COLOR_CODES").find(".menuonda").on("click", function() {
         var id=$(this).attr("id");
-        id=id.substr(1, id.length);
-        console.log(id);
-        $(".onda").hide();
-        $("#"+id).show();
-        $(".clss-24").hide();
-        $("#H"+id).show();
+        if(id!==undefined){
+            $(".onda").hide();
+            console.log(id);
+            id=id.substr(3, id.length);
+            console.log(id);
+            $("#"+id).show();
+            $(".menuonda").css("opacity","0.3");
+            $("#BO_"+id).css("opacity","1");
+        } 
     });
 
-    $(".onda").mouseover(function() {
-        console.log($(this).attr("id"));
-        var id=$(this).attr("id");
-        $(".onda").hide();
-        $("#"+id).show();
-        $(".clss-24").hide();
-        $("#H"+id).show();
-        $(this).mouseout(function() {
-          $(".onda").show();
-          $(".clss-24").hide();
-        });
-    })
+
+
+
 
     $(".iconaudiencetext").hide();
     $(".iconaudiencegraph").hide();
@@ -435,7 +266,7 @@ var i=0;
     $(slider).find(".handle-track").css("left", handle_track_xoffset);
     slider_range_inverse_width = (4 - ui_handle_pos) + "%";
     console.log(ui_handle_pos);
-    
+
     if(i==0){
         i++;
     }else{
@@ -444,11 +275,18 @@ var i=0;
     }
     return $(slider).find(".slider-range-inverse").css("width", slider_range_inverse_width);
   };
-    
+
     $("#disgraph_pallino5").on("click",function(){
         $(".disgraph_pallino").hide();
         $(".disgraph5").show();
     });
+
+    $("#disgraph_pallino6").on("click",function(){
+        $(".disgraph_pallino").show();
+        $(".disgraph5").show();
+    });
+
+
 
   $("#js-slider").slider({
     range: "min",
@@ -468,4 +306,3 @@ var i=0;
   });
 
 }).call(this);
-
