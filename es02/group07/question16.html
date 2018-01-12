@@ -486,8 +486,7 @@
     <script>
     $(document).ready(function(){
         //this variable controls the correct functioning of the next and previous button. Must be the same as the question number.
-        var fileName = location.href.split("/").slice(-1)[0];
-        var number = fileName.match(/([0-9]+)/g)[0] * 1;
+        var number = 6;
         //get the previous question html page
         $(".arrow-left a").click(function() {
             var newNumber = number - 1,

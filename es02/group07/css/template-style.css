@@ -115,12 +115,9 @@ button:focus {
 .sidebar h4 {
     font-size: 1.8rem;
 }
-
-
 .sidebar ul {
     color: var(--background-color);
     list-style-type: decimal;
-    font-size: .7;
 }
 
 .sidebar a {
@@ -168,7 +165,6 @@ button:focus {
 .sidebar-home {
     margin-bottom: 25px;
 }
-
 .sidebar-title {
     color: var(--background-color);
 }
@@ -566,7 +562,6 @@ article {
     }
     .sidebar-content-group {
         width: 45%;
-        font-size: .7rem;
     }
     .intro-container h1 {
         margin: 4rem 0 6rem;
@@ -609,4 +604,3 @@ article {
         width: 42%;
     }
 }
-
