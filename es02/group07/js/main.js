@@ -156,6 +156,435 @@ $("#q2treemap-china-hover").hover(function () {
     $("#q2treemap-china-hover").css('opacity', 0);
 });
 
+/*NEWS*/
+/*N1-Treemap*/
+/*Title -1stTreemap*/
+jQuery('#sk-title-inizio').on('click', function() {
+ if (jQuery('.n1svg-titletrigger-sk').hasClass('n1svg-title-sk')) {
+   $('.n1svg-titletrigger-sk').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-titletrigger-sk').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#china-title-inizio').on('click', function() {
+ if (jQuery('.n1svg-titletrigger-china').hasClass('n1svg-title-china')) {
+   $('.n1svg-titletrigger-china').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-titletrigger-china').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#usa-title-inizio').on('click', function() {
+ if (jQuery('.n1svg-titletrigger-usa').hasClass('n1svg-title-usa')) {
+   $('.n1svg-titletrigger-usa').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-titletrigger-usa').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#japan-title-inizio').on('click', function() {
+ if (jQuery('.n1svg-titletrigger-japan').hasClass('n1svg-title-japan')) {
+   $('.n1svg-titletrigger-japan').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-titletrigger-japan').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#other-title-inizio').on('click', function() {
+ if (jQuery('.n1svg-titletrigger-other').hasClass('n1svg-title-other')) {
+   $('.n1svg-titletrigger-other').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-titletrigger-other').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#uk-title-inizio').on('click', function() {
+ if (jQuery('.n1svg-titletrigger-uk').hasClass('n1svg-title-uk')) {
+   $('.n1svg-titletrigger-uk').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-titletrigger-uk').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#india-title-inizio').on('click', function() {
+ if (jQuery('.n1svg-titletrigger-india').hasClass('n1svg-title-india')) {
+   $('.n1svg-titletrigger-india').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-titletrigger-india').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#ire-title-inizio').on('click', function() {
+ if (jQuery('.n1svg-titletrigger-ire').hasClass('n1svg-title-ire')) {
+   $('.n1svg-titletrigger-ire').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-titletrigger-ire').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+/*Hover Treemap1*/
+$('.n1svg-he-trigger').hover(function() {
+  $('.n1svg-hr, .n1svg-re, .n1svg-life, .n1svg-oth, .n1svg-wa, .n1svg-po, .n1svg-ar, .n1svg-life, .n1svg-title-hr, .n1svg-title-po, .n1svg-title-life, .n1svg-title-wa').addClass('n1svg-fillcambio');
+}, function(){
+  $('.n1svg-hr, .n1svg-re, .n1svg-life, .n1svg-oth, .n1svg-wa, .n1svg-po, .n1svg-ar, .n1svg-life, .n1svg-title-hr, .n1svg-title-po, .n1svg-title-life, .n1svg-title-wa').removeClass('n1svg-fillcambio');
+})
+
+$('.n1svg-hr-trigger').hover(function() {
+  $('.n1svg-he, .n1svg-re, .n1svg-life, .n1svg-oth, .n1svg-wa, .n1svg-po, .n1svg-ar, .n1svg-life, .n1svg-title-he, .n1svg-title-po, .n1svg-title-life, .n1svg-title-wa').addClass('n1svg-fillcambio');
+}, function(){
+  $('.n1svg-he, .n1svg-re, .n1svg-life, .n1svg-oth, .n1svg-wa, .n1svg-po, .n1svg-ar, .n1svg-life, .n1svg-title-he, .n1svg-title-po, .n1svg-title-life, .n1svg-title-wa').removeClass('n1svg-fillcambio');
+})
+
+$('.n1svg-so-trigger').hover(function() {
+  $('.n1svg-he, .n1svg-re, .n1svg-hr, .n1svg-oth, .n1svg-wa, .n1svg-po, .n1svg-ar, .n1svg-hr, .n1svg-title-he, .n1svg-title-po, .n1svg-title-hr, .n1svg-title-wa').addClass('n1svg-fillcambio');
+}, function(){
+  $('.n1svg-he, .n1svg-re, .n1svg-hr, .n1svg-oth, .n1svg-wa, .n1svg-po, .n1svg-ar, .n1svg-hr, .n1svg-title-he, .n1svg-title-po, .n1svg-title-hr, .n1svg-title-wa').removeClass('n1svg-fillcambio');
+})
+
+$('.n1svg-po-trigger').hover(function() {
+  $('.n1svg-he, .n1svg-re, .n1svg-hr, .n1svg-oth, .n1svg-wa, .n1svg-life, .n1svg-ar, .n1svg-hr, .n1svg-title-he, .n1svg-title-life, .n1svg-title-hr, .n1svg-title-wa').addClass('n1svg-fillcambio');
+}, function(){
+  $('.n1svg-he, .n1svg-re, .n1svg-hr, .n1svg-oth, .n1svg-wa, .n1svg-life, .n1svg-ar, .n1svg-hr, .n1svg-title-he, .n1svg-title-,life, .n1svg-title-hr, .n1svg-title-wa').removeClass('n1svg-fillcambio');
+})
+
+$('.n1svg-ar-trigger').hover(function() {
+  $('.n1svg-he, .n1svg-re, .n1svg-hr, .n1svg-oth, .n1svg-wa, .n1svg-life, .n1svg-po, .n1svg-hr, .n1svg-title-he, .n1svg-title-life, .n1svg-title-hr, .n1svg-title-wa, .n1svg-title-po').addClass('n1svg-fillcambio');
+}, function(){
+  $('.n1svg-he, .n1svg-re, .n1svg-hr, .n1svg-oth, .n1svg-wa, .n1svg-life, .n1svg-po, .n1svg-hr, .n1svg-title-he, .n1svg-title-,life, .n1svg-title-hr, .n1svg-title-wa, .n1svg-title-po').removeClass('n1svg-fillcambio');
+})
+
+$('.n1svg-re-trigger').hover(function() {
+  $('.n1svg-he, .n1svg-ar, .n1svg-hr, .n1svg-oth, .n1svg-wa, .n1svg-life, .n1svg-po, .n1svg-hr, .n1svg-title-he, .n1svg-title-life, .n1svg-title-hr, .n1svg-title-wa, .n1svg-title-po').addClass('n1svg-fillcambio');
+}, function(){
+  $('.n1svg-he, .n1svg-ar, .n1svg-hr, .n1svg-oth, .n1svg-wa, .n1svg-life, .n1svg-po, .n1svg-hr, .n1svg-title-he, .n1svg-title-,life, .n1svg-title-hr, .n1svg-title-wa, .n1svg-title-po').removeClass('n1svg-fillcambio');
+})
+
+$('.n1svg-wa-trigger').hover(function() {
+  $('.n1svg-he, .n1svg-ar, .n1svg-hr, .n1svg-oth, .n1svg-re, .n1svg-life, .n1svg-po, .n1svg-hr, .n1svg-title-he, .n1svg-title-life, .n1svg-title-hr, .n1svg-title-po').addClass('n1svg-fillcambio');
+}, function(){
+  $('.n1svg-he, .n1svg-ar, .n1svg-hr, .n1svg-oth, .n1svg-re, .n1svg-life, .n1svg-po, .n1svg-hr, .n1svg-title-he, .n1svg-title-,life, .n1svg-title-hr, .n1svg-title-po').removeClass('n1svg-fillcambio');
+})
+
+$('.n1svg-oth-trigger').hover(function() {
+  $('.n1svg-he, .n1svg-ar, .n1svg-hr, .n1svg-wa, .n1svg-re, .n1svg-life, .n1svg-po, .n1svg-hr, .n1svg-title-he, .n1svg-title-life, .n1svg-title-hr, .n1svg-title-po').addClass('n1svg-fillcambio');
+}, function(){
+  $('.n1svg-he, .n1svg-ar, .n1svg-hr, .n1svg-wa, .n1svg-re, .n1svg-life, .n1svg-po, .n1svg-hr, .n1svg-title-he, .n1svg-title-,life, .n1svg-title-hr, .n1svg-title-po').removeClass('n1svg-fillcambio');
+})
+
+
+/*Articles -2ndTreemap*/
+jQuery('#sk-article-inizio').on('click', function() {
+ if (jQuery('.n1svg-articletrigger-sk').hasClass('n1svg-article-sk')) {
+   $('.n1svg-articletrigger-sk').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-articletrigger-sk').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#china-article-inizio').on('click', function() {
+ if (jQuery('.n1svg-articletrigger-china').hasClass('n1svg-article-china')) {
+   $('.n1svg-articletrigger-china').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-articletrigger-china').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#usa-article-inizio').on('click', function() {
+ if (jQuery('.n1svg-articletrigger-usa').hasClass('n1svg-article-usa')) {
+   $('.n1svg-articletrigger-usa').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-articletrigger-usa').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#japan-article-inizio').on('click', function() {
+ if (jQuery('.n1svg-articletrigger-japan').hasClass('n1svg-article-japan')) {
+   $('.n1svg-articletrigger-japan').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-articletrigger-japan').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#other-article-inizio').on('click', function() {
+ if (jQuery('.n1svg-articletrigger-other').hasClass('n1svg-article-other')) {
+   $('.n1svg-articletrigger-other').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-articletrigger-other').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#uk-article-inizio').on('click', function() {
+ if (jQuery('.n1svg-articletrigger-uk').hasClass('n1svg-article-uk')) {
+   $('.n1svg-articletrigger-uk').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-articletrigger-uk').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#india-article-inizio').on('click', function() {
+ if (jQuery('.n1svg-articletrigger-india').hasClass('n1svg-article-india')) {
+   $('.n1svg-articletrigger-india').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-articletrigger-india').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+jQuery('#ire-article-inizio').on('click', function() {
+ if (jQuery('.n1svg-articletrigger-ire').hasClass('n1svg-article-ire')) {
+   $('.n1svg-articletrigger-ire').addClass('n1svg-titletrigger');
+  }
+  else
+  {
+   $('.n1svg-articletrigger-ire').removeClass('n1svg-titletrigger');
+  }
+
+});
+
+/*news-domanda-2 // hover rosso */
+$('#n2svg-bargrande, #n2svg-barchinagrande').hover(function() {
+ $(".n2svg-chus-31").css('opacity', 0.5);
+}, function () {
+  $('.n2svg-chus-31').css('opacity', 1);
+})
+
+/*news-domanda-2 // hover barpiccola */
+$('#n2svg-barsmall-title-hr').hover(function() {
+  $('.bar-war').css('opacity', 0.2);
+}, function(){
+  $('.bar-war').css('opacity', 1);
+})
+
+$('#n2svg-barsmall-title-so').hover(function() {
+  $(".bar-war, .bar-heal, .bar-hr-red2").css('opacity', 0.2);
+}, function(){
+  $(".bar-war, .bar-heal, .bar-hr-red2").css('opacity', 1);
+})
+
+$('#n2svg-barsmall-title-wa').hover(function() {
+  $(".bar-hr, .bar-life, .bar-tech, .bar-hr-red, .bar-hr-red2, .bar-hrblue").css('opacity', 0.2);
+}, function() {
+  $(".bar-hr, .bar-life, .bar-tech, .bar-hr-red, .bar-hr-red2, .bar-hrblue").css('opacity', 1);
+})
+
+$('#n2svg-barsmall-title-te').hover(function() {
+  $(".bar-war, .bar-heal, .bar-hr-red, .bar-hr-red2").css('opacity', 0.2);
+}, function() {
+  $(".bar-war, .bar-heal, .bar-hr-red, .bar-hr-red2").css('opacity', 1);
+})
+
+$('#n2svg-barsmall-title-he').hover(function() {
+  $(".bar-war, .bar-pol, .bar-tech, .bar-life, .bar-hr-red, .bar-hrblue").css('opacity', 0.2);
+}, function() {
+  $(".bar-war, .bar-pol, .bar-tech, .bar-life, .bar-hr-red, .bar-hrblue").css('opacity', 1);
+})
+
+$('#n2svg-barsmall-title-po').hover(function() {
+  $(".bar-heal, .bar-hr-red, .bar-hr-red2").css('opacity', 0.2);
+}, function() {
+  $(".bar-heal, .bar-hr-red, .bar-hr-red2").css('opacity', 1);
+})
+
+
+/*news domanda 2 / Grafico Cina*/
+$('#n2svg-barchinasmall-titles-hr').hover(function() {
+  $(".bar-ch-tech").css('opacity', 0.2);
+}, function () {
+  $(".bar-ch-tech").css('opacity', 1);
+})
+
+$('#n2svg-barchinasmall-titles-so').hover(function() {
+  $(".bar-ch-tech").css('opacity', 0.2);
+}, function () {
+  $(".bar-ch-tech").css('opacity', 1);
+})
+
+$('#n2svg-barchinasmall-titles-wa').hover(function() {
+  $(".bar-ch-tech").css('opacity', 0.2);
+}, function () {
+  $(".bar-ch-tech").css('opacity', 1);
+})
+
+$('#n2svg-barchinasmall-titles-te').hover(function() {
+  $(".bar-ch-po, .bar-ch-hr, .bar-ch-wa, .bar-ch-life, .bar-ch-brown, .bar-ch-hrred, .bar-ch-hrblue").css('opacity', 0.2);
+}, function () {
+  $(".bar-ch-po, .bar-ch-hr, .bar-ch-wa, .bar-ch-life, .bar-ch-brown, .bar-ch-hrred, .bar-ch-hrblue").css('opacity', 1);
+})
+
+
+/*pattern_colore*/
+jQuery('.st2-pers').on('click', function() {
+ if (jQuery('.n3svg-imm-pers').hasClass('st1')) {
+   $('.n3svg-imm-pers').removeClass('st1');
+   $(".n3svg-imm-kim, .n3svg-imm-land, .n3svg-imm-group, .n3svg-imm-rapr").addClass('st1');
+  }
+  else
+  {
+   $('.n3svg-imm-pers').addClass('st1');
+  }
+
+});
+
+jQuery('.st2-groups').on('click', function() {
+ if (jQuery('.n3svg-imm-group').hasClass('st1')) {
+   $('.n3svg-imm-group').removeClass('st1');
+   $(".n3svg-imm-kim, .n3svg-imm-land, .n3svg-imm-rapr, .n3svg-imm-pers").addClass('st1');
+  }
+  else
+  {
+   $('.n3svg-imm-group').addClass('st1');
+  }
+
+});
+
+jQuery('.st2-land').on('click', function() {
+ if (jQuery('.n3svg-imm-land').hasClass('st1')) {
+   $('.n3svg-imm-land').removeClass('st1');
+   $(".n3svg-imm-kim, .n3svg-imm-rapr, .n3svg-imm-group, .n3svg-imm-pers").addClass('st1');
+  }
+  else
+  {
+   $('.n3svg-imm-land').addClass('st1');
+  }
+
+});
+
+jQuery('.st2-kim').on('click', function() {
+ if (jQuery('.n3svg-imm-kim').hasClass('st1')) {
+   $('.n3svg-imm-kim').removeClass('st1');
+   $(".n3svg-imm-rapr, .n3svg-imm-land, .n3svg-imm-group, .n3svg-imm-pers").addClass('st1');
+  }
+  else
+  {
+   $('.n3svg-imm-kim').addClass('st1');
+  }
+
+});
+
+jQuery('.st2-repr').on('click', function() {
+ if (jQuery('.n3svg-imm-rapr').hasClass('st1')) {
+   $('.n3svg-imm-rapr').removeClass('st1');
+   $(".n3svg-imm-kim, .n3svg-imm-land, .n3svg-imm-group, .n3svg-imm-pers").addClass('st1');
+  }
+  else
+  {
+   $('.n3svg-imm-rapr').addClass('st1');
+  }
+
+});
+
+
+$(".n3svg-group-trigger-usa").hover(function () {
+    $("#n3svg-pattern-usadopo-group").css('opacity', 1);
+    $("#n3svg-pattern-chinadopo-group").css('opacity',1);
+    $("#n3svg-imm-pers").removeClass('st2');
+}, function () {
+    $("#n3svg-pattern-usadopo-group").css('opacity', 0);
+    $("#n3svg-pattern-chinadopo-group").css('opacity',0);
+});
+
+$(".n3svg-people-trigger-usa").hover(function () {
+    $("#n3svg-pattern-usadopo-people").css('opacity', 1);
+    $("#n3svg-pattern-chinadopo-people").css('opacity',1);
+    $("#n3svg-imm-pers").removeClass('st2');
+}, function () {
+    $("#n3svg-pattern-usadopo-people").css('opacity', 0);
+    $("#n3svg-pattern-chinadopo-people").css('opacity',0);
+});
+
+$(".n3svg-other-trigger-usa").hover(function () {
+    $("#n3svg-pattern-usadopo-other").css('opacity', 1);
+    $("#n3svg-pattern-chinadopo-other").css('opacity',1);
+    $("#n3svg-imm-pers").removeClass('st2');
+}, function () {
+    $("#n3svg-pattern-usadopo-other").css('opacity', 0);
+    $("#n3svg-pattern-chinadopo-other").css('opacity',0);
+});
+
+$(".n3svg-landscapes-trigger-usa").hover(function () {
+    $("#n3svg-pattern-usadopo-landscapes").css('opacity', 1);
+    $("#n3svg-pattern-chinadopo-landscape").css('opacity',1);
+    $("#n3svg-imm-pers").removeClass('st2');
+}, function () {
+    $("#n3svg-pattern-usadopo-landscapes").css('opacity', 0);
+    $("#n3svg-pattern-chinadopo-landscape").css('opacity',0);
+});
+
+$(".n3svg-kim-trigger-usa").hover(function () {
+    $("#n3svg-pattern-usadopo-kim").css('opacity', 1);
+    $("#n3svg-pattern-chinadopo-kim").css('opacity',1);
+    $("#n3svg-imm-pers").removeClass('st2');
+}, function () {
+    $("#n3svg-pattern-usadopo-kim").css('opacity', 0);
+    $("#n3svg-pattern-chinadopo-kim").css('opacity',0);
+});
+
+$(".n3svg-places-trigger-usa").hover(function () {
+    $("#n3svg-pattern-usadopo-places").css('opacity', 1);
+    $("#n3svg-pattern-chinadopo-places").css('opacity',1);
+    $("#n3svg-imm-pers").removeClass('st2');
+}, function () {
+    $("#n3svg-pattern-usadopo-places").css('opacity', 0);
+    $("#n3svg-pattern-chinadopo-places").css('opacity',0);
+});
+
+$(".n3svg-representation-trigger-usa").hover(function () {
+    $("#n3svg-pattern-usadopo-representation").css('opacity', 1);
+    $("#n3svg-pattern-chinadopo-representations").css('opacity',1);
+    $("#n3svg-imm-pers").removeClass('st2');
+}, function () {
+    $("#n3svg-pattern-usadopo-representation").css('opacity', 0);
+    $("#n3svg-pattern-chinadopo-representations").css('opacity',0);
+});
+
+
+
+
 /* color change video tree us quest 9*/
 
 $("#v9svg-us-groupoth").hover(function () {
@@ -834,15 +1263,15 @@ $("#b16svg-us-legend-analytical-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar41, #b16svg1-us-bar48, #b16svg1-us-bar40, #b16svg1-us-bar58").removeClass("changecolor-b1");
     $("#b16svg1-us-bar41, #b16svg1-us-bar48, #b16svg1-us-bar40, #b16svg1-us-bar58").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-us-legend-anger-color").hover(function () {
      $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass("b16svg-1");
-    $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").addClass("changecolor-b2");
+    $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").addClass("b16svg-3");
 }, function () {
-    $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass("changecolor-b2");
+    $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass(".b16svg-3");
     $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-us-legend-joy-color").hover(function () {
      $("#b16svg1-us-bar51, #b16svg1-us-bar52, #b16svg1-us-bar53, #b16svg1-us-bar54, #b16svg1-us-bar55, #b16svg1-us-bar57, #b16svg1-us-bar56").removeClass("b16svg-1");
@@ -850,7 +1279,7 @@ $("#b16svg-us-legend-joy-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar51, #b16svg1-us-bar52, #b16svg1-us-bar53, #b16svg1-us-bar54, #b16svg1-us-bar55, #b16svg1-us-bar57, #b16svg1-us-bar56").removeClass("changecolor-b3");
     $("#b16svg1-us-bar51, #b16svg1-us-bar52, #b16svg1-us-bar53, #b16svg1-us-bar54, #b16svg1-us-bar55, #b16svg1-us-bar57, #b16svg1-us-bar56").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-us-legend-sadness-color").hover(function () {
      $("#b16svg1-us-bar58, #b16svg1-us-bar59, #b16svg1-us-bar60, #b16svg1-us-bar61, #b16svg1-us-bar44").removeClass("b16svg-1");
@@ -858,7 +1287,7 @@ $("#b16svg-us-legend-sadness-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar58, #b16svg1-us-bar59, #b16svg1-us-bar60, #b16svg1-us-bar61, #b16svg1-us-bar44").removeClass("changecolor-b4");
     $("#b16svg1-us-bar58, #b16svg1-us-bar59, #b16svg1-us-bar60, #b16svg1-us-bar61, #b16svg1-us-bar44").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-us-legend-sadness-fear-color").hover(function () {
      $("#b16svg1-us-bar45, #b16svg1-us-bar46, #b16svg1-us-bar47, #b16svg1-us-bar48, #b16svg1-us-bar49, #b16svg1-us-bar50, #b16svg1-us-bar42, #b16svg1-us-bar60, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass("b16svg-1");
@@ -866,7 +1295,7 @@ $("#b16svg-us-legend-sadness-fear-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar45, #b16svg1-us-bar46, #b16svg1-us-bar47, #b16svg1-us-bar48, #b16svg1-us-bar49, #b16svg1-us-bar50, #b16svg1-us-bar42, #b16svg1-us-bar60, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass("changecolor-b");
     $("#b16svg1-us-bar45, #b16svg1-us-bar46, #b16svg1-us-bar47, #b16svg1-us-bar48, #b16svg1-us-bar49, #b16svg1-us-bar50, #b16svg1-us-bar42, #b16svg1-us-bar60, #b16svg1-us-bar43, #b16svg1-us-bar44").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-china-legend-analytical-color").hover(function () {
      $("#b16svg-china-bar35, #b16svg-china-bar39, #b16svg-china-bar22").removeClass("b16svg-1");
@@ -874,15 +1303,15 @@ $("#b16svg-china-legend-analytical-color").hover(function () {
 }, function () {
     $("#b16svg-china-bar35, #b16svg-china-bar39, #b16svg-china-bar22").removeClass("changecolor-b1");
     $("#b16svg-china-bar35, #b16svg-china-bar39, #b16svg-china-bar22").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-china-legend-anger-color").hover(function () {
      $("#b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar27").removeClass("b16svg-1");
     $("#b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar27").addClass("changecolor-b2");
 }, function () {
-    $("#b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar27").removeClass("changecolor-b2");
+    $("#b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar27").removeClass("changecolor-b2", "b16svg-5");
     $("#b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar27").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-china-legend-fear-color").hover(function () {
      $("#b16svg-china-bar28, #b16svg-china-bar58, #b16svg-china-bar, #b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar33, #b16svg-china-bar27").removeClass("b16svg-1");
@@ -890,7 +1319,7 @@ $("#b16svg-china-legend-fear-color").hover(function () {
 }, function () {
     $("#b16svg-china-bar28, #b16svg-china-bar58, #b16svg-china-bar, #b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar33, #b16svg-china-bar27").removeClass("changecolor-b");
     $("#b16svg-china-bar28, #b16svg-china-bar58, #b16svg-china-bar, #b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar33, #b16svg-china-bar27").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-china-legend-joy-color").hover(function () {
      $("#b16svg-china-bar34, #b16svg-china-bar32, #b16svg-china-bar29, #b16svg-china-bar20, #b16svg-china-bar10").removeClass("b16svg-1");
@@ -898,7 +1327,7 @@ $("#b16svg-china-legend-joy-color").hover(function () {
 }, function () {
     $("#b16svg-china-bar34, #b16svg-china-bar32, #b16svg-china-bar29, #b16svg-china-bar20, #b16svg-china-bar10").removeClass("changecolor-b3");
     $("#b16svg-china-bar34, #b16svg-china-bar32, #b16svg-china-bar29, #b16svg-china-bar20, #b16svg-china-bar10").addClass("b16svg-1");
-    
+
 });
 $("#b16svg-china-legend-sadness-color").hover(function () {
      $("#b16svg-china-bar11, #b16svg-china-bar58, #b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar27").removeClass("b16svg-1");
@@ -906,7 +1335,7 @@ $("#b16svg-china-legend-sadness-color").hover(function () {
 }, function () {
     $("#b16svg-china-bar11, #b16svg-china-bar58, #b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar27").removeClass("changecolor-b4");
     $("#b16svg-china-bar11, #b16svg-china-bar58, #b16svg-china-bar50, #b16svg-china-bar33, #b16svg-china-bar27").addClass("b16svg-1");
-    
+
 });
 
 /*change color sentiment books*/
@@ -930,7 +1359,7 @@ $("#b17svg-us-alluvial-tentative").hover(function () {
 }, function () {
     $("#b17svg-us-alluvial-tentative3, #b17svg-us-alluvial-tentative2, #b17svg-us-alluvial-tentative1").removeClass("changecolor-b");
     $("#b17svg-us-alluvial-tentative3, #b17svg-us-alluvial-tentative2, #b17svg-us-alluvial-tentative1").addClass("b17svg-us-6");
-    
+
 });
 $("#b17svg-us-alluvial-fear").hover(function () {
      $("#b17svg-us-alluvial-fear").removeClass("b17svg-us-6");
@@ -938,7 +1367,7 @@ $("#b17svg-us-alluvial-fear").hover(function () {
 }, function () {
     $("#b17svg-us-alluvial-fear").removeClass("changecolor-b");
     $("#b17svg-us-alluvial-fear").addClass("b17svg-us-6");
-    
+
 });
 
 /*change color question 14 books*/
@@ -948,7 +1377,7 @@ $("#b16svg-us-legend-analytical-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar41, #b16svg1-us-bar48, #b16svg1-us-bar40, #b16svg1-us-bar58").removeClass("changecolor-b1");
     $("#b16svg1-us-bar41, #b16svg1-us-bar48, #b16svg1-us-bar40, #b16svg1-us-bar58").addClass("b16svg-5");
-    
+
 });
 $("#b16svg-us-legend-anger-color").hover(function () {
      $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass("b16svg-5");
@@ -956,7 +1385,7 @@ $("#b16svg-us-legend-anger-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass("changecolor-b2");
     $("#b16svg1-us-bar42, #b16svg1-us-bar43, #b16svg1-us-bar44").addClass("b16svg-5");
-    
+
 });
 $("#b16svg-us-legend-joy-color").hover(function () {
      $("#b16svg1-us-bar51, #b16svg1-us-bar52, #b16svg1-us-bar53, #b16svg1-us-bar54, #b16svg1-us-bar55, #b16svg1-us-bar57, #b16svg1-us-bar56").removeClass("b16svg-5");
@@ -964,7 +1393,7 @@ $("#b16svg-us-legend-joy-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar51, #b16svg1-us-bar52, #b16svg1-us-bar53, #b16svg1-us-bar54, #b16svg1-us-bar55, #b16svg1-us-bar57, #b16svg1-us-bar56").removeClass("changecolor-b3");
     $("#b16svg1-us-bar51, #b16svg1-us-bar52, #b16svg1-us-bar53, #b16svg1-us-bar54, #b16svg1-us-bar55, #b16svg1-us-bar57, #b16svg1-us-bar56").addClass("b16svg-5");
-    
+
 });
 $("#b16svg-us-legend-sadness-color").hover(function () {
      $("#b16svg1-us-bar58, #b16svg1-us-bar59, #b16svg1-us-bar60, #b16svg1-us-bar61, #b16svg1-us-bar44").removeClass("b16svg-5");
@@ -972,7 +1401,7 @@ $("#b16svg-us-legend-sadness-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar58, #b16svg1-us-bar59, #b16svg1-us-bar60, #b16svg1-us-bar61, #b16svg1-us-bar44").removeClass("changecolor-b4");
     $("#b16svg1-us-bar58, #b16svg1-us-bar59, #b16svg1-us-bar60, #b16svg1-us-bar61, #b16svg1-us-bar44").addClass("b16svg-5");
-    
+
 });
 $("#b16svg-us-legend-sadness-fear-color").hover(function () {
      $("#b16svg1-us-bar45, #b16svg1-us-bar46, #b16svg1-us-bar47, #b16svg1-us-bar48, #b16svg1-us-bar49, #b16svg1-us-bar50, #b16svg1-us-bar42, #b16svg1-us-bar60, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass("b16svg-5");
@@ -980,610 +1409,5 @@ $("#b16svg-us-legend-sadness-fear-color").hover(function () {
 }, function () {
     $("#b16svg1-us-bar45, #b16svg1-us-bar46, #b16svg1-us-bar47, #b16svg1-us-bar48, #b16svg1-us-bar49, #b16svg1-us-bar50, #b16svg1-us-bar42, #b16svg1-us-bar60, #b16svg1-us-bar43, #b16svg1-us-bar44").removeClass("changecolor-b");
     $("#b16svg1-us-bar45, #b16svg1-us-bar46, #b16svg1-us-bar47, #b16svg1-us-bar48, #b16svg1-us-bar49, #b16svg1-us-bar50, #b16svg1-us-bar42, #b16svg1-us-bar60, #b16svg1-us-bar43, #b16svg1-us-bar44").addClass("b16svg-5");
-    
-});
-
-/*NEWS*/
-
-/*N1-Treemap*/
-
-/*Title -1stTreemap*/
-
-jQuery('#sk-title-inizio').on('click', function() {
-
- if (jQuery('.n1svg-sk-title-inizio').hasClass('n1svg-sk-titletrigger')) {
-
-   $('.n1svg-sk-title-inizio').addClass('n1svg-sk-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-sk-title-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
 
 });
-
-
-
-jQuery('#china-title-inizio').on('click', function() {
-
- if (jQuery('.n1svg-china-title-inizio').hasClass('n1svg-china-titletrigger')) {
-
-   $('.n1svg-china-title-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-china-title-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#usa-title-inizio').on('click', function() {
-
- if (jQuery('.n1svg-usa-title-inizio').hasClass('n1svg-usa-titletrigger')) {
-
-   $('.n1svg-usa-title-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-usa-title-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#japan-title-inizio').on('click', function() {
-
- if (jQuery('.n1svg-jap-title-inizio').hasClass('n1svg-jap-titletrigger')) {
-
-   $('.n1svg-jap-title-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-jap-title-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#other-title-inizio').on('click', function() {
-
- if (jQuery('.n1svg-oth-title-inizio').hasClass('n1svg-oth-titletrigger')) {
-
-   $('.n1svg-oth-title-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-oth-title-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#uk-title-inizio').on('click', function() {
-
- if (jQuery('.n1svg-uk-title-inizio').hasClass('n1svg-uk-titletrigger')) {
-
-   $('.n1svg-uk-title-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-uk-title-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#india-title-inizio').on('click', function() {
-
- if (jQuery('.n1svg-ind-title-inizio').hasClass('n1svg-ind-titletrigger')) {
-
-   $('.n1svg-ind-title-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-ind-title-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#ireland-title-inizio').on('click', function() {
-
- if (jQuery('.n1svg-ire-title-inizio').hasClass('n1svg-ire-titletrigger')) {
-
-   $('.n1svg-ire-title-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-ire-title-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-/*Articles -2ndTreemap*/
-
-jQuery('#sk-article-inizio').on('click', function() {
-
- if (jQuery('.n1svg-sk-article-inizio').hasClass('n1svg-sk-articletrigger')) {
-
-   $('.n1svg-sk-article-inizio').addClass('n1svg-sk-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-sk-article-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#china-article-inizio').on('click', function() {
-
- if (jQuery('.n1svg-china-article-inizio').hasClass('n1svg-china-articletrigger')) {
-
-   $('.n1svg-china-article-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-china-article-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#usa-article-inizio').on('click', function() {
-
- if (jQuery('.n1svg-usa-article-inizio').hasClass('n1svg-usa-articletrigger')) {
-
-   $('.n1svg-usa-article-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-usa-article-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#japan-article-inizio').on('click', function() {
-
- if (jQuery('.n1svg-jap-article-inizio').hasClass('n1svg-jap-articletrigger')) {
-
-   $('.n1svg-jap-article-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-jap-article-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#other-article-inizio').on('click', function() {
-
- if (jQuery('.n1svg-oth-article-inizio').hasClass('n1svg-oth-articletrigger')) {
-
-   $('.n1svg-oth-article-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-oth-article-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#uk-article-inizio').on('click', function() {
-
- if (jQuery('.n1svg-uk-article-inizio').hasClass('n1svg-uk-articletrigger')) {
-
-   $('.n1svg-uk-article-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-uk-article-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#india-article-inizio').on('click', function() {
-
- if (jQuery('.n1svg-in-article-inizio').hasClass('n1svg-in-articletrigger')) {
-
-   $('.n1svg-in-article-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-in-article-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-
-jQuery('#ireland-article-inizio').on('click', function() {
-
- if (jQuery('.n1svg-ire-article-inizio').hasClass('n1svg-ire-articletrigger')) {
-
-   $('.n1svg-ire-article-inizio').addClass('n1svg-china-titlehide');
-
-  }
-
-  else
-
-  {
-
-   $('.n1svg-ire-article-inizio').removeClass('n1svg-china-titlehide');
-
-  }
-
-
-
-});
-
-
-/*pattern_colore*/
-
-jQuery('.st2-pers').on('click', function() {
-
- if (jQuery('.n3svg-imm-pers').hasClass('st1')) {
-
-   $('.n3svg-imm-pers').removeClass('st1');
-
-  }
-
-  else
-
-  {
-
-   $('.n3svg-imm-pers').addClass('st1');
-
-  }
-
-
-
-});
-
-
-
-jQuery('.st2-groups').on('click', function() {
-
- if (jQuery('.n3svg-imm-group').hasClass('st1')) {
-
-   $('.n3svg-imm-group').removeClass('st1');
-
-  }
-
-  else
-
-  {
-
-   $('.n3svg-imm-group').addClass('st1');
-
-  }
-
-
-
-});
-
-
-
-jQuery('.st2-land').on('click', function() {
-
- if (jQuery('.n3svg-imm-land').hasClass('st1')) {
-
-   $('.n3svg-imm-land').removeClass('st1');
-
-  }
-
-  else
-
-  {
-
-   $('.n3svg-imm-land').addClass('st1');
-
-  }
-
-
-
-});
-
-
-
-jQuery('.st2-kim').on('click', function() {
-
- if (jQuery('.n3svg-imm-kim').hasClass('st1')) {
-
-   $('.n3svg-imm-kim').removeClass('st1');
-
-  }
-
-  else
-
-  {
-
-   $('.n3svg-imm-kim').addClass('st1');
-
-  }
-
-
-
-});
-
-
-
-jQuery('.st2-repr').on('click', function() {
-
- if (jQuery('.n3svg-imm-rapr').hasClass('st1')) {
-
-   $('.n3svg-imm-rapr').removeClass('st1');
-
-  }
-
-  else
-
-  {
-
-   $('.n3svg-imm-rapr').addClass('st1');
-
-  }
-
-
-
-});
-
-
-
-
-
-$(".n3svg-group-trigger-usa").hover(function () {
-
-    $("#n3svg-pattern-usadopo-group").css('opacity', 1);
-
-    $("#n3svg-pattern-chinadopo-group").css('opacity',1);
-
-    $("#n3svg-imm-pers").removeClass('st2');
-
-}, function () {
-
-    $("#n3svg-pattern-usadopo-group").css('opacity', 0);
-
-    $("#n3svg-pattern-chinadopo-group").css('opacity',0);
-
-});
-
-
-
-$(".n3svg-people-trigger-usa").hover(function () {
-
-    $("#n3svg-pattern-usadopo-people").css('opacity', 1);
-
-    $("#n3svg-pattern-chinadopo-people").css('opacity',1);
-
-    $("#n3svg-imm-pers").removeClass('st2');
-
-}, function () {
-
-    $("#n3svg-pattern-usadopo-people").css('opacity', 0);
-
-    $("#n3svg-pattern-chinadopo-people").css('opacity',0);
-
-});
-
-
-
-$(".n3svg-other-trigger-usa").hover(function () {
-
-    $("#n3svg-pattern-usadopo-other").css('opacity', 1);
-
-    $("#n3svg-pattern-chinadopo-other").css('opacity',1);
-
-    $("#n3svg-imm-pers").removeClass('st2');
-
-}, function () {
-
-    $("#n3svg-pattern-usadopo-other").css('opacity', 0);
-
-    $("#n3svg-pattern-chinadopo-other").css('opacity',0);
-
-});
-
-
-
-$(".n3svg-landscapes-trigger-usa").hover(function () {
-
-    $("#n3svg-pattern-usadopo-landscapes").css('opacity', 1);
-
-    $("#n3svg-pattern-chinadopo-landscape").css('opacity',1);
-
-    $("#n3svg-imm-pers").removeClass('st2');
-
-}, function () {
-
-    $("#n3svg-pattern-usadopo-landscapes").css('opacity', 0);
-
-    $("#n3svg-pattern-chinadopo-landscape").css('opacity',0);
-
-});
-
-
-
-$(".n3svg-kim-trigger-usa").hover(function () {
-
-    $("#n3svg-pattern-usadopo-kim").css('opacity', 1);
-
-    $("#n3svg-pattern-chinadopo-kim").css('opacity',1);
-
-    $("#n3svg-imm-pers").removeClass('st2');
-
-}, function () {
-
-    $("#n3svg-pattern-usadopo-kim").css('opacity', 0);
-
-    $("#n3svg-pattern-chinadopo-kim").css('opacity',0);
-
-});
-
-
-
-$(".n3svg-places-trigger-usa").hover(function () {
-
-    $("#n3svg-pattern-usadopo-places").css('opacity', 1);
-
-    $("#n3svg-pattern-chinadopo-places").css('opacity',1);
-
-    $("#n3svg-imm-pers").removeClass('st2');
-
-}, function () {
-
-    $("#n3svg-pattern-usadopo-places").css('opacity', 0);
-
-    $("#n3svg-pattern-chinadopo-places").css('opacity',0);
-
-});
-
-
-
-$(".n3svg-representation-trigger-usa").hover(function () {
-
-    $("#n3svg-pattern-usadopo-representation").css('opacity', 1);
-
-    $("#n3svg-pattern-chinadopo-representations").css('opacity',1);
-
-    $("#n3svg-imm-pers").removeClass('st2');
-
-}, function () {
-
-    $("#n3svg-pattern-usadopo-representation").css('opacity', 0);
-
-    $("#n3svg-pattern-chinadopo-representations").css('opacity',0);
-
-});
-
-
-
-
-
-
-
-

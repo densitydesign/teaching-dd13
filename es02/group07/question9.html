@@ -81,7 +81,7 @@
 <nav class="sidebar nav-closed">
         <div class="sidebar-index sans-font">
             <div class="sidebar-home">
-                <h4 class="sidebar-title">Tales of freedom</h4>
+                <h4 class="sidebar-title">The uncertain path</h4>
                 <a href="index.html">Introduction</a>
             </div>
             <div class="sidebar-content">
@@ -129,7 +129,7 @@
                     </li>
                     <li>
                         <a href="question10.html">Analyzing the most commented categories how do people feel about it?</a>
-                        
+
                         <li>
                         <a href="question11.html">Analyzing the most viewed categories what do people prefer to watch?</a>
                     </li>
@@ -154,17 +154,9 @@
                     </li>
                  </ul>
             </div>
-             <div class="sidebar-list">
-                <h5 class="text-uppercase">Social</h5>
-                <ul>
-                    <li>
-                        <a href="question16.html">Twitter: what are the most retwitted content?</a>
-                    </li>
-                 </ul>
-            </div>
                 </div>
             </div>
-            
+
         </div>
     </nav>
 
@@ -454,7 +446,7 @@
   </g>
   <g id="v13svg-us" class="pointer">
     <g id="v13svg-us-groupnews">
-      <g id="v13svg-us-groupnews-flow" class="v9svg-chus-14"> 
+      <g id="v13svg-us-groupnews-flow" class="v9svg-chus-14">
      <path id="v13svg-us-groupnews-flow30"  d="M154.78,2337.666v-12.595c68.057,0,126.929-12.144,179.982-37.125,47.425-22.332,86.239-52.794,123.776-82.253,38.088-29.891,77.472-60.8,126.186-83.74,54.768-25.789,115.395-38.326,185.347-38.326v12.595c-68.057,0-126.93,12.144-179.982,37.125-47.425,22.332-86.239,52.794-123.776,82.253-38.087,29.891-77.472,60.8-126.186,83.74C285.36,2325.13,224.733,2337.666,154.78,2337.666Z" transform="translate(-52.45 -119.773)"/>
       <path id="v13svg-us-groupnews-flow29"  d="M154.78,2347.741v-10.076c68.283,0,127.362-11.542,180.614-35.285,47.562-21.207,86.435-50.094,124.028-78.03,38.031-28.262,77.358-57.486,125.935-79.145,54.569-24.33,114.99-36.158,184.716-36.158v10.076c-68.283,0-127.363,11.542-180.614,35.285-47.562,21.207-86.435,50.094-124.027,78.03-38.032,28.262-77.358,57.486-125.935,79.145C284.928,2335.914,224.506,2347.741,154.78,2347.741Z" transform="translate(-52.45 -119.773)"/>
       <path id="v13svg-us-groupnews-flow28"  d="M154.78,2357.817v-10.076c68.31,0,127.411-11.089,180.682-33.9,47.57-20.37,86.444-48.115,124.038-74.947,38.029-27.142,77.355-55.209,125.925-76.008,54.548-23.359,114.947-34.714,184.648-34.714v10.076c-68.309,0-127.411,11.089-180.682,33.9-47.569,20.37-86.443,48.115-124.037,74.947C427.323,2274.237,388,2302.3,339.428,2323.1,284.879,2346.462,224.48,2357.817,154.78,2357.817Z" transform="translate(-52.45 -119.773)"/>
@@ -1278,7 +1270,7 @@
 
 
                     <p>
-                        
+
                     </p>
                     <p>
                         Using the same dataset of the last research step, the analysis here focused on the different sources sharing videos about North Korean defectors. </p>
@@ -1291,11 +1283,11 @@
                 <div class="section-content" id="data">
                         <h3 class="sans-font"><span>Data</span></h3>
                         <h4 class="sans-font">Timestamp: 11/2016 - 11/2017</h4>
-                        <h4 class="sans-font">Data source: <a href="#">Youtube</a>, <a href="#">Baidu Video</a>,<a href="#">Bilibili</a></h4>
-                        <h4 class="data-link sans-font"><a href="https://www.dropbox.com/s/56jkcuy6czc0pc7/question8-9-10-11_dataset.xlsx?dl=0"><i class="fa fa-arrow-circle-o-down"></i> Download data (125KB)</a></h4>
+                    <h4 class="sans-font">Data source: <a href="#">Youtube</a>, <a href="#">Baidu Video</a>,<a href="#">Bilibili</a> </h4>
+                        <h4 class="data-link sans-font"><a href="#"><i class="fa fa-arrow-circle-o-down"></i> Download data (125KB)</a></h4>
                         <p>
-                            The excel file is organized in information about ranking, publishing date, URL, title, description, topic, view, like, dislike, comments, category and user for each video. There are two folders: one for the U.S. videos analysis and the other for the Chinese part. 
- 
+                            The excel file is organized in information about ranking, publishing date, URL, title, description, topic, view, like, dislike, comments, category and user for each video. There are two folders: one for the U.S. videos analysis and the other for the Chinese part.
+
                         </p>
                 </div>
             </div>
@@ -1365,8 +1357,7 @@
     <script>
     $(document).ready(function(){
         //this variable controls the correct functioning of the next and previous button. Must be the same as the question number.
-        var fileName = location.href.split("/").slice(-1)[0];
-        var number = fileName.match(/([0-9]+)/g)[0] * 1;
+        var number = 9;
         //get the previous question html page
         $(".arrow-left a").click(function() {
             var newNumber = number - 1,
