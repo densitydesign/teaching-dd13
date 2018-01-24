@@ -12,8 +12,7 @@ $(document).ready(function() {
 
   //Quando passi sopra a #idElem
   $("#idElem").hover(function() {
-    //#otherElem entra o esce 
-    $("#otherElem").fadeToggle("slow");
+    //#otherElem entra o esce
+    $("#otherElem").fadeToggle("fast");
   })
 });
-</script>
