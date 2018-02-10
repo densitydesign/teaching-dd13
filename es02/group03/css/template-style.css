@@ -58,11 +58,11 @@ button:focus {
 }
 
 .serif-font {
-    /*font-family: 'Rajdhani', sans-serif;*/
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .title-font {
-    font-family: sans-serif;
+    font-family: 'Rajdhani', medium, sans-serif;
     font-weight: 500;
     color: #011ac2;
 }
@@ -72,7 +72,7 @@ button:focus {
 .cover-img {
     min-height: 540px;
     margin-bottom: 50px;
-    background: url(../assets/img/pattern.jpg) no-repeat top center fixed;
+    background: url(../assets/img/cover.jpg) no-repeat top center fixed;
     background-size: cover;
 }
 
@@ -307,7 +307,8 @@ button:focus {
 /* Footer styles */
 
 footer {
-    background-color: var(--deep-blue-color);
+
+      background-color: var(--deep-blue-color);
     color: var(--light-color);
     padding: 3rem 0 1.5rem;
 }
