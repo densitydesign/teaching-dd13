@@ -1,0 +1,144 @@
+.radar2{
+	opacity: .2;
+}
+#radars:hover .radar {
+	opacity: .1;
+}
+#radars:hover .radar2 {
+	opacity: .1;
+}
+#radars  .radar:hover {
+	opacity: 1;
+}
+#radars  .radar2:hover {
+	opacity: 1;
+}
+
+#countries:hover .country {
+	opacity: .1;
+}
+
+#countries .country:hover .country {
+	opacity: .4;
+}
+
+#countries  .country:hover {
+	opacity: 1;
+}
+
+
+
+
+#lowcarbon:hover .n8 {fill:#707070;
+	              stroke:#707070;
+	               opacity: .2;
+}
+#lowcarbon:hover .n9 {fill:#707070;
+	              stroke:#707070;
+	              opacity: .2;
+}
+#lowcarbon:hover .n5 {
+	               opacity: .2;
+}
+#lowcarbon:hover .n6 {
+	               opacity: .2;
+}#lowcarbon:hover .n7 {
+	               opacity: .2;
+}
+
+#natural_gas:hover .n5 {fill:#71C6AA;
+                stroke:#71C6aa;
+	             opacity: 1;
+                }
+#Oil:hover .n5 {fill:#71C6AA;
+                stroke:#71C6aa;
+	            opacity: 1;
+                }
+#geo:hover .n5 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#hydro:hover .n5 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#Coal:hover .n5 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#nuclear:hover .n8 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+	
+                }
+#solar:hover .n5 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#wind:hover .n5 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }                
+
+
+#natural_gas:hover .n6 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#Oil:hover .n7 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#geo:hover .n6 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#hydro:hover .n6 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#Coal:hover .n6 {fill:#71C6AA;
+                stroke:#71C6aa;opacity: 1;
+                }
+#nuclear:hover .n9 {fill:#71C6AA;opacity: 1;
+                stroke:#71C6aa;
+                }
+#solar:hover .n6 {fill:#71C6AA;opacity: 1;
+                stroke:#71C6aa;
+                }
+#wind:hover .n6 {fill:#71C6AA;opacity: 1;
+                stroke:#71C6aa;
+                }                                
+
+
+.event1{
+	opacity: 1;
+}
+.event{
+	opacity: 0;
+}
+#events:hover .event {
+	opacity:0;
+}
+#events:hover .event1 {
+	opacity: 0;
+}
+#events  .event:hover {
+	opacity: 1;
+}
+#events  .event1:hover {
+	opacity: 1;
+}
+
+
+
+
+.status1{
+	opacity: 1;
+}
+.status{
+	opacity: 0;
+}
+#statuses:hover .status {
+	opacity:0;
+}
+#statuses:hover .status1 {
+	opacity: 0;
+}
+#statuses  .status:hover {
+	opacity: 1;
+}
+#statuses  .status1:hover {
+	opacity: 1;
+}
+

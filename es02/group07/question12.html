@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Goodreads and Books: what are therecurring topics?</title>
+
+    <!-- Search Engine -->
+    <meta name="description" content="Description of your report here. 150 characters for SEO, 200 characters for Twitter and Facebook">
+    <meta name="image" content="thumbnail image of your work">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Title of your work">
+    <meta itemprop="description" content="Description of your report here">
+    <meta itemprop="image" content="thumbnail image of your work">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Title of your work">
+    <meta name="twitter:description" content="Description of your report here">
+    <meta name="twitter:site" content="@densitydesign">
+    <meta name="twitter:creator" content="your twitter handles here, if any">
+    <meta name="twitter:image:src" content="thumbnail image of your work. Maximum dimension: 1024px x 512px; minimum dimension: 440px x 220px">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Title of your work">
+    <meta name="og:description" content="Description of your report here">
+    <meta name="og:image" content="thumbnail image of your work. Recommended dimension: 1200px x 630px; minimum dimension: 600px x 315px">
+    <meta name="og:url" content="url to this page">
+    <meta name="og:site_name" content="Title of your work">
+    <meta name="og:locale" content="en_US">
+    <meta name="og:type" content="website">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Karla:400,700" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="css/template-style.css" />
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-spy="scroll" data-target="#sidelist" data-offset="160">
+    <!-- Research question title and Menu button-->
+    <header>
+        <div class="container sans-font">
+            <div class="row">
+                <div class="col-md-10 col-lg-9 ml-auto question-box">
+                    <div class="row arrows-container justify-content-end justify-content-md-between">
+                        <div class="arrow-left mr-5 mr-md-0">
+                            <h5>
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                <a>prev</a>
+                            </h5>
+                        </div>
+                        <div class="arrow-right mr-2 mr-sm-0">
+                            <h5>
+                                <a>next</a>
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </h5>
+                        </div>
+                    </div>
+                    <h5 class="header-subtitle text-uppercase">research question</h5>
+                    <h1 class="header-title serif-font">Goodreads and Books: what are therecurring topics?</h1>
+                </div>
+            </div>
+        </div>
+        <button class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="menu-svg icon-visible" x="0px" y="0px" width="32" height="24" viewBox="0 0 32 24">
+                <path d="M30 2H2M30 12H2M30 22H2"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="menu-svg close-icon absolute scaled" x="0px" y="0px" width="32" height="24" viewBox="0 0 32 24">
+                <path d="M25.9 21.9L6.1 2.1M25.9 2.1L6.1 21.9"></path>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Sidebar Menu - Don't change the existing URLs, just add new ones if you need more-->
+ <nav class="sidebar nav-closed">
+        <div class="sidebar-index sans-font">
+            <div class="sidebar-home">
+                <h4 class="sidebar-title">The uncertain path</h4>
+                <a href="index.html">Introduction</a>
+            </div>
+            <div class="sidebar-content">
+                <div class="sidebar-content-group">
+                <div class="sidebar-list">
+                <h5 class="text-uppercase">General approach</h5>
+                <ul>
+                    <li>
+                        <a href="question1.html">How does the interest about North Korea evolve through time?</a>
+                    </li>
+                    <li>
+                        <a href="question2.html">Who is involved in the North Korean debate and what are they talking about?
+</a>
+                    </li>
+                    <li>
+                        <a href="question3.html">How can the first research method be automatized in order to be more reliable?</a>
+                    </li>
+                    <li>
+                        <a href="question4.html">When the research query is refined what kind of contents are preferred from the user?</a>
+                    </li>
+                </ul>
+            </div>
+             <div class="sidebar-list">
+                <h5 class="text-uppercase">News</h5>
+                <ul>
+                    <li>
+                        <a href="question5.html">Google News and Baidu News: what are the different sources talking about?</a>
+                    </li>
+                    <li>
+                        <a href="question6.html">Are there recurring words and common storylines between different topics?</a>
+                    </li>
+                    <li>
+                        <a href="question7.html"> What kind of images are used to talk about defectors?</a>
+                    </li>
+                 </ul>
+            </div>
+             <div class="sidebar-list">
+                <h5 class="text-uppercase">Videos</h5>
+                <ul>
+                    <li>
+                        <a href="question8.html">Youtube, Baidu and Bilibili: to which category do the videos about North Korean defectors belong?</a>
+                    </li>
+                    <li>
+                        <a href="question9.html">Which sources are mainly sharing those kind of videos and how do they relate to categories?</a>
+                    </li>
+                    <li>
+                        <a href="question10.html">Analyzing the most commented categories how do people feel about it?</a>
+
+                        <li>
+                        <a href="question11.html">Analyzing the most viewed categories what do people prefer to watch?</a>
+                    </li>
+                 </ul>
+            </div>
+                </div>
+                <div class="sidebar-content-group">
+             <div class="sidebar-list">
+                <h5 class="text-uppercase">Books</h5>
+                <ul>
+                    <li>
+                        <a href="question12.html">Goodreads and Books: what are therecurring topics?</a>
+                    </li>
+                    <li>
+                        <a href="question13.html">Who are the autors and what is their relationship to the books’ ratings?</a>
+                    </li>
+                    <li>
+                        <a href="question14.html">Considering the whole production what do the books have in common?</a>
+                    </li>
+                    <li>
+                        <a href="question15.html">Considering the most rated books how do the readers feel about it?</a>
+                    </li>
+                 </ul>
+            </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <main class="container-fluid">
+        <div class="viz-container">
+            <!-- Add your viz here -->
+            <svg id="b14svg" xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 1000 1200">
+  <title>b14svg</title>
+  <g id="b14-us-square">
+    <g id="b14-us-graf-group">
+      <g id="b14-us-graf-group21-text">
+        <text class="b14svg-1" transform="translate(40.201 310.677)">CONFLICT</text>
+      </g>
+      <g id="b14-us-graf-group20-text">
+        <text class="b14svg-1" transform="translate(34.511 128.677)">DEFECTORS</text>
+      </g>
+      <g id="b14-us-graf-group19-text">
+        <text class="b14svg-1" transform="translate(39.866 273.677)">ECONOMY</text>
+      </g>
+      <g id="b14-us-graf-group18-text">
+        <text class="b14svg-1" transform="translate(49.241 382.677)">HABITS</text>
+      </g>
+      <g id="b14-us-graf-group17-text">
+        <text class="b14svg-1" transform="translate(58.516 408.677)">NOT<tspan x="-14.13" y="12">RELATED</tspan></text>
+      </g>
+      <g id="b14-us-graf-group16-text">
+        <text class="b14svg-1" transform="translate(41.811 340.677)">NUCLEAR<tspan x="10.445" y="15">ISSUE</tspan></text>
+      </g>
+      <g id="b14-us-graf-group15-text">
+        <text class="b14svg-1" transform="translate(45.921 200.677)">OTHERS</text>
+      </g>
+      <g id="b14-us-graf-group14-text">
+        <text class="b14svg-1" transform="translate(42.521 237.677)">POLITICS</text>
+      </g>
+      <g id="b14-us-graf-group13-text">
+        <text class="b14svg-1" transform="translate(47.96 157.677)">SOCIAL<tspan x="4.295" y="12">ISSUE</tspan></text>
+      </g>
+      <line id="b14-us-graf-group12-line" class="b14svg-3" x1="116.661" y1="437.425" x2="800.171" y2="437.425"/>
+      <line id="b14-us-graf-group11-line" class="b14svg-4" x1="116.661" y1="395.425" x2="800.171" y2="395.425"/>
+      <line id="b14-us-graf-group10-line" class="b14svg-4" x1="116.661" y1="359.425" x2="800.171" y2="359.425"/>
+      <line id="b14-us-graf-group9-line" class="b14svg-4" x1="116.661" y1="323.425" x2="800.171" y2="323.425"/>
+      <line id="b14-us-graf-group8-line" class="b14svg-4" x1="116.661" y1="287.425" x2="800.171" y2="287.425"/>
+      <line id="b14-us-graf-group7-line" class="b14svg-4" x1="116.661" y1="251.425" x2="800.171" y2="251.425"/>
+      <line id="b14-us-graf-group6-line" class="b14svg-4" x1="116.661" y1="215.425" x2="800.171" y2="215.425"/>
+      <line id="b14-us-graf-group5-line" class="b14svg-4" x1="116.661" y1="179.425" x2="800.171" y2="179.425"/>
+      <line id="b14-us-graf-group4-line" class="b14svg-4" x1="116.661" y1="143.425" x2="800.171" y2="143.425"/>
+      <line id="b14-us-graf-group3-line" class="b14svg-3" x1="116.661" y1="108.5" x2="116.661" y2="437.5"/>
+      <text class="b14svg-5" transform="translate(392.364 472.476)">NUMBER OF BOOKS</text>
+      <text class="b14svg-5" transform="translate(6.856 296.456) rotate(-90)">TOPIC</text>
+    </g>
+    <g id="b14-us-square-group">
+      <rect id="b14-us-square-group100" class="b14svg-6" x="124.649" y="295.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group99" class="b14svg-6" x="147.649" y="295.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group98" class="b14svg-6" x="170.649" y="295.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group97" class="b14svg-6" x="124.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group96" class="b14svg-6" x="147.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group95" class="b14svg-6" x="170.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group94" class="b14svg-6" x="193.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group93" class="b14svg-6" x="216.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group92" class="b14svg-6" x="239.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group91" class="b14svg-6" x="262.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group90" class="b14svg-6" x="285.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group89" class="b14svg-6" x="308.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group88" class="b14svg-6" x="331.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group87" class="b14svg-6" x="354.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group86" class="b14svg-6" x="377.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group85" class="b14svg-6" x="400.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group84" class="b14svg-6" x="423.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group83" class="b14svg-6" x="446.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group82" class="b14svg-6" x="469.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group81" class="b14svg-6" x="492.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group80" class="b14svg-6" x="515.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group79" class="b14svg-6" x="538.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group78" class="b14svg-6" x="561.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group77" class="b14svg-6" x="584.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group76" class="b14svg-6" x="607.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group75" class="b14svg-6" x="630.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group74" class="b14svg-6" x="653.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group73" class="b14svg-6" x="676.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group72" class="b14svg-6" x="699.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group71" class="b14svg-6" x="722.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group70" class="b14svg-6" x="745.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group69" class="b14svg-6" x="768.649" y="115.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group68" class="b14svg-6" x="124.649" y="259.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group67" class="b14svg-6" x="147.649" y="259.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group66" class="b14svg-6" x="170.649" y="259.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group65" class="b14svg-6" x="124.649" y="367.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group64" class="b14svg-6" x="147.649" y="367.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group63" class="b14svg-6" x="124.649" y="403.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group62" class="b14svg-6" x="124.649" y="331.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group61" class="b14svg-6" x="147.649" y="331.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group60" class="b14svg-6" x="170.649" y="331.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group59" class="b14svg-6" x="124.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group58" class="b14svg-6" x="147.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group57" class="b14svg-6" x="170.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group56" class="b14svg-6" x="193.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group55" class="b14svg-6" x="216.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group54" class="b14svg-6" x="239.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group53" class="b14svg-6" x="262.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group52" class="b14svg-6" x="285.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group51" class="b14svg-6" x="308.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group50" class="b14svg-6" x="331.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group49" class="b14svg-6" x="354.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group48" class="b14svg-6" x="377.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group47" class="b14svg-6" x="400.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group46" class="b14svg-6" x="423.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group45" class="b14svg-6" x="446.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group44" class="b14svg-6" x="469.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group43" class="b14svg-6" x="492.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group42" class="b14svg-6" x="515.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group41" class="b14svg-6" x="538.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group40" class="b14svg-6" x="561.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group39" class="b14svg-6" x="584.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group38" class="b14svg-6" x="607.649" y="187.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group37" class="b14svg-6" x="124.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group36" class="b14svg-6" x="147.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group35" class="b14svg-6" x="170.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group34" class="b14svg-6" x="193.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group33" class="b14svg-6" x="216.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group32" class="b14svg-6" x="239.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group31" class="b14svg-6" x="262.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group30" class="b14svg-6" x="285.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group29" class="b14svg-6" x="308.649" y="223.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group28" class="b14svg-6" x="124.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group27" class="b14svg-6" x="147.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group26" class="b14svg-6" x="170.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group25" class="b14svg-6" x="193.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group24" class="b14svg-6" x="216.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group23" class="b14svg-6" x="239.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group22" class="b14svg-6" x="262.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group21" class="b14svg-6" x="285.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group20" class="b14svg-6" x="308.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group19" class="b14svg-6" x="331.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group18" class="b14svg-6" x="354.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group17" class="b14svg-6" x="377.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group16" class="b14svg-6" x="400.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group15" class="b14svg-6" x="423.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group14" class="b14svg-6" x="446.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group13" class="b14svg-6" x="469.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group12" class="b14svg-6" x="492.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group11" class="b14svg-6" x="515.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group10" class="b14svg-6" x="538.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group9" class="b14svg-6" x="561.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group8" class="b14svg-6" x="584.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group7" class="b14svg-6" x="607.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group6" class="b14svg-6" x="630.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group5" class="b14svg-6" x="653.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group4" class="b14svg-6" x="676.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group3" class="b14svg-6" x="699.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group2" class="b14svg-6" x="722.649" y="151.527" width="17.012" height="17.012"/>
+      <rect id="b14-us-square-group1" class="b14svg-6" x="745.649" y="151.527" width="17.012" height="17.012"/>
+    </g>
+    <g id="b14-us-squarebutton">
+      <g id="buttonus">
+        <rect class="b14svg-7" x="117.166" width="98" height="27"/>
+        <rect class="b14svg-8" x="118.565" y="2" width="95" height="23"/>
+        <text class="b14svg-9" transform="translate(157.422 18.068)">USA</text>
+      </g>
+      <g id="buttonchina">
+        <rect class="b14svg-7" x="117.176" y="559" width="98" height="27"/>
+        <rect class="b14svg-8" x="118.565" y="561" width="95" height="23"/>
+        <text class="b14svg-9" transform="translate(145.81 577.068)">CHN</text>
+      </g>
+    </g>
+  </g>
+  <g id="b14-china-square">
+    <g id="b14-china-graf-group">
+      <g id="b14-china-graf-group21-text">
+        <text class="b14svg-1" transform="translate(57.327 970.91)">NOT<tspan x="-14.13" y="12">REL</tspan><tspan class="b14svg-2" x="8.5" y="12">A</tspan><tspan x="15.43" y="12">TED</tspan></text>
+      </g>
+      <g id="b14-china-graf-group20-text">
+        <text class="b14svg-1" transform="translate(48.052 930.106)">HABITS</text>
+      </g>
+      <g id="b14-china-graf-group19-text">
+        <text class="b14svg-1" transform="translate(41.71 883.957)">NUCLEAR<tspan x="10.445" y="12">ISSUE</tspan></text>
+      </g>
+      <g id="b14-china-graf-group18-text">
+        <text class="b14svg-1" transform="translate(39.1 854.99)">CONFLICT</text>
+      </g>
+      <g id="b14-china-graf-group17-text">
+        <text class="b14svg-1" transform="translate(38.765 820.678)">ECONOMY</text>
+      </g>
+      <g id="b14-china-graf-group16-text">
+        <text class="b14svg-1" transform="translate(41.42 787.293)">POLITICS</text>
+      </g>
+      <g id="b14-china-graf-group15-text">
+        <text class="b14svg-1" transform="translate(44.82 752.981)">OTHERS</text>
+      </g>
+      <g id="b14-china-graf-group14-text">
+        <text class="b14svg-1" transform="translate(46.86 713.104)">SOCIAL<tspan x="4.295" y="12">ISSUE</tspan></text>
+      </g>
+      <g id="b14-china-graf-group13-text">
+        <text class="b14svg-1" transform="translate(33.41 686.212)">DEFECTORS</text>
+      </g>
+      <line id="b14-china-graf-group12-line" class="b14svg-3" x1="116.829" y1="996.643" x2="800.171" y2="996.643"/>
+      <line id="b14-china-graf-group11-line" class="b14svg-4" x1="116.829" y1="957.694" x2="800.171" y2="957.694"/>
+      <line id="b14-china-graf-group10-line" class="b14svg-4" x1="116.829" y1="906.294" x2="800.171" y2="906.294"/>
+      <line id="b14-china-graf-group9-line" class="b14svg-4" x1="116.829" y1="872.601" x2="800.171" y2="872.601"/>
+      <line id="b14-china-graf-group8-line" class="b14svg-4" x1="116.829" y1="833.428" x2="800.171" y2="833.428"/>
+      <line id="b14-china-graf-group7-line" class="b14svg-4" x1="116.829" y1="800.043" x2="800.171" y2="800.043"/>
+      <line id="b14-china-graf-group6-line" class="b14svg-4" x1="116.829" y1="766.658" x2="800.171" y2="766.658"/>
+      <line id="b14-china-graf-group5-line" class="b14svg-4" x1="116.829" y1="733.273" x2="800.171" y2="733.273"/>
+      <line id="b14-china-graf-group4-line" class="b14svg-4" x1="116.829" y1="699.888" x2="800.171" y2="699.888"/>
+      <line id="b14-china-graf-group3-line" class="b14svg-3" x1="116.829" y1="667.5" x2="116.829" y2="996.712"/>
+    </g>
+    <g id="b14-china-square-group">
+      <rect id="b14-china-square-group100" class="b14svg-6" x="207.974" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group99" class="b14svg-6" x="228.94" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group98" class="b14svg-6" x="249.906" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group97" class="b14svg-6" x="270.872" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group96" class="b14svg-6" x="291.838" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group95" class="b14svg-6" x="312.804" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group94" class="b14svg-6" x="333.769" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group93" class="b14svg-6" x="354.735" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group92" class="b14svg-6" x="375.701" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group91" class="b14svg-6" x="396.667" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group90" class="b14svg-6" x="417.633" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group89" class="b14svg-6" x="438.599" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group88" class="b14svg-6" x="459.565" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group87" class="b14svg-6" x="480.531" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group86" class="b14svg-6" x="501.497" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group85" class="b14svg-6" x="522.462" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group84" class="b14svg-6" x="543.428" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group83" class="b14svg-6" x="564.394" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group82" class="b14svg-6" x="296.467" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group81" class="b14svg-6" x="274.757" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group80" class="b14svg-6" x="253.047" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group79" class="b14svg-6" x="383.478" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group78" class="b14svg-6" x="231.337" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group77" class="b14svg-6" x="209.627" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group76" class="b14svg-6" x="187.917" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group75" class="b14svg-6" x="166.207" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group74" class="b14svg-6" x="144.496" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group73" class="b14svg-6" x="122.786" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group72" class="b14svg-6" x="710.782" y="908.961" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group71" class="b14svg-6" x="124.111" y="967.062" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group70" class="b14svg-6" x="354.735" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group69" class="b14svg-6" x="124.111" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group68" class="b14svg-6" x="166.042" y="807.556" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group67" class="b14svg-6" x="144.165" y="967.062" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group66" class="b14svg-6" x="585.36" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group65" class="b14svg-6" x="145.077" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group64" class="b14svg-6" x="166.042" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group63" class="b14svg-6" x="124.111" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group62" class="b14svg-6" x="145.077" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group61" class="b14svg-6" x="166.042" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group60" class="b14svg-6" x="187.008" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group59" class="b14svg-6" x="207.974" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group58" class="b14svg-6" x="228.94" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group57" class="b14svg-6" x="249.906" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group56" class="b14svg-6" x="270.872" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group55" class="b14svg-6" x="291.838" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group54" class="b14svg-6" x="312.804" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group53" class="b14svg-6" x="333.769" y="674.017" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group52" class="b14svg-6" x="187.92" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group51" class="b14svg-6" x="208.886" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group50" class="b14svg-6" x="229.852" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group49" class="b14svg-6" x="250.818" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group48" class="b14svg-6" x="271.783" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group47" class="b14svg-6" x="292.749" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group46" class="b14svg-6" x="313.715" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group45" class="b14svg-6" x="334.681" y="840.941" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group44" class="b14svg-6" x="124.111" y="807.556" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group43" class="b14svg-6" x="145.077" y="807.556" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group42" class="b14svg-6" x="124.111" y="740.787" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group41" class="b14svg-6" x="124.111" y="774.172" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group40" class="b14svg-6" x="145.077" y="774.172" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group39" class="b14svg-6" x="166.042" y="774.172" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group38" class="b14svg-6" x="187.008" y="774.172" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group37" class="b14svg-6" x="207.974" y="774.172" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group36" class="b14svg-6" x="228.94" y="774.172" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group35" class="b14svg-6" x="249.906" y="774.172" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group34" class="b14svg-6" x="124.111" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group33" class="b14svg-6" x="145.077" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group32" class="b14svg-6" x="166.042" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group31" class="b14svg-6" x="187.008" y="707.402" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group30" class="b14svg-6" x="361.768" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group29" class="b14svg-6" x="689.072" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group28" class="b14svg-6" x="664.627" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group27" class="b14svg-6" x="642.917" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group26" class="b14svg-6" x="621.207" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group25" class="b14svg-6" x="599.497" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group24" class="b14svg-6" x="577.787" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group23" class="b14svg-6" x="556.077" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group22" class="b14svg-6" x="534.367" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group21" class="b14svg-6" x="512.657" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group20" class="b14svg-6" x="490.947" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group19" class="b14svg-6" x="340.058" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group18" class="b14svg-6" x="469.236" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group17" class="b14svg-6" x="447.526" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group16" class="b14svg-6" x="425.816" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group15" class="b14svg-6" x="404.106" y="909.888" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group14" class="b14svg-6" x="383.308" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group13" class="b14svg-6" x="361.598" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group12" class="b14svg-6" x="339.887" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group11" class="b14svg-6" x="318.177" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group10" class="b14svg-6" x="296.467" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group9" class="b14svg-6" x="274.757" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group8" class="b14svg-6" x="253.047" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group7" class="b14svg-6" x="231.337" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group6" class="b14svg-6" x="209.627" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group5" class="b14svg-6" x="318.348" y="909.131" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group4" class="b14svg-6" x="187.917" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group3" class="b14svg-6" x="166.207" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group2" class="b14svg-6" x="144.496" y="931.218" width="15.507" height="15.776"/>
+      <rect id="b14-china-square-group1" class="b14svg-6" x="122.786" y="931.218" width="15.507" height="15.776"/>
+    </g>
+    <g id="b14-china-squarelegen">
+      <text class="b14svg-5" transform="translate(392.364 1031.476)">NUMBER OF BOOKS</text>
+      <text class="b14svg-5" transform="translate(6.856 855.456) rotate(-90)">TOPIC</text>
+    </g>
+  </g>
+  <g id="q1svg-trendline-titles-big">
+    <text class="b14svg-10" transform="translate(118.799 52.017)">GOODREADS</text>
+  </g>
+  <g id="q1svg-trendline-titles-small">
+    <text class="b14svg-11" transform="translate(118.8 63.719)">Number of books divided per topic</text>
+  </g>
+  <g id="q1svg-trendline-titles-big-2" data-name="q1svg-trendline-titles-big">
+    <text class="b14svg-10" transform="translate(116.799 614.017)">BOOKS</text>
+  </g>
+  <g id="q1svg-trendline-titles-small-2" data-name="q1svg-trendline-titles-small">
+    <text class="b14svg-11" transform="translate(116.8 625.719)">Number of books divided per topic</text>
+  </g>
+</svg>
+
+        </div>
+    </main>
+
+    <article class="container">
+        <div class="row">
+            <!-- Side scrolling menu -->
+            <div id="sidelist" class="col-md-3 text-uppercase d-none d-md-block sans-font">
+                <div class="list-group sticky-top">
+                    <a class="list-group-item list-group-item-action smooth-scroll" href="#description"><span>Description</span></a>
+                    <a class="list-group-item list-group-item-action smooth-scroll" href="#protocol"><span>Protocol</span></a>
+                    <a class="list-group-item list-group-item-action smooth-scroll" href="#data"><span>Data</span></a>
+                </div>
+            </div>
+
+            <!-- Text content -->
+            <div class="col-md-9 article-content serif-font">
+                <!-- Description -->
+                <div class="section-content" id="description">
+                    <h3 class="sans-font"><span>Description</span></h3>
+                    <p>
+                        We started searching for a large amount of artifacts: movies, songs and books. In a second moment we decided to concentrate on books, as other results were not relevant for our research. Reading a book require time and interest in the topic treated, giving the reader detailed information about one defined theme. We opted for a generic query in order to get more results from the last year. </p>
+                    <p>
+                        Defectors and civilian social issues are the most popular topics for english written books, readers seem to enjoy stories about defectors personal life, life condition in North Korea and in prison camps. Those two kind of books can be really specific and detailed, narrating escapes, tortures and other kind of issues. </p>
+                    <p>
+When we observe the Chinese situation we can see how the situation change: a big part of the books talk about society and culture - they can be recipe books or history books - defectors stories are absolutely marginal, but still we see how civilian social issues detain an important role inside the cultural production.
+
+                    </p>
+                </div>
+
+                <!-- Protocol -->
+                <div class="section-content" id="protocol">
+                    <h3 class="sans-font"><span>Protocol</span></h3>
+                    <svg id="b14protocol" xmlns="http://www.w3.org/2000/svg" viewBox="0 -100 872.338 915">
+  <title>prot12</title>
+  <rect id="b14protocol-form5" class="protdodici-1" x="183.336" y="687.628" width="84.846" height="18.043"/>
+  <g id="b14protocol-text33">
+    <text class="protdodici-2" transform="translate(194.047 701.211)">BAR CHART</text>
+  </g>
+  <line id="b14protocol-line25" class="protdodici-3" x1="224.979" y1="600.008" x2="224.979" y2="623.213"/>
+  <g id="b14protocol-text32">
+    <text class="protdodici-4" transform="translate(193.983 638.443)"><tspan class="protdodici-5">Illustrator</tspan><tspan class="protdodici-5" x="2.819" y="16">(refining)</tspan></text>
+  </g>
+  <line id="b14protocol-line24" class="protdodici-3" x1="224.979" y1="659.113" x2="224.979" y2="682.319"/>
+  <rect id="b14protocol-form4" class="protdodici-1" x="488.336" y="686.628" width="84.846" height="18.043"/>
+  <g id="b14protocol-text31">
+    <text class="protdodici-2" transform="translate(499.047 700.211)">BAR CHART</text>
+  </g>
+  <line id="b14protocol-line23" class="protdodici-3" x1="529.979" y1="599.008" x2="529.979" y2="622.213"/>
+  <g id="b14protocol-text30">
+    <text class="protdodici-4" transform="translate(498.983 637.443)"><tspan class="protdodici-5">Illustrator</tspan><tspan class="protdodici-5" x="2.819" y="16">(refining)</tspan></text>
+  </g>
+  <line id="b14protocol-line22" class="protdodici-3" x1="529.979" y1="658.113" x2="529.979" y2="681.319"/>
+  <g id="b14protocol-text29">
+    <text class="protdodici-6" transform="translate(10.685 353.595) rotate(-90)">CORPUS DEFINITION</text>
+  </g>
+  <g id="b14protocol-text28">
+    <text class="protdodici-7" transform="translate(51.33 15.205)"><tspan class="protdodici-5">Goodreads: what are the</tspan><tspan x="39.979" y="16">reccuring topics?</tspan></text>
+  </g>
+  <line id="b14protocol-line21" class="protdodici-8" x1="324.284" y1="18.5" x2="227.284" y2="18.5"/>
+  <text class="protdodici-7" transform="translate(344.234 21.262)">“NORTH KOREA”</text>
+  <g id="b14protocol-text26">
+    <text class="protdodici-7" transform="translate(330.53 39.489)"><tspan class="protdodici-5">RESEARCH QUERY</tspan></text>
+  </g>
+  <line id="b14protocol-line20" class="protdodici-9" x1="27.412" y1="82" x2="27.412"/>
+  <g id="b14protocol-text25">
+    <text class="protdodici-7" transform="translate(10.284 62.685) rotate(-90)"><tspan class="protdodici-5">QUERY</tspan></text>
+  </g>
+  <line id="b14protocol-line19" class="protdodici-8" x1="381.784" y1="136" x2="381.784" y2="57"/>
+  <line id="b14protocol-line18" class="protdodici-8" x1="529.571" y1="220" x2="529.571" y2="200.506"/>
+  <line id="b14protocol-line17" class="protdodici-8" x1="224.784" y1="220" x2="224.784" y2="200"/>
+  <line id="b14protocol-line16" class="protdodici-9" x1="27.412" y1="518" x2="27.412" y2="89"/>
+  <g id="b14protocol-text24">
+    <text class="protdodici-7" transform="translate(180.516 168.365)"><tspan class="protdodici-5">NORTH KOREA</tspan></text>
+  </g>
+  <g id="b14protocol-text23">
+    <text class="protdodici-6" transform="translate(210.899 151.752)">USA</text>
+  </g>
+  <g id="b14protocol-text22">
+    <text class="protdodici-7" transform="translate(174.736 181.25)"><tspan class="protdodici-5">goodreads.com</tspan></text>
+  </g>
+  <line id="b14protocol-line15" class="protdodici-8" x1="281.155" y1="148.5" x2="475.193" y2="148.5"/>
+  <rect id="b14protocol-form3" class="protdodici-8" x="167.412" y="135.148" width="113.336" height="58.352"/>
+  <g id="b14protocol-text20">
+    <text class="protdodici-6" transform="translate(508.167 152.335)">CHINA</text>
+  </g>
+  <g id="b14protocol-text19">
+    <text class="protdodici-6" transform="translate(509.494 181.833)">Books</text>
+  </g>
+  <rect id="b14protocol-text18" class="protdodici-8" x="475.107" y="135.148" width="113.336" height="58.352"/>
+  <rect id="b14protocol-text17" class="protdodici-10" x="487.736" y="225.314" width="85.286" height="18.416"/>
+  <g id="b14protocol-text16">
+    <text class="protdodici-11" transform="translate(499.034 238.519)">WEBSCRAPER</text>
+  </g>
+  <rect id="b14protocol-text15" class="protdodici-10" x="184.448" y="225.314" width="85.286" height="18.416"/>
+  <g id="b14protocol-text14">
+    <text class="protdodici-11" transform="translate(195.746 238.519)">WEBSCRAPER</text>
+  </g>
+  <g id="b14protocol-text13">
+    <text class="protdodici-6" transform="translate(512.657 327.724)">Excel</text>
+  </g>
+  <g id="b14protocol-text12">
+    <text class="protdodici-6" transform="translate(504.436 366.351)">Manual <tspan x="-2.814" y="16">Cleaning</tspan></text>
+  </g>
+  <g id="b14protocol-text11">
+    <text class="protdodici-7" transform="translate(506.331 469.046)"><tspan class="protdodici-5">English</tspan><tspan x="-11.958" y="16">Translation</tspan></text>
+  </g>
+  <g id="b14protocol-text10">
+    <text class="protdodici-7" transform="translate(506.703 413.668)"><tspan class="protdodici-5">Manual</tspan><tspan x="5.94" y="16">Topic</tspan><tspan class="protdodici-5"><tspan x="-4.308" y="32">Labeling</tspan></tspan></text>
+  </g>
+  <g id="b14protocol-text9">
+    <text class="protdodici-7" transform="translate(499.024 512.443)"><tspan class="protdodici-5">DATASET 1</tspan></text>
+  </g>
+  <line id="b14protocol-line13" class="protdodici-8" x1="529.607" y1="254" x2="529.607" y2="302.293"/>
+  <line id="b14protocol-line12" class="protdodici-8" x1="529.607" y1="337.334" x2="529.607" y2="350.54"/>
+  <line id="b14protocol-line11" class="protdodici-8" x1="529.607" y1="385.305" x2="529.607" y2="398.511"/>
+  <line id="b14protocol-line10" class="protdodici-8" x1="529.607" y1="449.536" x2="529.607" y2="456.139"/>
+  <line id="b14protocol-line9" class="protdodici-8" x1="529.607" y1="490.194" x2="529.607" y2="496.796"/>
+  <g id="b14protocol-text8">
+    <text class="protdodici-6" transform="translate(208.37 328.724)">Excel</text>
+  </g>
+  <g id="b14protocol-text7">
+    <text class="protdodici-6" transform="translate(200.148 367.351)">Manual <tspan x="-2.814" y="16">Cleaning</tspan></text>
+  </g>
+  <g id="b14protocol-text6">
+    <text class="protdodici-7" transform="translate(202.416 414.668)"><tspan class="protdodici-5">Manual</tspan><tspan x="5.94" y="16">Topic</tspan><tspan class="protdodici-5"><tspan x="-4.308" y="32">Labeling</tspan></tspan></text>
+  </g>
+  <g id="b14protocol-text5">
+    <text class="protdodici-7" transform="translate(191.736 512)"><tspan class="protdodici-5">DATASET 2</tspan></text>
+  </g>
+  <line id="b14protocol-line8" class="protdodici-8" x1="225.319" y1="254.707" x2="225.319" y2="303"/>
+  <line id="b14protocol-line7" class="protdodici-8" x1="225.319" y1="338.334" x2="225.319" y2="351.54"/>
+  <line id="b14protocol-line6" class="protdodici-8" x1="225.319" y1="386.305" x2="225.319" y2="399.511"/>
+  <line id="b14protocol-line5" class="protdodici-8" x1="225.319" y1="456.139" x2="225.319" y2="492.967"/>
+  <line id="b14protocol-line4" class="protdodici-12" x1="27.182" y1="715" x2="27.182" y2="524"/>
+  <g id="b14protocol-text4">
+    <text class="protdodici-4" transform="translate(11.156 669.717) rotate(-90)"><tspan class="protdodici-5">VISUALIZATION</tspan></text>
+  </g>
+  <rect id="b14protocol-form1" class="protdodici-3" x="486.379" y="571.4" width="85.286" height="18.416"/>
+  <g id="b14protocol-text4-2" data-name="b14protocol-text4">
+    <text class="protdodici-4" transform="translate(504.31 584.605)">TABLEAU</text>
+  </g>
+  <rect id="b14protocol-form" class="protdodici-3" x="183.091" y="572.4" width="85.286" height="18.416"/>
+  <g id="b14protocol-text3">
+    <text class="protdodici-4" transform="translate(200.022 585.605)">TABLEAU</text>
+  </g>
+  <g id="b14protocol-text2">
+    <text class="protdodici-13" transform="translate(518.005 167.948)">朝鲜</text>
+  </g>
+  <line id="b14protocol-line3" class="protdodici-3" x1="529.071" y1="565" x2="529.071" y2="519"/>
+  <line id="b14protocol-line2" class="protdodici-3" x1="225.784" y1="566" x2="225.784" y2="524"/>
+  <g id="b14protocol-text1">
+    <text class="protdodici-14" transform="translate(633.396 157.305)"><tspan class="protdodici-5">- ranked by: rankings on Goodreads </tspan><tspan class="protdodici-5" x="0" y="16">and on Taiwan (books)</tspan></text>
+  </g>
+  <line id="b14protocol-line1" class="protdodici-15" x1="624.098" y1="174.927" x2="624.098" y2="147.867"/>
+  <g id="b14protocol-text">
+    <text class="protdodici-14" transform="translate(634.396 235.429)"><tspan class="protdodici-5">- considering the first 100 results</tspan></text>
+  </g>
+  <line id="b14protocol-line" class="protdodici-15" x1="624.098" y1="246.96" x2="624.098" y2="219.9"/>
+</svg>
+
+
+                    <p>
+                        We started our research with a narrowed query “North Korean defectors”, but as we did not retrieved enough results we returned tour first broad query “North Korea”. We discarded time, giving priority to the ranking score. We scraped the results creating a dataset containing ranking, title, link, author, average rating (decided by users), numbers of reviews, year of publication, edition and topic.
+We considered the first 100 results, manually retrieving the abstract of every book. We cleaned the dataset from non relevant results.
+                    </p>
+                </div>
+
+                <!-- Data -->
+                <div class="section-content" id="data">
+                        <h3 class="sans-font"><span>Data</span></h3>
+                        <h4 class="sans-font">Timestamp: 11/2016 - 11/2017</h4>
+                        <h4 class="sans-font">Data source: <a href="https://www.goodreads.com/">Goodreads</a>, <a href="https://www.books.com.tw">Books</a></h4>
+                        <h4 class="data-link sans-font"><a href="https://www.dropbox.com/s/uqard34ajyaiz1y/question12_dataset.xlsx?dl=0"><i class="fa fa-arrow-circle-o-down"></i> Download data (42KB)</a></h4>
+                        <p>
+                            Two datasets, one for China and one for english written publications.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-md-2 mt-3 mb-5 mb-md-0">
+					<a href="http://www.densitydesign.org/">
+                        <img class="img-density" src="assets/other/logo_density.png">
+                    </a>
+				</div>
+				<div class="col-6 col-md-2 mt-3 mb-5 mb-md-0">
+					<a href="http://www.dipartimentodesign.polimi.it/">
+                        <img class="img-poli" src="assets/other/logo_poli.png">
+                    </a>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 ml-auto mb-5 mb-sm-0">
+					<h4>project by</h4>
+					<ul>
+						<li>Elena Aversa</li>
+						<li>Alessandra Bufano</li>
+						<li>Yi Cui</li>
+						<li>Xiu Huiting</li>
+						<li>Francesca Morini</li>
+                        <li>Yidan Sun</li>
+					</ul>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2 px-1 px-lg-3 mb-5 mb-sm-0">
+					<h4>Faculty</h4>
+					<ul>
+						<li>Paolo Ciuccarelli</li>
+						<li>Stefano Mandato</li>
+						<li>Michele Mauri</li>
+                        <li>Simone Vantini</li>
+						<li>Salvatore Zingale</li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-4 col-md-3 px-1 px-lg-3 ml-2 ml-sm-0">
+					<h4>Teaching Assistants</h4>
+					<ul>
+                        <li>Andrea Benedetti</li>
+						<li>Ángeles Briones</li>
+                        <li>Gabriele Colombo</li>
+                        <li>Jacopo Di Iorio</li>
+						<li>Tommaso Elli</li>
+                        <li>Beatrice Gobbo</li>
+						<li>Michele Invernizzi</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <!-- JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- Template Javascript -->
+    <script src="js/template-functions.js"></script>
+    <!-- Prev/Next Button Script -->
+    <script>
+    $(document).ready(function(){
+        //this variable controls the correct functioning of the next and previous button. Must be the same as the question number.
+        var number = 12;
+        //get the previous question html page
+        $(".arrow-left a").click(function() {
+            var newNumber = number - 1,
+                url = "question" + newNumber + ".html";
+            $(this).attr("href", url);
+        });
+        //get the next question html page
+        $(".arrow-right a").click(function() {
+            var newNumber = number + 1,
+                url = "question" + newNumber + ".html";
+            $(this).attr("href", url);
+        });
+
+        // Add smooth scrolling on all links inside the sidelist
+        $('.list-group a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 74
+                    }, 1000);
+                    return false;
+              }
+            }
+        });
+    });
+    var offsetSidelist;
+    $( window ).on( "load", function() {
+        // Add smooth scrolling back to top
+        offsetSidelist = $('.list-group').offset().top - 64;
+
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= offsetSidelist) {
+                $('.list-group').addClass('sidelist-fixed');
+            } else {
+                $('.list-group').removeClass('sidelist-fixed');
+            }
+        });
+    });
+    $( window ).resize(function() {
+        offsetSidelist = $('.list-group').offset().top - 64;
+    });
+    </script>
+    <!-- Your custom Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

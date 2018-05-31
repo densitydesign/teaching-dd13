@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+#countries:hover .country {
+	opacity: .1;
+}
+
+#countries .country:hover .country {
+	opacity: .4;
+}
+
+#countries  .country:hover {
+	opacity: 1;
+}

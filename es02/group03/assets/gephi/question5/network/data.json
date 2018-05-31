@@ -1,0 +1,406 @@
+{
+	"nodes":
+	[
+		{
+		"label":"Mark Zuckerberg",
+		"x":931.6643676757812,
+		"y":384.5305480957031,
+		"id":"14",
+		"attributes":
+			{
+				"size":"2",
+				"type":"People"
+			},
+		"color":"rgb(1,26,194)",
+		"size":20.0
+	  	},
+
+		{
+			"label":"Robert M. Mcdowell",
+			"x":537.8259887695312,
+			"y":-278.4278869628906,
+			"id":"18",
+			"attributes":
+			{
+				"size":"3",
+			"type":"People"
+			},
+				"color":"rgb(1,26,194)",
+				"size":20.135501861572266
+		},
+
+		{
+			"label":"U.S. Court of Appeals",
+			"x":-128.10520935058594,
+			"y":-121.82756042480469,
+			"id":"39",
+			"attributes":{
+
+				"size":"2",
+				"type":"Other companies"
+			},
+			"color":"rgb(88,111,221)",
+			"size":20.0
+		},
+
+		{
+			"label":"Republicans",
+			"x":-705.4380493164062,
+			"y":-239.7001190185547,
+			"id":"30",
+			"attributes":{
+
+				"size":"38",
+				"type":"Other companies"
+			},
+			"color":"rgb(88,111,221)",
+			"size":24.878047943115234
+		},
+
+		{
+			"label":"Hollywood (group)",
+			"x":-238.9749298095703,
+			"y":-220.35276794433594,
+			"id":"37",
+			"attributes":{
+
+				"size":"3",
+				"type":"Other companies"
+			},
+			"color":"rgb(88,111,221)",
+			"size":20.135501861572266
+		},
+
+		{
+			"label":"Americans",
+			"x":-116.97256469726562,
+			"y":-368.33819580078125,
+			"id":"32",
+			"attributes":{
+				"size":"2",
+				"type":"Other companies"
+			},
+			"color":"rgb(88,111,221)",
+			"size":20.0
+		},
+
+		{
+			"label":"Netflix",
+			"x":345.87384033203125,
+			"y":762.9617309570312,
+			"id":"0",
+			"attributes":{
+				"size":"30",
+				"type":"Other Company"
+			},
+			"color":"rgb(249,237,50)",
+			"size":23.794036865234375
+		},
+
+		{
+			"label":"Comcast",
+			"x":-77.55997467041016,
+			"y":345.6655578613281,
+			"id":"26",
+			"attributes":{
+				"size":"23",
+				"type":"Telecom companies"
+			},
+			"color":"rgb(255,95,25)",
+			"size":22.84552764892578
+		},
+
+		{
+			"label":"Democrats+",
+			"x":-989.8405151367188,
+			"y":40.867130279541016,
+			"id":"31",
+			"attributes":{
+				"size":"12",
+				"type":"Other companies"
+			},
+			"color":"rgb(88,111,221)",
+			"size":21.355012893676758
+			},
+		{
+			"label":"Ajit Pai","x":-582.8096923828125,"y":-146.737060546875,"id":"15","attributes":{
+		"size":"12","type":"People"},"color":"rgb(1,26,194)","size":21.355012893676758},{
+			"label":"Youtube","x":93.64854431152344,"y":891.7496948242188,"id":"6","attributes":{
+		"size":"3","type":"Other Company"},"color":"rgb(249,237,50)","size":20.135501861572266},{
+			"label":"Kickstarter","x":673.092041015625,"y":470.109375,"id":"8","attributes":{
+		"size":"2","type":"Other Company"},"color":"rgb(249,237,50)","size":20.0},{
+			"label":"Jeb Bush","x":549.8793334960938,"y":-145.51129150390625,"id":"19","attributes":{
+		"size":"2","type":"People"},"color":"rgb(1,26,194)","size":20.0},{
+			"label":"John Oliver","x":-296.32696533203125,"y":-453.49920654296875,"id":"11","attributes":{
+		"size":"25","type":"People"},"color":"rgb(1,26,194)","size":23.116531372070312},{
+			"label":"Microsoft","x":540.9567260742188,"y":237.18353271484375,"id":"9","attributes":{
+		"size":"2","type":"Other Company"},"color":"rgb(249,237,50)","size":20.0},{
+			"label":"Troy Wolverton","x":-452.6070556640625,"y":409.9825439453125,"id":"25","attributes":{
+		"size":"11","type":"People"},"color":"rgb(1,26,194)","size":21.219512939453125},{
+			"label":"Barack Obama","x":-589.818603515625,"y":-448.1239013671875,"id":"10","attributes":{
+		"size":"44","type":"People"},"color":"rgb(1,26,194)","size":25.691057205200195},{
+			"label":"Mark Weisbrot","x":362.3275451660156,"y":-439.3778381347656,"id":"23","attributes":{
+		"size":"2","type":"People"},"color":"rgb(1,26,194)","size":20.0},{
+			"label":"Twitter","x":620.6041870117188,"y":910.152099609375,"id":"3","attributes":{
+		"size":"6","type":"Other Company"},"color":"rgb(249,237,50)","size":20.54200553894043},{
+			"label":"Jessica Rosenworcel","x":-1030.5931396484375,"y":132.45472717285156,"id":"17","attributes":{
+		"size":"4","type":"People"},"color":"rgb(1,26,194)","size":20.2710018157959},{
+			"label":"Steve Wozniak","x":435.7703857421875,"y":-209.61398315429688,"id":"24","attributes":{
+		"size":"2","type":"People"},"color":"rgb(1,26,194)","size":20.0},{
+			"label":"Larry Downes","x":460.6649169921875,"y":-62.68014144897461,"id":"21","attributes":{
+		"size":"2","type":"People"},"color":"rgb(1,26,194)","size":20.0},{
+			"label":"Apple","x":0.1571502685547,"y":-500.4812927246094,"id":"4","attributes":{
+		"size":"5","type":"Other Company"},"color":"rgb(249,237,50)","size":20.406503677368164},{
+			"label":"Facebook","x":881.024658203125,"y":586.9124145507812,"id":"5","attributes":{
+		"size":"7","type":"Other Company"},"color":"rgb(249,237,50)","size":20.677507400512695},{
+			"label":"Donald Trump","x":-729.004638671875,"y":14.409566879272461,"id":"13","attributes":{
+		"size":"31","type":"People"},"color":"rgb(1,26,194)","size":23.92953872680664},{
+			"label":"Tom Wheeler","x":-403.8620910644531,"y":-388.3458251953125,"id":"12","attributes":{
+		"size":"22","type":"People"},"color":"rgb(1,26,194)","size":22.71002769470215},{
+			"label":"d.c","x":326.0177001953125,"y":-171.496826171875,"id":"33","attributes":{
+		"size":"2","type":"Other companies"},"color":"rgb(88,111,221)","size":20.0},{
+			"label":"WhiteHouse","x":-298.1144104003906,"y":-164.9293975830078,"id":"35","attributes":{
+		"size":"8","type":"Other companies"},"color":"rgb(88,111,221)","size":20.813007354736328},{
+			"label":"T-mobile","x":-61.61972427368164,"y":-275.6038513183594,"id":"28","attributes":{
+		"size":"6","type":"Telecom companies"},"color":"rgb(255,95,25)","size":20.54200553894043},{
+			"label":"European","x":348.3180847167969,"y":-307.5273742675781,"id":"34","attributes":{
+		"size":"2","type":"Other companies"},"color":"rgb(88,111,221)","size":20.0},{
+			"label":"Amazon","x":592.2265625,"y":637.3888549804688,"id":"2","attributes":{
+		"size":"10","type":"Other Company"},"color":"rgb(249,237,50)","size":21.08401107788086},{
+			"label":"Holman Jenkins","x":342.49029541015625,"y":-0.53809356689453,"id":"20","attributes":{
+		"size":"2","type":"People"},"color":"rgb(1,26,194)","size":20.0},{
+			"label":"F.C.C","x":-400.8673095703125,"y":-238.7172088623047,"id":"29","attributes":{
+		"size":"371","type":"Other companies"},"color":"rgb(88,111,221)","size":70.0},{
+			"label":"Tim Wu","x":467.2276611328125,"y":-378.2607116699219,"id":"22","attributes":{
+		"size":"2","type":"People"},"color":"rgb(1,26,194)","size":20.0},{
+			"label":"Verizon","x":114.99684143066406,"y":311.9544982910156,"id":"27","attributes":{
+		"size":"14","type":"Telecom companies"},"color":"rgb(255,95,25)","size":21.62601661682129},{
+			"label":"AT\u0026T","x":-424.400390625,"y":-2.4194276332855225,"id":"38","attributes":{
+		"size":"2","type":"Telecom companies"},"color":"rgb(255,95,25)","size":20.0},{
+			"label":"Google","x":357.78955078125,"y":491.8145751953125,"id":"1","attributes":{
+		"size":"23","type":"Other Company"},"color":"rgb(249,237,50)","size":22.84552764892578},{
+			"label":"Silicon Valley(Companies)","x":-525.99462890625,"y":163.19863891601562,"id":"36","attributes":{
+		"size":"3","type":"Other companies"},"color":"rgb(88,111,221)","size":20.135501861572266},{
+			"label":"HBO","x":-155.2158966064453,"y":-643.6552124023438,"id":"7","attributes":{
+		"size":"2","type":"Other Company"},"color":"rgb(249,237,50)","size":20.0},{
+			"label":"Ted Cruz","x":-624.0690307617188,"y":-542.1085815429688,"id":"16","attributes":{
+		"size":"7","type":"People"},"color":"rgb(1,26,194)","size":20.677507400512695}],
+
+"edges":
+[
+		{
+			"source":"12",
+			"target":"11",
+			"id":"36",
+			"attributes":
+			{
+		},
+			"color":"rgb(0,0,0)",
+			"size":1.0
+		},
+		{
+			"source":"0",
+			"target":"2",
+			"id":"1","attributes":
+			{
+			},
+			"color":"rgb(0,0,0)",
+			"size":3.0},
+		{
+			"source":"10","target":"15","id":"34","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"0","target":"26","id":"5","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":3.0},
+		{
+			"source":"0","target":"3","id":"2","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"12","target":"29","id":"37","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":22.0},
+		{
+			"source":"27","target":"38","id":"19","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"38","target":"13","id":"20","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"13","target":"29","id":"50","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":8.0},
+		{
+			"source":"37","target":"29","id":"42","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":4.0},
+		{
+			"source":"1","target":"26","id":"14","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"25","target":"36","id":"24","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"28","target":"29","id":"46","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"4","target":"29","id":"44","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"2","target":"1","id":"11","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":5.0},
+		{
+			"source":"30","target":"29","id":"28","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":7.0},
+		{
+			"source":"36","target":"29","id":"45","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"13","target":"17","id":"51","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"2","target":"8","id":"10","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"26","target":"25","id":"15","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"30","target":"10","id":"29","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"15","target":"29","id":"47","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":8.0},
+		{
+			"source":"0","target":"6","id":"6","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"16","target":"10","id":"31","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":4.0},
+		{
+			"source":"0","target":"27","id":"4","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"11","target":"29","id":"39","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":9.0},
+		{
+			"source":"32","target":"29","id":"43","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"31","target":"17","id":"27","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":4.0},
+		{
+			"source":"25","target":"13","id":"23","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"30","target":"36","id":"30","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"5","target":"2","id":"8","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"1","target":"9","id":"12","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"28","target":"29","id":"22","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"26","target":"29","id":"16","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":4.0},
+		{
+			"source":"0","target":"1","id":"3","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"35","target":"29","id":"40","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":10.0},
+		{
+			"source":"1","target":"27","id":"13","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":4.0},
+		{
+			"source":"27","target":"29","id":"18","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"15","target":"13","id":"48","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"26","target":"27","id":"17","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"5","target":"14","id":"7","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"31","target":"13","id":"26","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"11","target":"7","id":"38","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":2.0},
+		{
+			"source":"10","target":"29","id":"33","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":17.0},
+		{
+			"source":"39","target":"29","id":"41","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"0","target":"5","id":"0","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"38","target":"29","id":"21","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":6.0},
+		{
+			"source":"10","target":"13","id":"35","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"31","target":"30","id":"25","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"10","target":"12","id":"32","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0},
+		{
+			"source":"2","target":"3","id":"9","attributes":
+			{
+		},"color":"rgb(0,0,0)","size":1.0
+	}
+]}

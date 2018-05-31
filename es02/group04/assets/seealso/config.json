@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "ByAtlasFour"
+  },
+  "text": {
+    "more": "",
+    "intro": "seealsology",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Links",
+    "colorLabel": "Link",
+    "nodeLabel": "Website"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "straight",
+      "defaultHoverLabelBGColor": "#fff",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#fff",
+      "labelThreshold": 7,
+      "defaultLabelHoverColor": "#000",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 20
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1,
+      "minEdgeSize": 0.8,
+      "minNodeSize": 1,
+      "maxNodeSize": 6
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

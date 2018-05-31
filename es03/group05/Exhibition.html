@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html style="overflow-x:hidden; width:100%; height:100%">
+
+<head>
+
+    <link rel="icon" href="assets/500x500.png" type="image/png">
+    <title>Censorship in the time of Free Speech</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Search Engine -->
+    <meta name="description" content="Must the online hatred be granted free, or should freedom be restricted?">
+    <meta name="image" content="assets/1024x512.png">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Censorship in the time of Free Speech">
+    <meta itemprop="description" content="Must the online hatred be granted free, or should freedom be restricted?">
+    <meta itemprop="image" content="assets/1024x512.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="Freedom and hate on the web: an exhibition">
+    <meta name="twitter:title" content="Censorship in the time of Free Speech">
+    <meta name="twitter:description" content="Must the online hatred be granted free, or should freedom be restricted?">
+    <meta name="twitter:site" content="@densitydesign">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image:src" content="assets/1024x512.png">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Censorship in the time of Free Speech">
+    <meta name="og:description" content="Must the online hatred be granted free, or should freedom be restricted?">
+    <meta name="og:image" content="assets/1200x630.png">
+    <meta name="og:url" content="url to this page">
+    <meta name="og:site_name" content="Censorship in the time of Free Speech">
+    <meta name="og:locale" content="en_US">
+    <meta name="og:type" content="website">
+    <!-- end of social media tags -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+    <style>
+
+        body {
+            background-color: black;
+        }
+
+        .graphic-box {
+            padding-left: 15px;
+            padding-right: 15px;
+            max-width: 100%;
+            padding-bottom: 0px;
+        }
+
+
+        .navbar {
+            font-family: 'Oswald', sans-serif;
+            font-style: normal;
+
+            border: 0;
+            font-size: 11px;
+
+            width: 100%;
+
+            letter-spacing: 1px;
+        }
+
+        .navbar-fixed-top {
+            position: fixed;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+            top: 0;
+        }
+
+
+        .nav-text {
+            font-size: 15px;
+            margin-top: 3px;
+            padding-bottom: 3px;
+            font-family: 'Karla', sans-serif;
+        }
+
+
+        .row>.column {
+            padding: 0 8px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Create four equal columns that floats next to eachother */
+
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        /* The Modal (background) */
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: black;
+        }
+
+        /* Modal Content */
+
+        .modal-content {
+            position: relative;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        /* The Close Button */
+
+        .close {
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #999;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Hide the slides by default */
+
+        .mySlides {
+            display: none;
+        }
+
+        /* Next & previous buttons */
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Number text (1/3 etc) */
+
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* Caption text */
+
+        .caption-container {
+            text-align: center;
+            background-color: black;
+            padding: 2px 16px;
+            color: white;
+        }
+
+        img.demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+
+        img.hover-shadow {
+            transition: 0.3s
+        }
+
+        .hover-shadow:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <!--            NAV BAR             -->
+
+    <nav style="background-color:black; " class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" data-spy="affix" id="stickynav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+
+        <div class="collapse navbar-collapse justify-content-md-center nav-text" id="navbarsExample08">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link nav-text" style="font-size:120%;" href="Project.html">PROJECT</a>
+                </li>
+                <li>
+                    <a class="nav-link nav-text" style="font-size:120%;" href="Exhibition.html"><b>EXHIBITION</b></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Images used to open the lightbox -->
+    <div class="row" style="padding-top:90px">
+        <div class="col-12">
+            <p align="middle">
+                <img src="assets/Foto/1.jpg" width="50%" align="middle" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </p>
+        </div>
+
+
+        <div class="col-12">
+            <p align="middle">
+                <img src="assets/Foto/2.jpg" width="50%" align="middle" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </p>
+        </div>
+
+        <div class="col-12">
+            <p align="middle">
+                <img src="assets/Foto/3.jpg" width="50%" align="middle" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </p>
+        </div>
+
+                <div class="col-12">
+            <p align="middle">
+                <img src="assets/Foto/4.jpg" width="50%" align="middle" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </p>
+        </div>
+
+                <div class="col-12">
+            <p align="middle">
+                <img src="assets/Foto/5.jpg" width="50%" align="middle" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </p>
+        </div>
+
+                <div class="col-12">
+            <p align="middle">
+                <img src="assets/Foto/6.jpg" width="50%" align="middle" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </p>
+        </div>
+
+                <div class="col-12">
+            <p align="middle">
+                <img src="assets/Foto/7.jpg" width="50%" align="middle" onclick="openModal();currentSlide(7)" class="hover-shadow">
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal" style="padding-top:80px; height:100vh; margin:0px;">
+        <span class="close cursor" style="padding-top:50px;" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+
+                <p align="middle">
+                    <img src="assets/Foto/1.jpg" style="padding-top:0px; height: 600px"></p>
+            </div>
+
+            <div class="mySlides">
+
+                <p align="middle">
+                    <img src="assets/Foto/2.jpg" style="padding-top:0px; height: 600px"></p>
+            </div>
+
+            <div class="mySlides">
+
+                <p align="middle">
+                    <img src="assets/Foto/3.jpg" style="padding-top:0px; height: 600px"></p>
+            </div>
+
+                        <div class="mySlides">
+
+                <p align="middle">
+                    <img src="assets/Foto/4.jpg" style="padding-top:0px; height: 600px"></p>
+            </div>
+
+                        <div class="mySlides">
+
+                <p align="middle">
+                    <img src="assets/Foto/5.jpg" style="padding-top:0px; height: 600px"></p>
+            </div>
+
+                        <div class="mySlides">
+
+                <p align="middle">
+                    <img src="assets/Foto/6.jpg" style="padding-top:0px; height: 600px"></p>
+            </div>
+
+                        <div class="mySlides">
+
+                <p align="middle">
+                    <img src="assets/Foto/7.jpg" style="padding-top:0px; height: 600px"></p>
+            </div>
+
+
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+        </div>
+    </div>
+
+
+
+    <!--            Fine contenuti             -->
+
+    <footer id="footer" class="container-fluid footer" style="background-color:black; padding-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-6 col-xs-6" style="padding-top: 30px; text-align: center; position:relative">
+                    <a href="http://www.densitydesign.org/"><img src="assets/logo_density_white.png" width="58%"></a>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-6" style="padding-top: 30px; text-align: center">
+                    <a href="http://www.dipartimentodesign.polimi.it/"><img src="assets/logo_poli_white.png" width="90%"></a>
+                </div>
+                <div class="col-md-2  col-sm-12 col-xs-12" style="padding-top: 30px;">
+                </div>
+
+                <div class="col-md-2  col-sm-4 col-xs-4" style="padding-top: 30px; padding-left:0; color:white; font-family:'Karla';">
+                    <h5>PROJECT BY</h5>
+                    <ul style="padding-left:0px">
+                        <li>Silvia Castagna</li>
+                        <li>Maria Girasoli</li>
+                        <li>Davide Modanese</li>
+                        <li>Marianna Piazza</li>
+                        <li>Caterina Scarioni</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4" style="padding-top: 30px; padding-left:0; color:white; font-family:'Karla';">
+                    <h5>FACULTY</h5>
+                    <ul style="padding-left:0px">
+                        <li>Paolo Ciuccarelli</li>
+                        <li>Stefano Mandato</li>
+                        <li>Michele Mauri</li>
+                        <li>Simone Vantini</li>
+                        <li>Salvatore Zingale</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4" style="padding-top: 30px; padding-left:0; color:white; font-family:'Karla';">
+                    <h5>TEACHING ASSISTANTS</h5>
+                    <ul style="padding-left:0px">
+                        <li>Andrea Benedetti</li>
+                        <li>Angeles Briones</li>
+                        <li>Gabriele Colombo</li>
+                        <li>Jacopo Di Iorio</li>
+                        <li>Tommaso Elli</li>
+                        <li>Beatrice Gobbo</li>
+                        <li>Michele Invernizzi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        // Open the Modal
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        // Close the Modal
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

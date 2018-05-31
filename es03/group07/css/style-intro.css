@@ -1,0 +1,104 @@
+/*svg-buco*/
+.rettangolo{
+  fill:url(#Rectangle_1_);}
+
+.linea{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-linecap:square;}
+
+/*body*/
+#refresh-text {
+  margin: 1vh;
+  z-index: 2;
+  font-size: 9px;
+
+}
+
+.box-unico{
+margin-top: 25vh;
+}
+
+#buco-nero{
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 85px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Unna';
+}
+
+#text {
+  text-align: center;
+}
+
+.box-space {
+  margin-top: 50px;
+  cursor: pointer;
+}
+/*cursore*/
+
+html {
+  cursor: url(../assets/logo_poli_black.png), auto;
+}
+
+.mouse-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mouse-print {
+  position: absolute;
+  top: 10;
+  left: 10;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  z-index: 1;
+}
+
+/*pulsare*/
+@keyframes pulse {
+  100%{
+    opacity: 0.8;
+  }
+  50%{
+    opacity: 1;
+  }
+  0%{
+    opacity: 0.8;
+  }
+}
+
+#buco-nero{
+  animation: pulse 3s infinite;
+  /*z-index: 1;*/
+}
+
+
+a {
+display: inline;
+}
+
+h5, p {
+  cursor: default;
+}
+
+
+@media (max-width: 780px) {
+  #buco-nero {
+    width: 50%;
+    height: auto;
+  }
+
+  .box-space {
+    margin-top: 30px;
+  }
+}

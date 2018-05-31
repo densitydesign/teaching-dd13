@@ -1,0 +1,27 @@
+#ideology:hover .cat {
+	opacity: .2;
+    transition: opacity .15s ease-in-out;
+    cursor: pointer;
+}
+
+#ideology .flow .cat:hover {
+	opacity: 1;
+    transition: opacity .15s ease-in-out;
+    cursor: pointer;
+}
+
+#grafico-ideologie {
+    width: 100%;
+}
+
+.state-map {
+  cursor: pointer;
+}
+
+.button-focus {
+    cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}

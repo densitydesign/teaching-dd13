@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Group 3"
+  },
+  "text": {
+    "more": "Actors anout the net neutrlity in the news",
+    "intro": "Actors anout the net neutrlity in the news",
+    "title": "Actors in the news"
+  },
+  "legend": {
+    "edgeLabel": "mentioned together",
+    "colorLabel": "relationship",
+    "nodeLabel": "actors"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "size"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "straight",
+      "defaultHoverLabelBGColor": "#eee",
+      "defaultLabelBGColor": "#eee",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 1,
+      "defaultLabelHoverColor": "#777",
+      "fontStyle": "normal",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 16
+    },
+    "graphProperties": {
+      "maxEdgeSize": 34,
+      "minEdgeSize": 0.3,
+      "minNodeSize": 4,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
