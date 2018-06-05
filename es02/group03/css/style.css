@@ -94,7 +94,10 @@
 
       .roadmap-7, .roadmap-8, .roadmap-9 {
         opacity: 0.5;
-          cursor: pointer;
+      }
+
+ .roadmap-2, .roadmap-7{
+        cursor: pointer;
       }
 
       .roadmap-10 {
