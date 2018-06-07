@@ -211,7 +211,6 @@ a:hover {
 	border: 5px solid black;
 	-ms-flex-line-pack: center;
 	align-content: center;
-	margin: 0 auto;
 	margin-bottom: 80px;
 	-webkit-filter: grayscale(100%) brightness(70%) sepia(100%) hue-rotate(196deg) saturate(350%);
     filter: grayscale(100%) brightness(70%) sepia(100%) hue-rotate(196deg) saturate(350%);

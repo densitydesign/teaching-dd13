@@ -417,7 +417,7 @@ a:hover {
 /*!  Square border  */
 .border_red {
     border: 5px solid #e41e26;
-    background: ;
+    background: white;
     margin: 0px;
 	margin-top: 50px;
 	margin-right: 20px;
@@ -426,6 +426,7 @@ a:hover {
     padding: 50px;
     height: 300px;
     width: 300px;
+	
 }
 
 .border_red:hover {
@@ -435,9 +436,10 @@ a:hover {
 	margin-top: 50px;
 	margin-right: 20px;
 	margin-left: 20px;
-    background: #e41e26;
+	background: #e41e26;
     color: white;
 
+  
 }
 
 .border_yellow {
@@ -484,77 +486,97 @@ a:hover {
     color: white;
 }
 
+.titoletto {
+    border: 5px solid #fed50a;
+    margin: 0px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+    background: white;
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+}
+
 
 /*!  Immagini hover  */
-.border_red_img {
+
+.square_red {
     border: 5px solid #e41e26;
-   padding: 50px;
-    margin: 0px;
-	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
-    height: 300px;
-    width: 300px;
-    background-image: url(../assets/1rosso.png);
-    background-size: 300px;
-}
-
-
-.border_red_img:hover {
-    border: 5px solid #e41e26;
-	padding: 50px;
-    margin: 0px;
-	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
-    background-image: url(../assets/2rosso.png);
-    background-size: 300px;
-}
-
-.border_yellow_img {
-    border: 5px solid #fed50a;
-    padding: 50px;
     margin: 0px;
 	margin-top: 50px;
 	margin-right: 20px;
 	margin-left: 20px;
     background: white;
+    padding: 50px;
     height: 300px;
     width: 300px;
-    background-image: url(../assets/1giallo.png);
+	background-image: url(../assets/1rosso.png);
     background-size: 300px;
+	
 }
 
-
-.border_yellow_img:hover {
-    border: 5px solid #fed50a;
-	padding: 50px;
+.square_red:hover {
+    border: 5px solid #e41e26;
     margin: 0px;
 	margin-top: 50px;
 	margin-right: 20px;
 	margin-left: 20px;
-    background-image: url(../assets/2giallo.png);
+	background-image: url(../assets/2rosso.png);
     background-size: 300px;
+  
 }
 
-.border_green_img {
-    border: 5px solid #20874e;
-    padding: 50px;
+.square_yellow {
+    border: 5px solid #fed50a;
     margin: 0px;
 	margin-top: 50px;
 	margin-right: 20px;
 	margin-left: 20px;
     background: white;
-    background-image: url(../assets/1verde.png);
-    background-size: 300px; 
+    padding: 50px;
     height: 300px;
     width: 300px;
+	background-image: url(../assets/1giallo.png);
+    background-size: 300px;
+	
 }
 
-.border_green_img:hover {
-    border: 5px solid #20874e;
-     background-image: url(../assets/2verde.png);
+.square_yellow:hover {
+    border: 5px solid #fed50a;
+    margin: 0px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-image: url(../assets/2giallo.png);
     background-size: 300px;
+  
+}
+
+.square_green {
+    border: 5px solid #20874e;
+    margin: 0px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+    background: white;
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+	background-image: url(../assets/1verde.png);
+    background-size: 300px;
+	
+}
+
+.square_green:hover {
+    border: 5px solid #20874e;
+    margin: 0px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-image: url(../assets/2verde.png);
+    background-size: 300px;
+  
 }
 
 
