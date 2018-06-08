@@ -256,7 +256,7 @@ a:hover {
     font-size: 1.2em;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
+/*    justify-content: flex-end;*/
     font-weight: 700;
 }
 
@@ -363,7 +363,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     margin-top: 60px;
-    background-image: url(../assets/floor2.svg);
+    background-image: url(../assets/floor2-01.svg);
 }
 
 
@@ -417,12 +417,10 @@ a:hover {
 /*!  Square border  */
 .border_red {
     border: 5px solid #e41e26;
-    background: white;
     margin: 0px;
 	margin-top: 50px;
 	margin-right: 20px;
 	margin-left: 20px;
-    background: white;
     padding: 50px;
     height: 300px;
     width: 300px;
@@ -471,7 +469,6 @@ a:hover {
 	margin-top: 50px;
 	margin-right: 20px;
 	margin-left: 20px;
-    background: white;
     height: 300px;
     width: 300px;
 }
@@ -504,7 +501,7 @@ a:hover {
 .square_red {
     border: 5px solid #e41e26;
     margin: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-right: 20px;
 	margin-left: 20px;
     background: white;
@@ -513,28 +510,42 @@ a:hover {
     width: 300px;
 	background-image: url(../assets/1rosso.png);
     background-size: 300px;
+padding-top: 0px;
 	
 }
 
 .square_red:hover {
     border: 5px solid #e41e26;
     margin: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-right: 20px;
 	margin-left: 20px;
 	background-image: url(../assets/2rosso.png);
     background-size: 300px;
+	padding-top: 0px;
   
 }
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	padding-top:0px;
+	margin-top:0px;
+}
+
+
 
 .square_yellow {
     border: 5px solid #fed50a;
     margin: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-right: 20px;
 	margin-left: 20px;
-    background: white;
-    padding: 50px;
+    padding: 0px;
+	padding-top: 0px;
     height: 300px;
     width: 300px;
 	background-image: url(../assets/1giallo.png);
@@ -545,7 +556,7 @@ a:hover {
 .square_yellow:hover {
     border: 5px solid #fed50a;
     margin: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-right: 20px;
 	margin-left: 20px;
 	background-image: url(../assets/2giallo.png);
@@ -556,11 +567,11 @@ a:hover {
 .square_green {
     border: 5px solid #20874e;
     margin: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-right: 20px;
 	margin-left: 20px;
     background: white;
-    padding: 50px;
+    padding: 0px;
     height: 300px;
     width: 300px;
 	background-image: url(../assets/1verde.png);
@@ -571,7 +582,7 @@ a:hover {
 .square_green:hover {
     border: 5px solid #20874e;
     margin: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-right: 20px;
 	margin-left: 20px;
 	background-image: url(../assets/2verde.png);
