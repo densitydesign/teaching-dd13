@@ -345,10 +345,6 @@ a:hover {
 }
 
 
-
-
-
-
 /* Background lines */
 
 .background_lines_img {
@@ -419,8 +415,6 @@ a:hover {
     border: 5px solid #e41e26;
     margin: 0px;
 	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
     padding: 50px;
     height: 300px;
     width: 300px;
@@ -432,8 +426,6 @@ a:hover {
     background: ;
     margin: 0px;
 	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
 	background: #e41e26;
     color: white;
 
@@ -444,8 +436,6 @@ a:hover {
     border: 5px solid #fed50a;
     margin: 0px;
 	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
     background: white;
     padding: 50px;
     height: 300px;
@@ -456,8 +446,6 @@ a:hover {
     border: 5px solid #fed50a;
     margin: 0px;
 	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
     background: #fed50a;
     color: white;
 }
@@ -467,8 +455,6 @@ a:hover {
     padding: 50px;
     margin: 0px;
 	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
     height: 300px;
     width: 300px;
 }
@@ -477,8 +463,6 @@ a:hover {
     border: 5px solid #20874e;
     margin: 0px;
 	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
     background: #20874e;
     color: white;
 }
@@ -502,8 +486,6 @@ a:hover {
     border: 5px solid #e41e26;
     margin: 0px;
 	margin-top: 0px;
-	margin-right: 20px;
-	margin-left: 20px;
     background: white;
     padding: 50px;
     height: 300px;
@@ -518,8 +500,6 @@ padding-top: 0px;
     border: 5px solid #e41e26;
     margin: 0px;
 	margin-top: 0px;
-	margin-right: 20px;
-	margin-left: 20px;
 	background-image: url(../assets/2rosso.png);
     background-size: 300px;
 	padding-top: 0px;
@@ -542,8 +522,6 @@ padding-top: 0px;
     border: 5px solid #fed50a;
     margin: 0px;
 	margin-top: 0px;
-	margin-right: 20px;
-	margin-left: 20px;
     padding: 0px;
 	padding-top: 0px;
     height: 300px;
@@ -557,8 +535,6 @@ padding-top: 0px;
     border: 5px solid #fed50a;
     margin: 0px;
 	margin-top: 0px;
-	margin-right: 20px;
-	margin-left: 20px;
 	background-image: url(../assets/2giallo.png);
     background-size: 300px;
   
@@ -568,8 +544,6 @@ padding-top: 0px;
     border: 5px solid #20874e;
     margin: 0px;
 	margin-top: 0px;
-	margin-right: 20px;
-	margin-left: 20px;
     background: white;
     padding: 0px;
     height: 300px;
@@ -583,8 +557,6 @@ padding-top: 0px;
     border: 5px solid #20874e;
     margin: 0px;
 	margin-top: 0px;
-	margin-right: 20px;
-	margin-left: 20px;
 	background-image: url(../assets/2verde.png);
     background-size: 300px;
   
@@ -597,7 +569,7 @@ footer {
 	/*		rgba(155,169,235,1);*/
 	color: white;
 	padding-top: 2rem;
-	padding-bottom: 1.5rem;
+	padding-bottom: 1 rem;
 	margin:0px;
 }
 
@@ -670,15 +642,14 @@ footer ul {
 .subtitle_typo_bottom {
 	font-size: 1.2em;
 	color: black;
-	font-weight: 400;
+	font-weight: 700;
 	margin-top: 30px;
-	padding-left: 40px;
 }
 
 .subtitle_typo_bottom:hover {
 	font-weight: 800;
 	text-decoration: none;
-	color: black;
+	color: blue;
 	cursor: url(./../assets/cursore.png), auto;
 }
 

@@ -11,7 +11,7 @@ $(window).on('load', function () {
 			$(this).remove();
 		});
 
-	}, 0); // Here for setting time
+	}, 3000); // Here for setting time
 
 });
 
